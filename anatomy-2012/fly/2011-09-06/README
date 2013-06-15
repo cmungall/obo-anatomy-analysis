@@ -1,0 +1,13 @@
+Please download all contents of this directory before trying to load individual files.
+
+1.fbbt.owl is the complete Drosophila anatomy ontology. 
+It imports accessory relations for querying form  FBbt_helper_relations.owl.
+We recommend ELK or FaCT++ for classification.  FaCT++ is slower but, unlike ELK,  allows queries using arbitrary class expressions.
+
+2. fbbt_aux.owl is a complete set of expansions of the relations in fbbt.owl as equivalent class GCI axioms.
+It imports fbbt.owl and ro.owl.  The latter import requires a web connection.
+We recommend ELK for classification of this. 
+Queries using abitrary class expressions require the generation of probe classes and reclassification.
+
+This README was last updates on 11/12/24.
+ - Dosumis

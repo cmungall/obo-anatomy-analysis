@@ -1,0 +1,3824 @@
+format-version: 1.2
+date: 17:12:2007 10:41
+saved-by: Erik Segerdell
+auto-generated-by: OBO-Edit 1.101
+subsetdef: anatomical_site_slim "Anatomical Site slim"
+synonymtypedef: PLURAL "Plural"
+default-namespace: xenopus_anatomy
+
+[Term]
+id: XAO:0000000
+name: Xenopus anatomical entity
+
+[Term]
+id: XAO:0000001
+name: ectoderm
+def: "The outer of the three germ layers of the embryo. Ectoderm gives rise to epidermis and neural tissue." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003011 ! primary germ layer
+
+[Term]
+id: XAO:0000002
+name: fin
+is_a: XAO:0003028 ! surface structure
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: start_stage XAO:1000041 ! NF stage 25
+
+[Term]
+id: XAO:0000003
+name: outer fin
+relationship: part_of XAO:0000002 ! fin
+
+[Term]
+id: XAO:0000004
+name: inner fin
+relationship: part_of XAO:0000002 ! fin
+
+[Term]
+id: XAO:0000005
+name: olfactory placode
+synonym: "nasal placode" RELATED []
+relationship: develops_from XAO:0000041 ! epidermis inner layer
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: start_stage XAO:1000039 ! NF stage 23
+
+[Term]
+id: XAO:0000006
+name: ear vesicle
+synonym: "otic vesicle" RELATED []
+relationship: develops_from XAO:0000223 ! otic placode
+relationship: end_stage XAO:1000061 ! NF stage 49
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000007
+name: lower eyelid
+is_a: XAO:0003028 ! surface structure
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000008
+name: lens
+relationship: develops_from XAO:0000240 ! lens placode
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000179 ! eye
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000009
+name: retina
+def: "The light-sensitive layer of the eye." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000179 ! eye
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0000010
+name: brain
+def: "Component of the central nervous system responsible for the coordination and control of bodily activities and the interpretation of information from the senses. The neural tube segregates in forebrain, midbrain, and hindbrain at stage 22. The general pattern of the brain has been mainly established at stage 28. Yolky material is consumed and the fibre tracts and later the commissures develop. In general all parts of the brain are well developed at stage 53 and later development consists mainly of growth and some further cytological differentiation. In the period of metamorphosis only topographical changes take place." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 30-59)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000215 ! central nervous system
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000011
+name: forebrain
+synonym: "prosencephalon" RELATED []
+relationship: develops_from XAO:0000307 ! anterior neural tube
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000012
+name: telencephalon
+relationship: part_of XAO:0000011 ! forebrain
+
+[Term]
+id: XAO:0000013
+name: diencephalon
+relationship: part_of XAO:0000011 ! forebrain
+
+[Term]
+id: XAO:0000014
+name: midbrain
+synonym: "mesencephalon" RELATED []
+relationship: develops_from XAO:0000307 ! anterior neural tube
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000015
+name: hindbrain
+synonym: "rhombencephalon" RELATED []
+relationship: develops_from XAO:0000250 ! posterior neural tube
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000016
+name: midbrain-hindbrain boundary
+synonym: "MHB" EXACT []
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: part_of XAO:0000249 ! neural plate
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000017
+name: hypophysis
+relationship: part_of XAO:0000011 ! forebrain
+
+[Term]
+id: XAO:0000018
+name: genital ridge
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+
+[Term]
+id: XAO:0000020
+name: spinal cord
+def: "Elongated, approximately cylindrical part of the central nervous system from which the spinal nerves emerge." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: develops_from XAO:0000250 ! posterior neural tube
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000215 ! central nervous system
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000021
+name: ventricular zone
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000022
+name: roof plate
+synonym: "roofplate" EXACT []
+synonym: "spinal cord roof" RELATED []
+relationship: part_of XAO:0000020 ! spinal cord
+
+[Term]
+id: XAO:0000023
+name: skin
+def: "The external membranous integument of the animal." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "integument" RELATED []
+is_a: XAO:0003028 ! surface structure
+relationship: part_of XAO:0000176 ! dermal system
+
+[Term]
+id: XAO:0000024
+name: mandibular crest
+relationship: part_of XAO:0001001 ! cranial neural crest
+
+[Term]
+id: XAO:0000025
+name: hyoid crest
+relationship: part_of XAO:0001001 ! cranial neural crest
+
+[Term]
+id: XAO:0000026
+name: branchial crest
+relationship: part_of XAO:0001001 ! cranial neural crest
+
+[Term]
+id: XAO:0000027
+name: cranial ganglia
+xref: ZFIN:ZDB-ANAT-010921-422
+relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000028
+name: epidermis
+def: "A cellular, multilayered epithelium derived from the ectoderm." [ZFIN:ZDB-ANAT-010921-530]
+synonym: "skin" RELATED []
+xref: ZFIN:ZDB-ANAT-010921-530
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0000029
+name: epidermis outer layer
+synonym: "epidermis epithelial layer" RELATED []
+synonym: "periderm" RELATED []
+xref: ZFIN:ZDB-ANAT-050420-30
+relationship: part_of XAO:0000028 ! epidermis
+
+[Term]
+id: XAO:0000030
+name: vitelline membrane
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000031
+name: ciliated cell
+def: "Type of cell with motile cilia that populates the skin of the embryo. They are arranged in the surface layer of the non-neural ectoderm in an ordered distribution." [PMID:10518489 "Deblandre GA et al."]
+xref: CL:0000064
+is_a: XAO:0003012 ! cell
+relationship: part_of XAO:0000028 ! epidermis
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000032
+name: stomodeal-hypophyseal primordium
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000033
+name: cement gland
+relationship: develops_from XAO:0000049 ! cement gland primordium
+relationship: end_stage XAO:1000062 ! NF stage 50
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000034
+name: hatching gland
+synonym: "frontal gland" RELATED []
+xref: ZFIN:ZDB-ANAT-010921-437
+relationship: end_stage XAO:1000049 ! NF stage 35 and 36
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0000035
+name: zygote
+relationship: part_of XAO:0000113 ! embryo
+
+[Term]
+id: XAO:0000036
+name: animal cap
+def: "Roof of the blastocoel, ectodermal." [ISBN:0815318960 "Nieuwkoop and Faber"]
+synonym: "animal ectoderm" RELATED []
+relationship: end_stage XAO:1000022 ! NF stage 12
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: start_stage XAO:1000016 ! NF stage 6, 32-cell stage
+
+[Term]
+id: XAO:0000037
+name: animal cap inner layer
+def: "Sensorial layer of blastocoel roof ectoderm." [XB:curator "Xenbase"]
+relationship: part_of XAO:0000036 ! animal cap
+
+[Term]
+id: XAO:0000038
+name: animal cap outer layer
+def: "Superficial layer of blastocoel roof ectoderm." [XB:curator "Xenbase"]
+relationship: part_of XAO:0000036 ! animal cap
+
+[Term]
+id: XAO:0000039
+name: anatomical site
+subset: anatomical_site_slim
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0000040
+name: head region
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000041
+name: epidermis inner layer
+synonym: "epidermis sensorial layer" RELATED []
+synonym: "stratum germinativum" RELATED []
+relationship: part_of XAO:0000028 ! epidermis
+
+[Term]
+id: XAO:0000042
+name: neuroectoderm
+synonym: "presumptive central nervous system" RELATED []
+xref: ZFIN:ZDB-ANAT-010921-478
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0000043
+name: neuroectoderm outer layer
+relationship: part_of XAO:0000042 ! neuroectoderm
+
+[Term]
+id: XAO:0000044
+name: neuroectoderm inner layer
+relationship: part_of XAO:0000042 ! neuroectoderm
+
+[Term]
+id: XAO:0000045
+name: pre-chordal neural plate
+def: "The portion of neural plate anterior to the mid-hindbrain junction." [XB:curator "Xenbase"]
+synonym: "anterior neural plate" RELATED []
+relationship: part_of XAO:0000249 ! neural plate
+
+[Term]
+id: XAO:0000046
+name: chordal neural plate
+def: "The portion of neural plate posterior to the mid-hindbrain junction." [XB:curator "Xenbase"]
+synonym: "posterior neural plate" RELATED []
+relationship: part_of XAO:0000249 ! neural plate
+
+[Term]
+id: XAO:0000047
+name: notoplate
+relationship: part_of XAO:0000249 ! neural plate
+
+[Term]
+id: XAO:0000048
+name: neural crest
+def: "A group of embryonic cells that loosen and separate from the neural plate and surrounding epidermis during neurulation and migrate to give several different lineages of adult cells." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 27)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+xref: ZFIN:ZDB-ANAT-010921-458
+relationship: part_of XAO:0000042 ! neuroectoderm
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0000049
+name: cement gland primordium
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: end_stage XAO:1000044 ! NF stage 28
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0000050
+name: mesoderm
+def: "Middle of the three germ layers." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "mesodermal mantle" RELATED []
+is_a: XAO:0003011 ! primary germ layer
+
+[Term]
+id: XAO:0000051
+name: dorsal aorta
+is_a: XAO:0003010 ! aorta
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+relationship: develops_from XAO:0000357 ! arterial endothelia
+
+[Term]
+id: XAO:0000052
+name: cardinal vein
+is_a: XAO:0000115 ! vein
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000053
+name: head mesoderm
+relationship: develops_from XAO:0000079 ! prechordal plate
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0000054
+name: trunk region
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000055
+name: notochord
+def: "A rod shaped mass of vacuolated cells derived from axial mesodermal tissue, lying just below the nerve cord. Degeneration begins anteriorly at stage 46. The posterior portion of the notochord is greatly reduced by stage 55 and the entire structure is gone by stage 65." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 102)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: develops_from XAO:0000205 ! axial mesoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0000056
+name: hypochord
+def: "A transient structure that lies immediately ventral to the notochord in the embryo. Likely required for the formation of the dorsal aorta. A slight depression marks the future hypochord at stage 20 and its segregation from the dorsal endoderm begins at stage 24. It progresses from anterior to posterior and is complete by stage 28. At stage 32 it is present as a dorso-laterally flattened ribbon of yolk-laden cells. The hypochord degenerates by apoptosis and by stage 43 is no longer detectable as a distinct structure." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 37)", PMID:10648245 "Cleaver O et al."]
+synonym: "subnotochordal rod" RELATED [PMID:10648245 "Cleaver O et al."]
+xref: ZFIN:ZDB-ANAT-010921-442
+relationship: end_stage XAO:1000055 ! NF stage 43
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000040 ! NF stage 24
+
+[Term]
+id: XAO:0000057
+name: presomitic mesoderm
+synonym: "somitogenic mesoderm" RELATED []
+relationship: develops_from XAO:0000259 ! paraxial mesoderm
+
+[Term]
+id: XAO:0000058
+name: somite
+def: "Segmentally arranged block of mesoderm lying on either side of the notochord and neural tube during development of the embryo. Somites are formed sequentially, starting at the head. Each somite gives rise to muscle (from the myotome region), spinal column (from the sclerotome) and dermis (from the dermatome)." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "somites" RELATED PLURAL []
+relationship: end_stage XAO:1000059 ! NF stage 47
+relationship: part_of XAO:0000168 ! musculoskeletal system
+relationship: start_stage XAO:1000027 ! NF stage 17
+
+[Term]
+id: XAO:0000059
+name: pronephros
+is_obsolete: true
+consider: XAO:0000264
+consider: XAO:0002000
+
+[Term]
+id: XAO:0000061
+name: pronephric capsule
+is_obsolete: true
+consider: XAO:0000318
+
+[Term]
+id: XAO:0000062
+name: nephrostome
+relationship: develops_from XAO:0000264 ! pronephric mesenchyme
+relationship: end_stage XAO:1000071 ! NF stage 59
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000063
+name: pronephric duct
+relationship: develops_from XAO:0000264 ! pronephric mesenchyme
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0000064
+name: heart
+def: "Blood pumping organ ultimately composed of three chambers (two atria and one ventricle) and occupying a ventral position within the chest of the mature tadpole/frog." [PMID:17194606 "Warkman AS and Krieg PA"]
+xref: ZFIN:ZDB-ANAT-010921-539
+is_a: XAO:0003034 ! viscus
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000100 ! cardiovascular system
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000065
+name: myocardium
+relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: end_stage XAO:0000437 ! death
+
+[Term]
+id: XAO:0000066
+name: endocardium
+relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000067
+name: blood islands
+relationship: develops_from XAO:0000311 ! lateral plate mesoderm
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000068
+name: marginal zone
+def: "Zone lying adjacent to the blastopore." [XB:curator "Xenbase"]
+relationship: part_of XAO:0000113 ! embryo
+
+[Term]
+id: XAO:0000069
+name: ventral marginal zone
+is_a: XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000070
+name: ventro-lateral marginal zone
+is_a: XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000071
+name: dorso-lateral marginal zone
+is_a: XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000072
+name: dorsal marginal zone
+synonym: "organizer" RELATED []
+is_a: XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000073
+name: deep (mesenchymal) layer
+is_obsolete: true
+
+[Term]
+id: XAO:0000074
+name: involuting marginal zone
+relationship: part_of XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000075
+name: involuting marginal zone mesenchymal layer
+synonym: "deep involuting marginal zone" RELATED []
+relationship: part_of XAO:0000074 ! involuting marginal zone
+
+[Term]
+id: XAO:0000076
+name: involuting marginal zone epithelial layer
+synonym: "superficial involuting marginal zone" RELATED []
+relationship: part_of XAO:0000074 ! involuting marginal zone
+
+[Term]
+id: XAO:0000077
+name: bottle cell
+def: "The first cells to migrate inwards at the blastopore during gastrulation." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003012 ! cell
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
+
+[Term]
+id: XAO:0000078
+name: blastopore lip
+relationship: part_of XAO:0000208 ! blastopore
+
+[Term]
+id: XAO:0000079
+name: prechordal plate
+synonym: "head mesenchyme" BROAD []
+synonym: "head mesoderm" BROAD []
+relationship: develops_from XAO:0000050 ! mesoderm
+relationship: start_stage XAO:1000030 ! NF stage 10.25
+
+[Term]
+id: XAO:0000080
+name: forelimb region
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000081
+name: hindlimb region
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000082
+name: circumblastoporal collar
+synonym: "circumblastoporal region" RELATED []
+relationship: develops_from XAO:0000050 ! mesoderm
+
+[Term]
+id: XAO:0000083
+name: involuted dorsal mesoderm
+relationship: part_of XAO:0000082 ! circumblastoporal collar
+
+[Term]
+id: XAO:0000084
+name: involuted ventral mesoderm
+relationship: part_of XAO:0000082 ! circumblastoporal collar
+
+[Term]
+id: XAO:0000085
+name: intermediate mesoderm
+synonym: "lateral plate mesoderm" RELATED []
+relationship: develops_from XAO:0000050 ! mesoderm
+
+[Term]
+id: XAO:0000086
+name: ciliary marginal zone
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000087
+name: tail region
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000088
+name: upper blastopore lip
+synonym: "dorsal blastopore lip" RELATED []
+relationship: part_of XAO:0000078 ! blastopore lip
+
+[Term]
+id: XAO:0000089
+name: lower blastopore lip
+synonym: "ventral blastopore lip" RELATED []
+relationship: part_of XAO:0000078 ! blastopore lip
+
+[Term]
+id: XAO:0000090
+name: endoderm
+def: "A germ layer lying remote from the surface of the embryo that gives rise to internal tissues such as gut." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "entoderm" RELATED []
+is_a: XAO:0003011 ! primary germ layer
+
+[Term]
+id: XAO:0000091
+name: head endoderm
+synonym: "endomesoderm" RELATED []
+relationship: part_of XAO:0000090 ! endoderm
+
+[Term]
+id: XAO:0000092
+name: archenteron
+def: "The primitive enteron or undifferentiated digestive sac of a gastrula." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000030 ! NF stage 10.25
+
+[Term]
+id: XAO:0000093
+name: archanteron floor
+relationship: part_of XAO:0000092 ! archenteron
+
+[Term]
+id: XAO:0000094
+name: archanteron roof
+relationship: part_of XAO:0000092 ! archenteron
+relationship: start_stage XAO:1000022 ! NF stage 12
+
+[Term]
+id: XAO:0000095
+name: lateral line system
+synonym: "lateral-line organs" RELATED []
+is_a: XAO:0003028 ! surface structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000178 ! peripheral nervous system
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000096
+name: pharyngeal arches
+relationship: part_of XAO:0000113 ! embryo
+
+[Term]
+id: XAO:0000097
+name: mandibular arch
+relationship: develops_from XAO:0000102 ! first visceral pouch
+relationship: part_of XAO:0000096 ! pharyngeal arches
+relationship: start_stage XAO:1000040 ! NF stage 24
+
+[Term]
+id: XAO:0000098
+name: hyoid arch
+relationship: develops_from XAO:0000247 ! second visceral pouch
+relationship: part_of XAO:0000096 ! pharyngeal arches
+relationship: start_stage XAO:1000040 ! NF stage 24
+
+[Term]
+id: XAO:0000099
+name: branchial arches
+relationship: part_of XAO:0000096 ! pharyngeal arches
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000100
+name: cardiovascular system
+def: "The heart and the blood vessels by which blood is pumped and circulated through the body." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000101
+name: liver diverticulum
+relationship: develops_from XAO:0000232 ! foregut
+relationship: start_stage XAO:1000024 ! NF stage 14
+
+[Term]
+id: XAO:0000102
+name: first visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000103
+name: midgut
+relationship: develops_from XAO:0000092 ! archenteron
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000104
+name: hindgut
+relationship: develops_from XAO:0000092 ! archenteron
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000105
+name: pharyngeal cavity
+relationship: develops_from XAO:0000232 ! foregut
+relationship: part_of XAO:0000125 ! alimentary system
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0000106
+name: post-anal gut
+relationship: part_of XAO:0000092 ! archenteron
+
+[Term]
+id: XAO:0000107
+name: tail bud
+def: "Rapidly proliferating mass of cells at the caudal extremity of the embryo. Formation of the tail bud is reflected in a caudal carving of the posterior portion of the archenteric canal at stage 22. With further outgrowth of the tail bud the postanal gut primordium becomes stretched. Its lumen is in broad communication with the hindgut at stage 25." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 42)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "tailbud" EXACT []
+relationship: part_of XAO:0000113 ! embryo
+relationship: start_stage XAO:1000041 ! NF stage 25
+
+[Term]
+id: XAO:0000108
+name: chordoneural hinge
+relationship: part_of XAO:0000107 ! tail bud
+
+[Term]
+id: XAO:0000109
+name: posterior wall of NEC
+relationship: part_of XAO:0000107 ! tail bud
+
+[Term]
+id: XAO:0000110
+name: glomeral mesenchyme
+def: "The precursors of the pronephric glomus or glomerulus. Derived from the medial portion of the pronephric intermediate mesoderm." [ISBN:0815318960 "Nieuwkoop and Faber"]
+synonym: "corpuscle" RELATED []
+synonym: "glomerulus" RELATED []
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+
+[Term]
+id: XAO:0000111
+name: germ cell
+def: "Cell type involved in the reproduction of the organism. Sexual differentiation of the gonads begins at stage 52. In males the germ cells migrate from the genital ridge cortical region into the medullary tissue, where they form spermatogonia. In females, the medullary tissue remains free of germ cells, which, embedded in the cortical region, multiply as oogonia." [CL:0000586, ISBN:0815318960 "Nieuwkoop and Faber (pg. 137)"]
+xref: CL:0000586
+is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0000233 ! germ plasm
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000113 ! embryo
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0000112
+name: endomesoderm
+is_obsolete: true
+consider: XAO:0000091
+
+[Term]
+id: XAO:0000113
+name: embryo
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0000114
+name: artery
+def: "Blood vessel carrying blood away from the heart." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000100 ! cardiovascular system
+relationship: part_of XAO:0001010 ! circulatory system
+
+[Term]
+id: XAO:0000115
+name: vein
+def: "Blood vessel that returns blood from the microvasculature to the heart." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000100 ! cardiovascular system
+relationship: part_of XAO:0001010 ! circulatory system
+
+[Term]
+id: XAO:0000116
+name: capillary
+def: "Any one of the minute vessels that connect the arterioles and venules." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000100 ! cardiovascular system
+relationship: part_of XAO:0001010 ! circulatory system
+
+[Term]
+id: XAO:0000117
+name: respiratory system
+def: "The organs that are involved in respiration (breathing)." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000118
+name: trachea
+relationship: part_of XAO:0000117 ! respiratory system
+
+[Term]
+id: XAO:0000119
+name: lung
+is_a: XAO:0003034 ! viscus
+relationship: part_of XAO:0000117 ! respiratory system
+
+[Term]
+id: XAO:0000120
+name: external gills
+is_a: XAO:0003028 ! surface structure
+relationship: develops_from XAO:0000448 ! gill primordium
+relationship: part_of XAO:0000117 ! respiratory system
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0000121
+name: bronchus
+relationship: part_of XAO:0000117 ! respiratory system
+
+[Term]
+id: XAO:0000122
+name: hematological system
+def: "The blood and blood forming tissues." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "haematological system" EXACT []
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000123
+name: bone marrow
+relationship: part_of XAO:0000122 ! hematological system
+
+[Term]
+id: XAO:0000124
+name: blood
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000122 ! hematological system
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000125
+name: alimentary system
+def: "The organs that are responsible for getting food into and out of the body and for making use of food to keep the animal healthy." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "digestive system" RELATED []
+synonym: "gut" RELATED []
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000126
+name: oral cavity
+xref: ZFIN:ZDB-ANAT-020309-74
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000127
+name: oesophagus
+def: "Tube that connects the pharynx to the stomach. At stage 57 the oesophagus is a straight tube, round in cross section, that starting from the pharynx runs backward along the dorsal side of the abdominal cavity. The lining of the oesophagus consists of a columnar glandular epithelium with mucus secreting cells. It is thrown into longitudinal folds." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 156)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "esophagus" EXACT []
+xref: ZFIN:ZDB-ANAT-011113-135
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000128
+name: stomach
+def: "A dilated portion of the alimentary tract situated between the oesophagus and the beginning of the duodenum. The stomach produces gastric juices that are involved in the breakdown of food." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003034 ! viscus
+relationship: develops_from XAO:0000232 ! foregut
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000129
+name: intestine
+def: "The alimentary or digestive tract, and associated organs." [ZFIN:ZDB-ANAT-010921-537]
+xref: ZFIN:ZDB-ANAT-010921-537
+is_a: XAO:0003034 ! viscus
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000130
+name: small intestine
+relationship: part_of XAO:0000129 ! intestine
+
+[Term]
+id: XAO:0000131
+name: large intestine
+relationship: part_of XAO:0000129 ! intestine
+
+[Term]
+id: XAO:0000132
+name: liver and biliary system
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000133
+name: liver
+xref: ZFIN:ZDB-ANAT-010921-549
+is_a: XAO:0003034 ! viscus
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000132 ! liver and biliary system
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000134
+name: bile duct
+def: "A duct that carries bile from the liver to the small intestine." [ZFIN:ZDB-ANAT-050228-15]
+synonym: "hepatic duct" RELATED []
+xref: ZFIN:ZDB-ANAT-050228-15
+relationship: develops_from XAO:0000101 ! liver diverticulum
+relationship: part_of XAO:0000132 ! liver and biliary system
+
+[Term]
+id: XAO:0000135
+name: gall bladder
+xref: ZFIN:ZDB-ANAT-011113-139
+is_a: XAO:0003034 ! viscus
+relationship: develops_from XAO:0000101 ! liver diverticulum
+relationship: part_of XAO:0000132 ! liver and biliary system
+
+[Term]
+id: XAO:0000136
+name: pancreas
+def: "A gland organ with distinct tissues with different endocrine and exocrine functions. The rudiment of the pancreas has three parts, one dorsal and two ventral primordia. The ventral can be first detected at stage 37/38. The dorsal is clearly segregated from the duodenal wall by stage 39. At stage 40 the right and left primordia have fused just above the gasto-duodenal vein. At stage 42 blood vessels penetrate into the crevices between the pancreatic acini making them more conspicuous." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 154-5)", ISBN:0881679860 "Githens S"]
+xref: ZFIN:ZDB-ANAT-010921-570
+is_a: XAO:0003034 ! viscus
+relationship: develops_from XAO:0001103 ! ventral pancreatic bud
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000125 ! alimentary system
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0000137
+name: exocrine pancreas
+def: "Pancreatic tissue composed of acinar epithelial cells and ductal epithelium that manufacture the proteolytic enzymes and bicarbonate required for digestion." [ZFIN:ZDB-ANAT-050711-6]
+xref: ZFIN:ZDB-ANAT-050711-6
+relationship: part_of XAO:0000136 ! pancreas
+
+[Term]
+id: XAO:0000138
+name: mesentery
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000139
+name: peritoneum
+relationship: part_of XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0000140
+name: urogenital system
+def: "The organs concerned in the production and excretion of urine, together with the organs of reproduction." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000141
+name: mesonephric kidney
+def: "The adult kidney. It replaces the earlier pronephros which degenerates as the mesonephros becomes functional in feeding stage tadpoles." [XB:curator "Xenbase"]
+synonym: "adult kidney" RELATED []
+synonym: "mesonephros" RELATED []
+synonym: "opisthonephros" RELATED []
+relationship: part_of XAO:0000143 ! urinary system
+relationship: part_of XAO:0003025 ! trunk
+
+[Term]
+id: XAO:0000142
+name: genital system
+relationship: develops_from XAO:0000018 ! genital ridge
+relationship: part_of XAO:0000140 ! urogenital system
+
+[Term]
+id: XAO:0000143
+name: urinary system
+relationship: part_of XAO:0000140 ! urogenital system
+
+[Term]
+id: XAO:0000144
+name: ureter
+relationship: part_of XAO:0000143 ! urinary system
+
+[Term]
+id: XAO:0000145
+name: nephron
+relationship: part_of XAO:0000141 ! mesonephric kidney
+
+[Term]
+id: XAO:0000146
+name: glomerulus
+synonym: "renal corpuscle" RELATED []
+relationship: part_of XAO:0000145 ! nephron
+
+[Term]
+id: XAO:0000147
+name: glomerus
+is_a: XAO:0000146 ! glomerulus
+
+[Term]
+id: XAO:0000148
+name: mesonephric tubule
+synonym: "renal tubule" RELATED []
+relationship: part_of XAO:0000145 ! nephron
+
+[Term]
+id: XAO:0000149
+name: renal proximal convoluted tubule
+is_obsolete: true
+consider: XAO:0000331
+
+[Term]
+id: XAO:0000150
+name: loop of Henle
+is_obsolete: true
+
+[Term]
+id: XAO:0000151
+name: mesonephric collecting duct
+relationship: part_of XAO:0000148 ! mesonephric tubule
+
+[Term]
+id: XAO:0000152
+name: renal distal convoluted tubule
+is_obsolete: true
+consider: XAO:0000334
+
+[Term]
+id: XAO:0000153
+name: urethra
+relationship: part_of XAO:0000143 ! urinary system
+
+[Term]
+id: XAO:0000154
+name: bladder
+is_a: XAO:0003034 ! viscus
+relationship: part_of XAO:0000143 ! urinary system
+relationship: start_stage XAO:1000067 ! NF stage 55
+
+[Term]
+id: XAO:0000155
+name: male genitalia
+synonym: "male genitals" EXACT []
+relationship: part_of XAO:0000142 ! genital system
+relationship: part_of XAO:0003006 ! male organism
+
+[Term]
+id: XAO:0000156
+name: female genitalia
+synonym: "female genitals" EXACT []
+relationship: part_of XAO:0000142 ! genital system
+relationship: part_of XAO:0003005 ! female organism
+
+[Term]
+id: XAO:0000157
+name: testis
+synonym: "testes" RELATED PLURAL []
+relationship: part_of XAO:0000155 ! male genitalia
+
+[Term]
+id: XAO:0000158
+name: endocrine system
+def: "The system of glands that release their secretions (hormones) directly into the circulatory system." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000159
+name: Islets of Langerhans
+synonym: "endocrine pancreas" RELATED []
+relationship: develops_from XAO:0001103 ! ventral pancreatic bud
+relationship: part_of XAO:0000158 ! endocrine system
+relationship: start_stage XAO:1000057 ! NF stage 45
+
+[Term]
+id: XAO:0000160
+name: pineal gland
+synonym: "epiphysis" RELATED []
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000014 ! midbrain
+relationship: part_of XAO:0000158 ! endocrine system
+relationship: start_stage XAO:1000042 ! NF stage 26
+
+[Term]
+id: XAO:0000161
+name: pituitary gland
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000158 ! endocrine system
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0000162
+name: thyroid
+relationship: develops_from XAO:0000444 ! thyroid primordium
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000158 ! endocrine system
+relationship: start_stage XAO:1000061 ! NF stage 49
+
+[Term]
+id: XAO:0000163
+name: thymus
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000158 ! endocrine system
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0000164
+name: adrenal gland
+relationship: part_of XAO:0000158 ! endocrine system
+
+[Term]
+id: XAO:0000165
+name: adrenal cortex
+synonym: "interrenal tissue" RELATED []
+relationship: part_of XAO:0000164 ! adrenal gland
+
+[Term]
+id: XAO:0000166
+name: adrenal medulla
+synonym: "chromaffin cells" RELATED []
+relationship: part_of XAO:0000164 ! adrenal gland
+
+[Term]
+id: XAO:0000167
+name: parathyroid
+relationship: develops_from XAO:0000447 ! first branchial arch
+relationship: develops_from XAO:0000452 ! ultimobranchial body
+relationship: part_of XAO:0000158 ! endocrine system
+
+[Term]
+id: XAO:0000168
+name: musculoskeletal system
+def: "All the muscles, bones, and cartilages of the animal collectively." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000169
+name: bone
+def: "The hard, calcified tissue of the skeleton." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: develops_from XAO:0000401 ! sclerotomal cartilage
+relationship: part_of XAO:0000168 ! musculoskeletal system
+
+[Term]
+id: XAO:0000170
+name: cartilage
+relationship: part_of XAO:0000168 ! musculoskeletal system
+
+[Term]
+id: XAO:0000171
+name: joint
+relationship: part_of XAO:0000168 ! musculoskeletal system
+
+[Term]
+id: XAO:0000172
+name: muscle
+relationship: part_of XAO:0000168 ! musculoskeletal system
+
+[Term]
+id: XAO:0000173
+name: tendon
+alt_id: XAO:0000400
+def: "A fibrous, strong, connective tissue that connects muscle to bone." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: develops_from XAO:0000399 ! tendon fibroblast
+relationship: part_of XAO:0000168 ! musculoskeletal system
+
+[Term]
+id: XAO:0000174
+name: skeletal muscle
+relationship: part_of XAO:0000172 ! muscle
+
+[Term]
+id: XAO:0000175
+name: smooth muscle
+relationship: develops_from XAO:0000311 ! lateral plate mesoderm
+relationship: part_of XAO:0000172 ! muscle
+
+[Term]
+id: XAO:0000176
+name: dermal system
+def: "The skin and its appendages." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000177
+name: nervous system
+def: "The integrated system of nerve tissue in the animal: the brain, spinal cord, nerves and ganglia." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0000178
+name: peripheral nervous system
+def: "One of the two major divisions of the nervous system. Nerves in the PNS connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "PNS" EXACT []
+relationship: part_of XAO:0000177 ! nervous system
+
+[Term]
+id: XAO:0000179
+name: eye
+def: "The organ of sight (visual apparatus). At the end of development (stage 66) the eyes bulge out of their orbital capsules near the lateral edge of the dorsal side of the head. The shape of the eye is almost spherical." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 80)", XB:curator "Xenbase"]
+synonym: "eyes" RELATED PLURAL []
+xref: ZFIN:ZDB-ANAT-010921-532
+relationship: develops_from XAO:0000227 ! eye primordium
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000215 ! central nervous system
+relationship: part_of XAO:0003024 ! head
+
+[Term]
+id: XAO:0000180
+name: cornea
+is_a: XAO:0003028 ! surface structure
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000181
+name: globe
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000182
+name: conjunctiva
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000183
+name: sclera
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000184
+name: otic vesicle
+is_obsolete: true
+replaced_by: XAO:0000006
+
+[Term]
+id: XAO:0000185
+name: iris
+relationship: develops_from XAO:0000228 ! eye vesicle
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000186
+name: ciliary body
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000187
+name: dorsolateral placode
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0000188
+name: optic nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000179 ! eye
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000189
+name: auditory apparatus
+relationship: develops_from XAO:0000006 ! ear vesicle
+relationship: part_of XAO:0000178 ! peripheral nervous system
+
+[Term]
+id: XAO:0000190
+name: external ear
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000191
+name: middle ear
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000192
+name: inner ear
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000193
+name: osseous labyrinth
+relationship: part_of XAO:0000192 ! inner ear
+
+[Term]
+id: XAO:0000194
+name: membranous labyrinth
+relationship: part_of XAO:0000192 ! inner ear
+
+[Term]
+id: XAO:0000195
+name: utricle
+is_a: XAO:0000194 ! membranous labyrinth
+
+[Term]
+id: XAO:0000196
+name: saccule
+is_a: XAO:0000194 ! membranous labyrinth
+
+[Term]
+id: XAO:0000197
+name: cochlea
+is_a: XAO:0000193 ! osseous labyrinth
+
+[Term]
+id: XAO:0000198
+name: semicircular canal
+is_a: XAO:0000193 ! osseous labyrinth
+
+[Term]
+id: XAO:0000199
+name: vestibule
+is_a: XAO:0000193 ! osseous labyrinth
+
+[Term]
+id: XAO:0000200
+name: animal blastomere
+synonym: "micromeres" RELATED []
+is_a: XAO:0003016 ! blastoderm cell
+relationship: develops_from XAO:0000202 ! animal hemisphere
+
+[Term]
+id: XAO:0000201
+name: olfactory apparatus
+relationship: part_of XAO:0000178 ! peripheral nervous system
+
+[Term]
+id: XAO:0000202
+name: animal hemisphere
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000203
+name: archencephalic region
+is_obsolete: true
+
+[Term]
+id: XAO:0000204
+name: peripheral nerve
+relationship: part_of XAO:0000178 ! peripheral nervous system
+
+[Term]
+id: XAO:0000205
+name: axial mesoderm
+relationship: develops_from XAO:0000050 ! mesoderm
+
+[Term]
+id: XAO:0000206
+name: blastocoel anlage
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000207
+name: blastocoel roof
+relationship: part_of XAO:0000294 ! blastocoel
+
+[Term]
+id: XAO:0000208
+name: blastopore
+relationship: part_of XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000209
+name: ganglion
+relationship: part_of XAO:0000178 ! peripheral nervous system
+
+[Term]
+id: XAO:0000210
+name: spinal ganglion
+is_a: XAO:0000209 ! ganglion
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0000211
+name: sympathetic chain
+relationship: part_of XAO:0000178 ! peripheral nervous system
+
+[Term]
+id: XAO:0000212
+name: tympanum
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000213
+name: auditory tube
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000214
+name: auditory ossicle
+relationship: part_of XAO:0000189 ! auditory apparatus
+
+[Term]
+id: XAO:0000215
+name: central nervous system
+def: "One of the two major divisions of the nervous system. Pertains to the brain, cranial nerves and spinal cord, but not including muscles or peripheral nerves." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "CNS" EXACT []
+relationship: part_of XAO:0000177 ! nervous system
+
+[Term]
+id: XAO:0000216
+name: cortex
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000217
+name: dermis
+relationship: part_of XAO:0000023 ! skin
+
+[Term]
+id: XAO:0000218
+name: appendages
+relationship: part_of XAO:0000023 ! skin
+
+[Term]
+id: XAO:0000219
+name: superficial (epithelial) layer
+is_obsolete: true
+
+[Term]
+id: XAO:0000220
+name: dermatome
+relationship: develops_from XAO:0000396 ! head somite 1
+relationship: develops_from XAO:0000403 ! head somite 2
+relationship: develops_from XAO:0000404 ! head somite 3
+relationship: develops_from XAO:0000405 ! head somite 4
+relationship: develops_from XAO:0000406 ! trunk somite 1
+relationship: develops_from XAO:0000407 ! trunk somite 2
+relationship: develops_from XAO:0000408 ! trunk somite 3
+relationship: develops_from XAO:0000409 ! trunk somite 4
+relationship: develops_from XAO:0000410 ! trunk somite 5
+relationship: develops_from XAO:0000411 ! trunk somite 6
+relationship: develops_from XAO:0000412 ! trunk somite 7
+relationship: develops_from XAO:0000416 ! trunk somite 8
+relationship: develops_from XAO:0000417 ! trunk somite 9
+relationship: develops_from XAO:0000418 ! trunk somite 10
+relationship: develops_from XAO:0000419 ! trunk somite 11
+relationship: develops_from XAO:0000420 ! trunk somite 12
+relationship: develops_from XAO:0000421 ! trunk somite 13
+relationship: develops_from XAO:0000422 ! trunk somite 14
+relationship: develops_from XAO:0000423 ! trunk somite 15
+relationship: develops_from XAO:0000424 ! trunk somite 16
+relationship: develops_from XAO:0000425 ! trunk somite 17
+relationship: part_of XAO:0000058 ! somite
+
+[Term]
+id: XAO:0000221
+name: deuterencephalic region
+is_obsolete: true
+
+[Term]
+id: XAO:0000222
+name: ear placode
+synonym: "otic placode" RELATED []
+is_obsolete: true
+replaced_by: XAO:0000223
+
+[Term]
+id: XAO:0000223
+name: otic placode
+synonym: "auditory placode" RELATED []
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0000224
+name: vegetal part, early involuting
+relationship: part_of XAO:0000074 ! involuting marginal zone
+
+[Term]
+id: XAO:0000225
+name: trigeminal placode
+relationship: develops_from XAO:0000187 ! dorsolateral placode
+
+[Term]
+id: XAO:0000226
+name: equatorial belt
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000227
+name: eye primordium
+def: "First trace of the future visual apparatus. The eye primordia forming antero-lateral evaginations of the closing neural tube are originally massive formations in which only a slit-shaped extension of the neural groove penetrates at stage 18. At stage 19 they clearly segregate from the anterior portion of the neural tube." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 30)"]
+synonym: "eye anlage" RELATED []
+relationship: develops_from XAO:0000045 ! pre-chordal neural plate
+relationship: end_stage XAO:1000037 ! NF stage 21
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0000228
+name: eye vesicle
+synonym: "optic cup" RELATED []
+relationship: develops_from XAO:0000227 ! eye primordium
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0000229
+name: fasciculated network of fibrils
+synonym: "coelomic envelope" BROAD []
+relationship: part_of XAO:0000256 ! oocyte
+
+[Term]
+id: XAO:0000230
+name: follicle cell
+def: "Type of cell forming a layer within an ovarian follicle that surrounds the oocyte." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+xref: CL:0000477
+is_a: XAO:0003012 ! cell
+relationship: part_of XAO:0000258 ! ovary
+
+[Term]
+id: XAO:0000231
+name: follicle layer
+relationship: part_of XAO:0000155 ! male genitalia
+relationship: part_of XAO:0000258 ! ovary
+
+[Term]
+id: XAO:0000232
+name: foregut
+relationship: develops_from XAO:0000092 ! archenteron
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000233
+name: germ plasm
+relationship: end_stage XAO:1000052 ! NF stage 40
+relationship: part_of XAO:0000280 ! vegetal hemisphere
+relationship: start_stage XAO:1000001 ! NF stage 1
+
+[Term]
+id: XAO:0000234
+name: germinal vesicle
+relationship: part_of XAO:0000256 ! oocyte
+
+[Term]
+id: XAO:0000235
+name: cardiac mesoderm
+def: "Two migratory heart primordia that move ventrally during the course of neurulation. Fusion begins at the ventral midline at stage 16." [XB:curator "Xenbase"]
+synonym: "heart primordia" RELATED []
+relationship: develops_from XAO:0000050 ! mesoderm
+
+[Term]
+id: XAO:0000236
+name: duodenum
+def: "The first part of the small intestine. At the junction of the stomach and the duodenum the alimentary canal is inflected. The duodenum first goes anteriorly for a short distance, turns dorsally, and eventually caudally, thus it is a U-shaped structure with two horizontal sections (a ventral and a dorsal one)." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 156)"]
+relationship: part_of XAO:0000130 ! small intestine
+
+[Term]
+id: XAO:0000237
+name: ileum
+relationship: part_of XAO:0000130 ! small intestine
+
+[Term]
+id: XAO:0000238
+name: rectum
+relationship: part_of XAO:0000131 ! large intestine
+
+[Term]
+id: XAO:0000239
+name: hepato-pancreatic duct
+relationship: develops_from XAO:0000101 ! liver diverticulum
+relationship: part_of XAO:0000132 ! liver and biliary system
+
+[Term]
+id: XAO:0000240
+name: lens placode
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: end_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000241
+name: posterior cardinal vein
+relationship: develops_from XAO:0000052 ! cardinal vein
+
+[Term]
+id: XAO:0000242
+name: mesonephric duct
+relationship: develops_from XAO:0000063 ! pronephric duct
+
+[Term]
+id: XAO:0000243
+name: colon
+relationship: part_of XAO:0000131 ! large intestine
+
+[Term]
+id: XAO:0000244
+name: cloaca
+synonym: "cloacal chamber" RELATED []
+xref: ZFIN:ZDB-ANAT-011113-257
+relationship: part_of XAO:0000107 ! tail bud
+relationship: part_of XAO:0000125 ! alimentary system
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000245
+name: mitochondrial aggregate
+relationship: part_of XAO:0000256 ! oocyte
+
+[Term]
+id: XAO:0000246
+name: myocoelic slit
+relationship: part_of XAO:0000315 ! myotome
+
+[Term]
+id: XAO:0000247
+name: second visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000248
+name: neural groove
+def: "The gutter-like groove formed in the midline of the embryo's dorsal surface by the progressive elevation of the lateral margins of the neural plate." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000249 ! neural plate
+
+[Term]
+id: XAO:0000249
+name: neural plate
+def: "A region of embryonic ectodermal cells that lie directly above the notochord. During neurulation, they change shape and produce an infolding of the neural plate (the neural fold) that then seals to form the neural tube. At stage 11.5 is the first indication of neural plate within the sensorial layer of ectoderm. It extends to near the animal pole by stage 12.5 and the entire plate is faintly delimited by stage 13." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 24-29)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0000042 ! neuroectoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0000250
+name: posterior neural tube
+relationship: develops_from XAO:0000046 ! chordal neural plate
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000251
+name: third visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+relationship: start_stage XAO:1000039 ! NF stage 23
+
+[Term]
+id: XAO:0000252
+name: neurocoel
+relationship: part_of XAO:0000042 ! neuroectoderm
+
+[Term]
+id: XAO:0000253
+name: non-involuting marginal zone
+relationship: part_of XAO:0000001 ! ectoderm
+relationship: part_of XAO:0000068 ! marginal zone
+
+[Term]
+id: XAO:0000254
+name: fourth visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+relationship: start_stage XAO:1000041 ! NF stage 25
+
+[Term]
+id: XAO:0000255
+name: fifth visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+
+[Term]
+id: XAO:0000256
+name: oocyte
+def: "The developing female gamete." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+xref: CL:0000023
+is_a: XAO:0000111 ! germ cell
+relationship: develops_from XAO:0000268 ! secondary oogonium
+
+[Term]
+id: XAO:0000257
+name: oral evagination
+relationship: develops_from XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000258
+name: ovary
+relationship: part_of XAO:0000156 ! female genitalia
+
+[Term]
+id: XAO:0000259
+name: paraxial mesoderm
+relationship: develops_from XAO:0000050 ! mesoderm
+relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0000260
+name: perivitelline space
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000261
+name: pigment layer
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000179 ! eye
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0000262
+name: polar body
+relationship: part_of XAO:0000256 ! oocyte
+
+[Term]
+id: XAO:0000263
+name: primary oogonium
+synonym: "primary oogonia" RELATED PLURAL []
+relationship: part_of XAO:0000258 ! ovary
+
+[Term]
+id: XAO:0000264
+name: pronephric mesenchyme
+def: "The mesenchymal precursor to the pronephros, or pronephric epithelium. First begins to separate from the intermediate mesoderm at NF stage 21. Epithelializes by NF stage 30." [XB:curator "Xenbase"]
+synonym: "pronephric anlage" RELATED []
+synonym: "pronephric buldge" RELATED []
+synonym: "pronephric primordium" RELATED []
+synonym: "pronephros" RELATED []
+xref: ZFIN:ZDB-ANAT-020702-9
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0000265
+name: sixth visceral pouch
+relationship: part_of XAO:0000282 ! visceral pouches
+
+[Term]
+id: XAO:0000266
+name: retinal layer
+relationship: develops_from XAO:0000009 ! retina
+relationship: part_of XAO:0000179 ! eye
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000267
+name: hypophyseal primordium
+relationship: develops_from XAO:0000032 ! stomodeal-hypophyseal primordium
+
+[Term]
+id: XAO:0000268
+name: secondary oogonium
+synonym: "secondary oogonia" RELATED PLURAL []
+relationship: develops_from XAO:0000263 ! primary oogonium
+
+[Term]
+id: XAO:0000269
+name: mouth primordium
+relationship: develops_from XAO:0000032 ! stomodeal-hypophyseal primordium
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000270
+name: sensorial layer of neurectoderm
+synonym: "deep layer of neurectoderm" RELATED []
+relationship: part_of XAO:0000042 ! neuroectoderm
+
+[Term]
+id: XAO:0000271
+name: somatic layer of lateral plate mesoderm
+relationship: develops_from XAO:0000311 ! lateral plate mesoderm
+
+[Term]
+id: XAO:0000272
+name: Jacobson's organ
+synonym: "organon vomero-nasale" RELATED []
+relationship: develops_from XAO:0000273 ! olfactory organ
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
+
+[Term]
+id: XAO:0000273
+name: olfactory organ
+relationship: develops_from XAO:0000005 ! olfactory placode
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
+
+[Term]
+id: XAO:0000274
+name: sperm entry point
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000275
+name: nasal pit
+relationship: develops_from XAO:0000005 ! olfactory placode
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0000276
+name: splanchnic layer of lateral plate mesoderm
+relationship: develops_from XAO:0000311 ! lateral plate mesoderm
+
+[Term]
+id: XAO:0000277
+name: choanae
+relationship: develops_from XAO:0000005 ! olfactory placode
+relationship: start_stage XAO:1000055 ! NF stage 43
+
+[Term]
+id: XAO:0000278
+name: animal part, late involuting
+relationship: part_of XAO:0000074 ! involuting marginal zone
+
+[Term]
+id: XAO:0000279
+name: vegetal blastomere
+synonym: "macromeres" RELATED []
+is_a: XAO:0003016 ! blastoderm cell
+relationship: develops_from XAO:0000280 ! vegetal hemisphere
+
+[Term]
+id: XAO:0000280
+name: vegetal hemisphere
+relationship: part_of XAO:0000035 ! zygote
+
+[Term]
+id: XAO:0000281
+name: vegetal yolk mass
+relationship: part_of XAO:0000280 ! vegetal hemisphere
+
+[Term]
+id: XAO:0000282
+name: visceral pouches
+relationship: develops_from XAO:0000232 ! foregut
+
+[Term]
+id: XAO:0000283
+name: pupil
+relationship: part_of XAO:0000179 ! eye
+
+[Term]
+id: XAO:0000284
+name: epibranchial placode
+relationship: develops_from XAO:0000187 ! dorsolateral placode
+relationship: develops_from XAO:0000320 ! sensorial layer
+
+[Term]
+id: XAO:0000285
+name: pronephric nephron
+relationship: end_stage XAO:1000076 ! NF stage 64
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0000286
+name: late proximal tubule
+relationship: part_of XAO:0000285 ! pronephric nephron
+
+[Term]
+id: XAO:0000287
+name: early distal tubule
+relationship: part_of XAO:0000285 ! pronephric nephron
+
+[Term]
+id: XAO:0000288
+name: early proximal tubule
+relationship: part_of XAO:0000285 ! pronephric nephron
+
+[Term]
+id: XAO:0000289
+name: late distal segment
+relationship: part_of XAO:0000285 ! pronephric nephron
+
+[Term]
+id: XAO:0000290
+name: pronephric nephron segment S1
+is_obsolete: true
+
+[Term]
+id: XAO:0000291
+name: mesonephric mesenchyme
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+relationship: start_stage XAO:1000055 ! NF stage 43
+
+[Term]
+id: XAO:0000292
+name: mesonephric nephron
+def: "Structural and functional unit of the kidney. An adult Rana kidney contains approximately 2,000 nephrons." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000291 ! mesonephric mesenchyme
+
+[Term]
+id: XAO:0000293
+name: neural fold
+is_obsolete: true
+consider: XAO:0000310
+
+[Term]
+id: XAO:0000294
+name: blastocoel
+relationship: develops_from XAO:0000206 ! blastocoel anlage
+
+[Term]
+id: XAO:0000295
+name: central endoderm
+synonym: "vegetal endodermal core" RELATED []
+relationship: part_of XAO:0000090 ! endoderm
+
+[Term]
+id: XAO:0000296
+name: vegetal
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000297
+name: animal
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000298
+name: dorsal
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000299
+name: ventral
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000300
+name: superficial
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000301
+name: deep
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000302
+name: dorso-lateral
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000303
+name: ventro-lateral
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000304
+name: lateral
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000305
+name: cranial placode
+synonym: "cranial placodes" RELATED PLURAL []
+relationship: develops_from XAO:0000037 ! animal cap inner layer
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: part_of XAO:0000001 ! ectoderm
+
+[Term]
+id: XAO:0000306
+name: floor plate
+synonym: "floorplate" EXACT []
+synonym: "spinal cord floor" RELATED []
+relationship: develops_from XAO:0000047 ! notoplate
+relationship: part_of XAO:0000020 ! spinal cord
+
+[Term]
+id: XAO:0000307
+name: anterior neural tube
+relationship: develops_from XAO:0000045 ! pre-chordal neural plate
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000309
+name: marginal zone sensu neural
+subset: anatomical_site_slim
+is_a: XAO:0000039 ! anatomical site
+
+[Term]
+id: XAO:0000310
+name: anterior neural fold
+relationship: part_of XAO:0000045 ! pre-chordal neural plate
+
+[Term]
+id: XAO:0000311
+name: lateral plate mesoderm
+relationship: develops_from XAO:0000050 ! mesoderm
+
+[Term]
+id: XAO:0000313
+name: head somite
+is_a: XAO:0000058 ! somite
+
+[Term]
+id: XAO:0000314
+name: trunk somite
+is_a: XAO:0000058 ! somite
+relationship: part_of XAO:0003025 ! trunk
+
+[Term]
+id: XAO:0000315
+name: myotome
+relationship: develops_from XAO:0000396 ! head somite 1
+relationship: develops_from XAO:0000403 ! head somite 2
+relationship: develops_from XAO:0000404 ! head somite 3
+relationship: develops_from XAO:0000405 ! head somite 4
+relationship: develops_from XAO:0000406 ! trunk somite 1
+relationship: develops_from XAO:0000407 ! trunk somite 2
+relationship: develops_from XAO:0000408 ! trunk somite 3
+relationship: develops_from XAO:0000409 ! trunk somite 4
+relationship: develops_from XAO:0000410 ! trunk somite 5
+relationship: develops_from XAO:0000411 ! trunk somite 6
+relationship: develops_from XAO:0000412 ! trunk somite 7
+relationship: develops_from XAO:0000416 ! trunk somite 8
+relationship: develops_from XAO:0000417 ! trunk somite 9
+relationship: develops_from XAO:0000418 ! trunk somite 10
+relationship: develops_from XAO:0000419 ! trunk somite 11
+relationship: develops_from XAO:0000420 ! trunk somite 12
+relationship: develops_from XAO:0000421 ! trunk somite 13
+relationship: develops_from XAO:0000422 ! trunk somite 14
+relationship: develops_from XAO:0000423 ! trunk somite 15
+relationship: develops_from XAO:0000424 ! trunk somite 16
+relationship: develops_from XAO:0000425 ! trunk somite 17
+relationship: part_of XAO:0000058 ! somite
+
+[Term]
+id: XAO:0000316
+name: epicardium
+relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: end_stage XAO:0000437 ! death
+
+[Term]
+id: XAO:0000318
+name: glomus
+def: "The glomerulus of the pronephric kidney. Properly called a glomus as it extends over multiple body segments." [XB:curator "Xenbase"]
+synonym: "corpuscle" RELATED []
+synonym: "glomera" RELATED PLURAL []
+synonym: "glomerulus" RELATED []
+relationship: develops_from XAO:0000110 ! glomeral mesenchyme
+relationship: end_stage XAO:1000067 ! NF stage 55
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0000319
+name: trunk neural crest
+def: "Trunk portion of the neural crest. The anterior and middle regions of the neural crest segregate at stage 16, while the posterior portion forms at stage 17." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 30)"]
+synonym: "trunk crest" RELATED []
+xref: ZFIN:ZDB-ANAT-020309-70
+relationship: end_stage XAO:1000046 ! NF stage 31
+relationship: part_of XAO:0000048 ! neural crest
+relationship: start_stage XAO:1000026 ! NF stage 16
+
+[Term]
+id: XAO:0000320
+name: sensorial layer
+def: "The inner layer of ectoderm." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000001 ! ectoderm
+
+[Term]
+id: XAO:0000323
+name: profundus ganglion
+synonym: "cranial ganglion" RELATED []
+synonym: "profundus ganglia" RELATED PLURAL []
+relationship: develops_from XAO:0000225 ! trigeminal placode
+
+[Term]
+id: XAO:0000324
+name: hypobranchial placode
+def: "Derivative of ectodermal thickening ventral to second and third pharyngeal pouches. Gives rise to neurons of unknown fate." [PMID:12712315 "Schlosser G"]
+relationship: develops_from XAO:0000187 ! dorsolateral placode
+
+[Term]
+id: XAO:0000326
+name: left spleen primordium
+def: "Primordium of the spleen. This primordia goes on to form the spleen proper, while the right splenic promordium degenerates. A useful marker is NKX2-5." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000276 ! splanchnic layer of lateral plate mesoderm
+
+[Term]
+id: XAO:0000327
+name: right spleen primordium
+def: "Transient splenic primordia. Degenerates by stage 40." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000276 ! splanchnic layer of lateral plate mesoderm
+
+[Term]
+id: XAO:0000328
+name: spleen
+def: "Lymphoid organ derived from left spleen primordia starting at stage 48." [XB:curator "Xenbase"]
+is_a: XAO:0003034 ! viscus
+relationship: develops_from XAO:0000326 ! left spleen primordium
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000060 ! NF stage 48
+
+[Term]
+id: XAO:0000329
+name: coelomic epithelium
+def: "The epithelial lining of the coelom." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000271 ! somatic layer of lateral plate mesoderm
+relationship: develops_from XAO:0000276 ! splanchnic layer of lateral plate mesoderm
+
+[Term]
+id: XAO:0000330
+name: Mullerian duct
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+
+[Term]
+id: XAO:0000331
+name: mesonephric early proximal tubule
+def: "Equivalent to the convoluted proximal tubule of metanephric nephrons." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000292 ! mesonephric nephron
+relationship: part_of XAO:0000148 ! mesonephric tubule
+
+[Term]
+id: XAO:0000332
+name: mesonephric late proximal tubule
+def: "The mesonephros nephron's equivalent to the straight proximal segment of a metanephric nephron." [XB:curator "Xenbase"]
+synonym: "opisthonephros" RELATED []
+synonym: "proximal straight segment" RELATED []
+relationship: develops_from XAO:0000292 ! mesonephric nephron
+relationship: part_of XAO:0000148 ! mesonephric tubule
+
+[Term]
+id: XAO:0000333
+name: mesonephric early distal tubule
+def: "The mesonephric equivalent of the ascending limb, or straight distal segment, of metanephric nephrons. Charaterized by expression of NKCC2." [XB:curator "Xenbase"]
+synonym: "ascending limb" RELATED []
+synonym: "straight distal segment" RELATED []
+relationship: develops_from XAO:0000292 ! mesonephric nephron
+relationship: part_of XAO:0000148 ! mesonephric tubule
+
+[Term]
+id: XAO:0000334
+name: mesonephric late distal segment
+def: "The site of bicarbonate resorption in the adult kidney. Equivalent to convoluted distal segment of metanephric nephrons." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000292 ! mesonephric nephron
+relationship: part_of XAO:0000148 ! mesonephric tubule
+
+[Term]
+id: XAO:0000336
+name: fused heart primordium
+synonym: "heart primordium" RELATED []
+relationship: develops_from XAO:0000235 ! cardiac mesoderm
+relationship: start_stage XAO:1000035 ! NF stage 19
+
+[Term]
+id: XAO:0000337
+name: endocardial tube
+relationship: develops_from XAO:0000066 ! endocardium
+
+[Term]
+id: XAO:0000338
+name: ventral aorta
+is_a: XAO:0003010 ! aorta
+relationship: develops_from XAO:0000337 ! endocardial tube
+
+[Term]
+id: XAO:0000339
+name: left channel of ventral aorta
+relationship: develops_from XAO:0000338 ! ventral aorta
+
+[Term]
+id: XAO:0000340
+name: right channel of ventral aorta
+relationship: develops_from XAO:0000338 ! ventral aorta
+
+[Term]
+id: XAO:0000341
+name: aortic arches
+relationship: develops_from XAO:0000339 ! left channel of ventral aorta
+relationship: develops_from XAO:0000340 ! right channel of ventral aorta
+
+[Term]
+id: XAO:0000342
+name: first aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000343
+name: second aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000344
+name: third aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000345
+name: external carotid artery
+relationship: develops_from XAO:0000342 ! first aortic arch
+
+[Term]
+id: XAO:0000349
+name: larval aorta
+relationship: develops_from XAO:0000051 ! dorsal aorta
+relationship: develops_from XAO:0000344 ! third aortic arch
+
+[Term]
+id: XAO:0000351
+name: secondary vessel
+is_obsolete: true
+
+[Term]
+id: XAO:0000352
+name: fifth aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000353
+name: sixth aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000354
+name: posterior palatine artery
+relationship: develops_from XAO:0000342 ! first aortic arch
+
+[Term]
+id: XAO:0000355
+name: fourth aortic arch
+relationship: part_of XAO:0000341 ! aortic arches
+
+[Term]
+id: XAO:0000356
+name: vascular endothelia
+synonym: "angioblasts" RELATED []
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+
+[Term]
+id: XAO:0000357
+name: arterial endothelia
+relationship: develops_from XAO:0000356 ! vascular endothelia
+
+[Term]
+id: XAO:0000358
+name: veinous endothelia
+relationship: develops_from XAO:0000356 ! vascular endothelia
+
+[Term]
+id: XAO:0000361
+name: arteriae iliace cummunes
+relationship: develops_from XAO:0000051 ! dorsal aorta
+
+[Term]
+id: XAO:0000362
+name: coeliaco mesenteric artery
+relationship: develops_from XAO:0000051 ! dorsal aorta
+
+[Term]
+id: XAO:0000363
+name: occipitovertebral artery
+relationship: develops_from XAO:0000051 ! dorsal aorta
+
+[Term]
+id: XAO:0000364
+name: caudal artery
+relationship: develops_from XAO:0000051 ! dorsal aorta
+
+[Term]
+id: XAO:0000365
+name: arteria subclavia
+relationship: develops_from XAO:0000363 ! occipitovertebral artery
+
+[Term]
+id: XAO:0000366
+name: internal carotid artery
+relationship: develops_from XAO:0000051 ! dorsal aorta
+
+[Term]
+id: XAO:0000367
+name: cerebral artery
+relationship: develops_from XAO:0000366 ! internal carotid artery
+
+[Term]
+id: XAO:0000368
+name: opthalmic artery
+relationship: develops_from XAO:0000366 ! internal carotid artery
+
+[Term]
+id: XAO:0000369
+name: anterior palatine artery
+relationship: develops_from XAO:0000366 ! internal carotid artery
+
+[Term]
+id: XAO:0000370
+name: arteria mesenterica posterior
+relationship: develops_from XAO:0000361 ! arteriae iliace cummunes
+
+[Term]
+id: XAO:0000371
+name: anterior lymph heart
+relationship: develops_from XAO:0000358 ! veinous endothelia
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0000372
+name: posterior lymph heart
+def: "Precursor to the lymph vessels. Four pairs initially." [XB:curator "Xenbase"]
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000373
+name: duct of Cuvier
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000374
+name: dorsal lymph space
+relationship: develops_from XAO:0000371 ! anterior lymph heart
+
+[Term]
+id: XAO:0000375
+name: lymph vessel
+relationship: develops_from XAO:0000372 ! posterior lymph heart
+relationship: develops_from XAO:0000374 ! dorsal lymph space
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000376
+name: omphalomesenteric vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000377
+name: capillary system of liver
+relationship: develops_from XAO:0000376 ! omphalomesenteric vein
+
+[Term]
+id: XAO:0000378
+name: musculoabdominal vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000379
+name: external jugular
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000380
+name: lateral postcardinal vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000381
+name: mesonephric sinus
+relationship: develops_from XAO:0000380 ! lateral postcardinal vein
+
+[Term]
+id: XAO:0000382
+name: internal jugular
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000383
+name: anterior cardinal vein
+relationship: develops_from XAO:0000052 ! cardinal vein
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000384
+name: medial cardinal vein
+relationship: develops_from XAO:0000052 ! cardinal vein
+
+[Term]
+id: XAO:0000385
+name: pronephric sinus
+relationship: develops_from XAO:0000373 ! duct of Cuvier
+relationship: develops_from XAO:0000383 ! anterior cardinal vein
+relationship: develops_from XAO:0000384 ! medial cardinal vein
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0000386
+name: interrenal vein
+relationship: develops_from XAO:0000384 ! medial cardinal vein
+
+[Term]
+id: XAO:0000387
+name: hepatic vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000388
+name: posterior vena cava
+relationship: develops_from XAO:0000386 ! interrenal vein
+relationship: develops_from XAO:0000387 ! hepatic vein
+
+[Term]
+id: XAO:0000389
+name: gastric vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000390
+name: caudal vein
+relationship: develops_from XAO:0000386 ! interrenal vein
+
+[Term]
+id: XAO:0000391
+name: subinterstitial vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000392
+name: portal vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000393
+name: tail vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000394
+name: pulmonary vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000395
+name: medial abdominal vein
+relationship: develops_from XAO:0000358 ! veinous endothelia
+
+[Term]
+id: XAO:0000396
+name: head somite 1
+def: "Transient somite, exists from stages 17 to 26 only." [XB:curator "Xenbase"]
+is_a: XAO:0000313 ! head somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: end_stage XAO:1000042 ! NF stage 26
+relationship: start_stage XAO:1000027 ! NF stage 17
+
+[Term]
+id: XAO:0000397
+name: sclerotome
+relationship: develops_from XAO:0000396 ! head somite 1
+relationship: develops_from XAO:0000403 ! head somite 2
+relationship: develops_from XAO:0000404 ! head somite 3
+relationship: develops_from XAO:0000405 ! head somite 4
+relationship: develops_from XAO:0000406 ! trunk somite 1
+relationship: develops_from XAO:0000407 ! trunk somite 2
+relationship: develops_from XAO:0000408 ! trunk somite 3
+relationship: develops_from XAO:0000409 ! trunk somite 4
+relationship: develops_from XAO:0000410 ! trunk somite 5
+relationship: develops_from XAO:0000411 ! trunk somite 6
+relationship: develops_from XAO:0000412 ! trunk somite 7
+relationship: develops_from XAO:0000416 ! trunk somite 8
+relationship: develops_from XAO:0000417 ! trunk somite 9
+relationship: develops_from XAO:0000418 ! trunk somite 10
+relationship: develops_from XAO:0000419 ! trunk somite 11
+relationship: develops_from XAO:0000420 ! trunk somite 12
+relationship: develops_from XAO:0000421 ! trunk somite 13
+relationship: develops_from XAO:0000422 ! trunk somite 14
+relationship: develops_from XAO:0000423 ! trunk somite 15
+relationship: develops_from XAO:0000424 ! trunk somite 16
+relationship: develops_from XAO:0000425 ! trunk somite 17
+relationship: part_of XAO:0000058 ! somite
+
+[Term]
+id: XAO:0000399
+name: tendon fibroblast
+is_a: XAO:0003017 ! fibroblast
+relationship: develops_from XAO:0000397 ! sclerotome
+
+[Term]
+id: XAO:0000401
+name: sclerotomal cartilage
+relationship: develops_from XAO:0000397 ! sclerotome
+
+[Term]
+id: XAO:0000403
+name: head somite 2
+def: "Transient somite, exists from stages 18 to 29 only." [XB:curator "Xenbase"]
+is_a: XAO:0000313 ! head somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0000404
+name: head somite 3
+def: "Transient somite, exists from stages 18 to 29/30 only." [XB:curator "Xenbase"]
+is_a: XAO:0000313 ! head somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0000405
+name: head somite 4
+def: "Transient somite, exists from stages 19 to late 30's." [XB:curator "Xenbase"]
+is_a: XAO:0000313 ! head somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0000406
+name: trunk somite 1
+def: "Initially the 5th somite, first forming around stage 19. As the head somites degenerate it becomes more anteriorly positioned. By stage 45 it is the most anterior somite and is adjacent to the otic vesicle." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 35)"]
+synonym: "5th somite" RELATED []
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000035 ! NF stage 19
+
+[Term]
+id: XAO:0000407
+name: trunk somite 2
+def: "Initially somite 6." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 35)"]
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000035 ! NF stage 19
+
+[Term]
+id: XAO:0000408
+name: trunk somite 3
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0000409
+name: trunk somite 4
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000410
+name: trunk somite 5
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000411
+name: trunk somite 6
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000412
+name: trunk somite 7
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000414
+name: sclerotomal mesenchyme
+relationship: develops_from XAO:0000397 ! sclerotome
+
+[Term]
+id: XAO:0000415
+name: notochordal sheath
+relationship: develops_from XAO:0000414 ! sclerotomal mesenchyme
+
+[Term]
+id: XAO:0000416
+name: trunk somite 8
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000417
+name: trunk somite 9
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000418
+name: trunk somite 10
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000419
+name: trunk somite 11
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000420
+name: trunk somite 12
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000421
+name: trunk somite 13
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000422
+name: trunk somite 14
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+
+[Term]
+id: XAO:0000423
+name: trunk somite 15
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000424
+name: trunk somite 16
+def: "Forms at stage 28, by which time head somite 1 has degenerated." [XB:curator "Xenbase"]
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000425
+name: trunk somite 17
+is_a: XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000426
+name: olfactory nerve
+relationship: develops_from XAO:0000005 ! olfactory placode
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0000427
+name: gasserian ganglion
+synonym: "gasserian ganglia" RELATED PLURAL []
+relationship: develops_from XAO:0000225 ! trigeminal placode
+
+[Term]
+id: XAO:0000428
+name: trigeminus ganglion
+synonym: "trigeminus ganglia" RELATED PLURAL []
+relationship: develops_from XAO:0000225 ! trigeminal placode
+
+[Term]
+id: XAO:0000429
+name: cephalic nerve
+relationship: develops_from XAO:0000225 ! trigeminal placode
+
+[Term]
+id: XAO:0000430
+name: Rathke's pouch
+relationship: develops_from XAO:0000269 ! mouth primordium
+
+[Term]
+id: XAO:0000431
+name: tooth
+synonym: "teeth" RELATED PLURAL []
+relationship: develops_from XAO:0000269 ! mouth primordium
+
+[Term]
+id: XAO:0000437
+name: death
+namespace: xenopus_developmental_stage
+is_a: XAO:1000000 ! Xenopus developmental stage
+
+[Term]
+id: XAO:0000439
+name: coelomic filter chamber
+synonym: "coelom" RELATED []
+relationship: part_of XAO:0000311 ! lateral plate mesoderm
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0000440
+name: lateral line placode
+synonym: "lateral line placodes" RELATED []
+relationship: develops_from XAO:0000305 ! cranial placode
+
+[Term]
+id: XAO:0000441
+name: infraorbital lateral line primordium
+relationship: develops_from XAO:0000440 ! lateral line placode
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000442
+name: supraorbital lateral line
+relationship: develops_from XAO:0000440 ! lateral line placode
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000443
+name: trunk lateral line
+relationship: develops_from XAO:0000440 ! lateral line placode
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000444
+name: thyroid primordium
+relationship: develops_from XAO:0000105 ! pharyngeal cavity
+relationship: end_stage XAO:1000061 ! NF stage 49
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0000445
+name: taste bud
+relationship: develops_from XAO:0000105 ! pharyngeal cavity
+relationship: develops_from XAO:0000446 ! tongue
+relationship: start_stage XAO:1000063 ! NF stage 51
+
+[Term]
+id: XAO:0000446
+name: tongue
+relationship: develops_from XAO:0000097 ! mandibular arch
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0000447
+name: first branchial arch
+relationship: develops_from XAO:0000251 ! third visceral pouch
+relationship: part_of XAO:0000099 ! branchial arches
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000448
+name: gill primordium
+relationship: develops_from XAO:0000447 ! first branchial arch
+relationship: develops_from XAO:0000449 ! second branchial arch
+relationship: end_stage XAO:1000051 ! NF stage 39
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000449
+name: second branchial arch
+relationship: develops_from XAO:0000254 ! fourth visceral pouch
+relationship: part_of XAO:0000099 ! branchial arches
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0000450
+name: epithelial bodies
+relationship: develops_from XAO:0000247 ! second visceral pouch
+relationship: develops_from XAO:0000447 ! first branchial arch
+relationship: start_stage XAO:1000055 ! NF stage 43
+
+[Term]
+id: XAO:0000451
+name: third branchial arch
+relationship: develops_from XAO:0000255 ! fifth visceral pouch
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000452
+name: ultimobranchial body
+relationship: develops_from XAO:0000453 ! fourth branchial arch
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0000453
+name: fourth branchial arch
+relationship: develops_from XAO:0000265 ! sixth visceral pouch
+
+[Term]
+id: XAO:0000454
+name: liver parenchyme
+relationship: develops_from XAO:0000101 ! liver diverticulum
+
+[Term]
+id: XAO:0000455
+name: biliary tree
+relationship: develops_from XAO:0000101 ! liver diverticulum
+
+[Term]
+id: XAO:0000457
+name: pyloric sphincter
+relationship: develops_from XAO:0000128 ! stomach
+
+[Term]
+id: XAO:0000458
+name: occipital lateral line
+relationship: develops_from XAO:0000440 ! lateral line placode
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
+
+[Term]
+id: XAO:0000459
+name: infraorbital lateral line
+relationship: develops_from XAO:0000441 ! infraorbital lateral line primordium
+
+[Term]
+id: XAO:0000460
+name: hyomandibular lateral line
+relationship: develops_from XAO:0000441 ! infraorbital lateral line primordium
+relationship: start_stage XAO:1000055 ! NF stage 43
+
+[Term]
+id: XAO:0000461
+name: trunk placode
+relationship: develops_from XAO:0000320 ! sensorial layer
+
+[Term]
+id: XAO:0000462
+name: dorsal lateral line
+relationship: develops_from XAO:0000461 ! trunk placode
+
+[Term]
+id: XAO:0000463
+name: middle lateral line
+relationship: develops_from XAO:0000461 ! trunk placode
+
+[Term]
+id: XAO:0000464
+name: ventral lateral line
+relationship: develops_from XAO:0000461 ! trunk placode
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000465
+name: caudal lateral line
+relationship: develops_from XAO:0000464 ! ventral lateral line
+relationship: start_stage XAO:1000056 ! NF stage 44
+
+[Term]
+id: XAO:0000467
+name: dorsal pancreatic bud
+relationship: develops_from XAO:0000103 ! midgut
+relationship: end_stage XAO:1000052 ! NF stage 40
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0000469
+name: dorsal fin
+relationship: develops_from XAO:0000319 ! trunk neural crest
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0000470
+name: unicellular glands
+def: "Glands of the larval skin, particularly common in the fins and adjacent skin of the trunk. Also formed in the former frontal gland area on the upper jaw." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 44)"]
+relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: start_stage XAO:1000062 ! NF stage 50
+
+[Term]
+id: XAO:0000471
+name: xanthophore
+xref: CL:0000430
+is_a: XAO:0003014 ! pigment cell
+relationship: develops_from XAO:0000319 ! trunk neural crest
+relationship: start_stage XAO:1000058 ! NF stage 46
+
+[Term]
+id: XAO:0000472
+name: iridophore
+synonym: "guanophore" RELATED []
+xref: CL:0000431
+is_a: XAO:0003014 ! pigment cell
+relationship: develops_from XAO:0000319 ! trunk neural crest
+relationship: start_stage XAO:1000071 ! NF stage 59
+
+[Term]
+id: XAO:0000474
+name: choroid fissure
+def: "A break in the continuity of the optic cup where the two sides of the cup meet." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 77)"]
+relationship: develops_from XAO:0000228 ! eye vesicle
+relationship: end_stage XAO:1000058 ! NF stage 46
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0000475
+name: optic stalk
+relationship: develops_from XAO:0000228 ! eye vesicle
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0001001
+name: cranial neural crest
+synonym: "head crest" RELATED []
+relationship: end_stage XAO:1000046 ! NF stage 31
+relationship: part_of XAO:0000048 ! neural crest
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0001002
+name: lung primordium
+def: "A pair of lateral diverticula just over the liver rudiment representing the primordia of the lungs, formed by the floor of the foregut just anterior to the liver diverticulum." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 42)"]
+synonym: "lateral diverticula" RELATED []
+relationship: develops_from XAO:0000232 ! foregut
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0001010
+name: circulatory system
+def: "The blood vessels through which blood is circulated through the body." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003002 ! anatomical system
+
+[Term]
+id: XAO:0001011
+name: blood vessel
+def: "Any one of the tubular vessels conveying the blood." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "vasculature" RELATED []
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0001010 ! circulatory system
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0001012
+name: Stirnorgan
+relationship: develops_from XAO:0000160 ! pineal gland
+
+[Term]
+id: XAO:0001013
+name: facial muscle
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000172 ! muscle
+relationship: start_stage XAO:1000052 ! NF stage 40
+
+[Term]
+id: XAO:0001014
+name: melanophore
+def: "Cell type that contains granules of the black pigment melanin." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "melanocyte" RELATED []
+synonym: "pigment cell" RELATED []
+xref: CL:0000148
+is_a: XAO:0003014 ! pigment cell
+relationship: develops_from XAO:0000319 ! trunk neural crest
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0001015
+name: rectal diverticulum
+synonym: "rectal diverticula" RELATED PLURAL []
+relationship: develops_from XAO:0000244 ! cloaca
+relationship: part_of XAO:0002000 ! pronephric kidney
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0001016
+name: abdominal myoblast
+is_a: XAO:0003015 ! myoblast
+relationship: part_of XAO:0000172 ! muscle
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0001017
+name: connective tissue
+def: "Tissue that is rich in extracellular matrix (collagen, proteoglycan etc.) and that surrounds other more highly ordered tissues and organs." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0001018
+name: anterior lymph sac
+synonym: "rostral lymph sac" RELATED []
+relationship: develops_from XAO:0000358 ! veinous endothelia
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0001019
+name: proctodeum
+def: "An inward fold on the surface of the embryonic ectoderm that develops into part of the anal passage." [ZFIN:ZDB-ANAT-010921-484]
+xref: ZFIN:ZDB-ANAT-010921-484
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: part_of XAO:0000125 ! alimentary system
+relationship: start_stage XAO:1000037 ! NF stage 21
+
+[Term]
+id: XAO:0001020
+name: elastica externa
+def: "Notochordal sheath or membrane. First indication at stage 24, distinct membrane by stage 28." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 36)"]
+synonym: "notochordal sheath" RELATED []
+relationship: develops_from XAO:0000055 ! notochord
+relationship: end_stage XAO:1000074 ! NF stage 62
+relationship: start_stage XAO:1000040 ! NF stage 24
+
+[Term]
+id: XAO:0001021
+name: notochordal epithelium
+relationship: develops_from XAO:0000055 ! notochord
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0001101
+name: first pancreatic bud
+relationship: develops_from XAO:0000232 ! foregut
+relationship: end_stage XAO:1000051 ! NF stage 39
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
+
+[Term]
+id: XAO:0001102
+name: second pancreatic bud
+relationship: develops_from XAO:0000232 ! foregut
+
+[Term]
+id: XAO:0001103
+name: ventral pancreatic bud
+relationship: develops_from XAO:0001101 ! first pancreatic bud
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0002000
+name: pronephric kidney
+def: "Transient kidney providing osmoregulation during early developmental stages. Degenerates during metamorphosis." [XB:curator "Xenbase"]
+synonym: "pronephros" RELATED []
+relationship: develops_from XAO:0000264 ! pronephric mesenchyme
+relationship: part_of XAO:0000143 ! urinary system
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+
+[Term]
+id: XAO:0003000
+name: anatomical structure
+def: "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome." [CARO:0000003]
+xref: CARO:0000003
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0003001
+name: anatomical group
+def: "Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue." [CARO:0000054]
+xref: CARO:0000054
+is_a: XAO:0003000 ! anatomical structure
+
+[Term]
+id: XAO:0003002
+name: anatomical system
+def: "Anatomical group that has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity." [CARO:0000011]
+xref: CARO:0000011
+is_a: XAO:0003001 ! anatomical group
+
+[Term]
+id: XAO:0003003
+name: unspecified
+def: "Annotation of data with this anatomy term indicates that a structure or tissue was not specified by the investigator." [XB:curator "Xenbase"]
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0003004
+name: whole organism
+def: "Anatomical structure that is an individual member of Xenopus laevis." [CARO:0000012]
+xref: CARO:0000012
+is_a: XAO:0003000 ! anatomical structure
+
+[Term]
+id: XAO:0003005
+name: female organism
+def: "Gonochoristic organism that can produce female gametes." [CARO:0000028]
+xref: CARO:0000028
+is_a: XAO:0003004 ! whole organism
+
+[Term]
+id: XAO:0003006
+name: male organism
+def: "Gonochoristic organism that can produce male gametes." [CARO:0000027]
+xref: CARO:0000027
+is_a: XAO:0003004 ! whole organism
+
+[Term]
+id: XAO:0003007
+name: anatomical entity in vitro
+namespace: xenopus_anatomy_in_vitro
+is_a: XAO:0000000 ! Xenopus anatomical entity
+
+[Term]
+id: XAO:0003008
+name: activin-induced ectoderm
+namespace: xenopus_anatomy_in_vitro
+is_a: XAO:0003007 ! anatomical entity in vitro
+
+[Term]
+id: XAO:0003009
+name: disaggregated/reaggregated ectoderm treated with activin
+namespace: xenopus_anatomy_in_vitro
+is_a: XAO:0003007 ! anatomical entity in vitro
+
+[Term]
+id: XAO:0003010
+name: aorta
+is_a: XAO:0000114 ! artery
+
+[Term]
+id: XAO:0003011
+name: primary germ layer
+def: "A layer of cells produced during the process of gastrulation during the early development of the embryo. The three types of germ layer are the endoderm, ectoderm, and mesoderm." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "embryonic germ layer" RELATED []
+synonym: "germ layer" RELATED []
+xref: ZFIN:ZDB-ANAT-050228-35
+relationship: part_of XAO:0000113 ! embryo
+
+[Term]
+id: XAO:0003012
+name: cell
+def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [GO:0005623]
+xref: CARO:0000013
+is_a: XAO:0003000 ! anatomical structure
+
+[Term]
+id: XAO:0003013
+name: organism subdivision
+def: "Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism." [CL:0000032]
+synonym: "body part" RELATED []
+xref: CL:0000032
+is_a: XAO:0003000 ! anatomical structure
+
+[Term]
+id: XAO:0003014
+name: pigment cell
+def: "A cell containing colouring matter. The first chromatophores differentiate in the head and trunk at stage 33/34. By stage 56 the larval pigmentation pattern has been fully differentiated." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 44-51)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+synonym: "chromatophore" RELATED []
+xref: CL:0000147
+is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0003015
+name: myoblast
+def: "An embryonic (precursor) cell of the myogenic lineage that develops from the mesoderm." [CL:0000056]
+xref: CL:0000056
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0003016
+name: blastoderm cell
+def: "An undifferentiated cell produced by early cleavages of the fertilized egg (zygote)." [CL:0000353]
+synonym: "blastomere" EXACT []
+xref: CL:0000353
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0003017
+name: fibroblast
+def: "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules." [CL:0000057]
+xref: CL:0000057
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0003018
+name: primary spermatogonium
+synonym: "primary spermatogonia" RELATED PLURAL []
+relationship: part_of XAO:0000157 ! testis
+
+[Term]
+id: XAO:0003019
+name: spermatocyte
+def: "The developing male gamete." [XB:curator "Xenbase"]
+xref: CL:0000017
+is_a: XAO:0000111 ! germ cell
+relationship: develops_from XAO:0003020 ! secondary spermatogonium
+
+[Term]
+id: XAO:0003020
+name: secondary spermatogonium
+synonym: "secondary spermatogonia" RELATED PLURAL []
+relationship: develops_from XAO:0003018 ! primary spermatogonium
+
+[Term]
+id: XAO:0003021
+name: spinal cord neuron
+is_obsolete: true
+
+[Term]
+id: XAO:0003022
+name: Rohon-Beard neuron
+def: "Primary mechanosensory cell with peripheral neurites innervating the skin with free nerve endings. Cells first appear in trunk levels at stage 33/34. At stage 35/36 their somas are the largest in the cord and form a nearly continuous double row of cells along its medial dorsal surface. They contribute ascending and descending axons to the dorsal tract. By stage 39 they appear well back into the tail. They begin to decline at stage 50 and only a few, with pycnotic nuclei, remain at stage 55." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 67-69)", PMID:17506218 "Roberts A and Clarke JD"]
+synonym: "Rohon Beard cell" RELATED []
+xref: CL:0000247
+is_a: XAO:0003023 ! neuron
+relationship: end_stage XAO:1000067 ! NF stage 55
+relationship: part_of XAO:0000020 ! spinal cord
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+
+[Term]
+id: XAO:0003023
+name: neuron
+def: "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system." [CL:0000540]
+synonym: "nerve cell" RELATED []
+xref: CL:0000540
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0003024
+name: head
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0003025
+name: trunk
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0003026
+name: tail
+def: "Terminal, flexible posterior appendage of the larva. Resorption of the tail during metamorphosis begins with degeneration of the notochord's distal tip at stage 61. Degeneration extends gradually to more proximal regions of the tail and reaches the proximal end by stage 62. At stage 66 the tail is represented only by a small dorsal swelling." [ISBN:0471209627 "Deuchar EM (pg. 121)", OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003013 ! organism subdivision
+relationship: end_stage XAO:1000078 ! NF stage 66
+
+[Term]
+id: XAO:0003027
+name: limb
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0003028
+name: surface structure
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0003029
+name: mouth
+def: "The opening of the head through which the animal receives food." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+relationship: part_of XAO:0003024 ! head
+
+[Term]
+id: XAO:0003030
+name: forelimb
+is_a: XAO:0003027 ! limb
+
+[Term]
+id: XAO:0003031
+name: hindlimb
+is_a: XAO:0003027 ! limb
+
+[Term]
+id: XAO:0003032
+name: digit
+relationship: part_of XAO:0003030 ! forelimb
+relationship: part_of XAO:0003031 ! hindlimb
+
+[Term]
+id: XAO:0003033
+name: nostril
+def: "One of the small external openings of the head that give passage to air for breathing." [OMD:entry "http://cancerweb.ncl.ac.uk/omd/"]
+is_a: XAO:0003028 ! surface structure
+relationship: part_of XAO:0003024 ! head
+
+[Term]
+id: XAO:0003034
+name: viscus
+def: "An internal organ of the body; especially: one (as the heart, liver, or intestine) located in the great cavity of the trunk proper." [BTO:0001491]
+synonym: "viscera" RELATED PLURAL []
+relationship: part_of XAO:0003025 ! trunk
+
+[Term]
+id: XAO:1000000
+name: Xenopus developmental stage
+namespace: xenopus_developmental_stage
+
+[Term]
+id: XAO:1000001
+name: NF stage 1
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 1. Age: 0 hr. External Stage Criteria: One cell stage, shortly after fertilization. Pigmentation darker ventrally than dorsally." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163)"]
+synonym: "zygote" RELATED []
+xref: ZFIN:ZDB-STAGE-010723-4
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000002
+name: early tailbud
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 22 to the end of stage 28." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000007 ! tailbud
+
+[Term]
+id: XAO:1000003
+name: blastula
+namespace: xenopus_developmental_stage
+def: "From the 64-cell embryo to Nieuwkoop and Faber stage 9." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000004
+name: cleavage
+namespace: xenopus_developmental_stage
+def: "From the 2-cell to the 64-cell embryos." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000005
+name: gastrula
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 10 to stage 12.5." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000006
+name: neurula
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 13 to stage 21." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000007
+name: tailbud
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 20 to stage 44 (feeding stage)." [ISBN:0815318960 "Nieuwkoop and Faber"]
+synonym: "organogenesis" RELATED []
+is_a: XAO:1000012 ! embryo
+
+[Term]
+id: XAO:1000008
+name: tadpole
+namespace: xenopus_developmental_stage
+def: "From feeding stage to the end of metamorphosis." [XB:curator "Xenbase"]
+is_a: XAO:1000000 ! Xenopus developmental stage
+
+[Term]
+id: XAO:1000009
+name: adult
+namespace: xenopus_developmental_stage
+def: "Fully mature animal. After Nieuwkoop and Faber stage 66." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000000 ! Xenopus developmental stage
+
+[Term]
+id: XAO:1000010
+name: juvenile
+namespace: xenopus_developmental_stage
+def: "Sexually immature adult animal." [XB:curator "Xenbase"]
+is_a: XAO:1000009 ! adult
+
+[Term]
+id: XAO:1000011
+name: NF stage 2, 2-cell stage
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 2. Age: 1 hr 30 min at 22-24 Celsius. External Stage Criteria: Advanced two cell stage. First cleavage groove has reached vegetal pole. Ventral side of blastomeres darker than dorsal side." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163)"]
+xref: ZFIN:ZDB-STAGE-010723-15
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000012
+name: embryo
+namespace: xenopus_developmental_stage
+def: "From fertilization to feeding stage." [XB:curator "Xenbase"]
+is_a: XAO:1000000 ! Xenopus developmental stage
+
+[Term]
+id: XAO:1000013
+name: NF stage 3, 4-cell stage
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 3. Age: 2 hr at 22-24 Celsius. External Stage Criteria: Advanced four-cell stage. Second cleavage groove has reached vegetal pole. In animal view dorsal blastomeres usually smaller than ventral ones; the latter darker than the former." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163)"]
+xref: ZFIN:ZDB-STAGE-010723-11
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000014
+name: NF stage 4, 8-cell stage
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 4. Age: 2 hr 15 min at 22-24 Celsius. External Stage Criteria: Advanced eight cell stage. Dorsal micro- and macromeres usually smaller than ventral ones; dorsal micromeres less pigmented than ventral ones." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163)"]
+xref: ZFIN:ZDB-STAGE-010723-33
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000015
+name: NF stage 5, 16-cell stage
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 5. Age: 2 hr 45 min at 22-24 Celsius. External Stage Criteria: Advanced sixteen cell stage. Dorsal micromeres distinctly smaller and less pigmented than ventral ones. Macromeres entirely separated by cleavage grooves." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163-4)"]
+xref: ZFIN:ZDB-STAGE-010723-20
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000016
+name: NF stage 6, 32-cell stage
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 6. Age: 3 hr at 22-24 Celsius. External Stage Criteria: Advanced thirty-two cell stage. Distinction between dorsal and ventral micromeres as in preceding stage." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 164)"]
+xref: ZFIN:ZDB-STAGE-010723-25
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000017
+name: NF stage 7
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 7, 64-cell embryo. Age: 4 hr at 22-24 Celsius. External Stage Criteria: Large-cell blastula stage. In animal view about 10 micromeres along meridian." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 164)"]
+synonym: "64-cell stage" RELATED []
+xref: ZFIN:ZDB-STAGE-010723-28
+is_a: XAO:1000003 ! blastula
+
+[Term]
+id: XAO:1000018
+name: NF stage 8
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 8, 128-cell embryo. Age: 5 hr at 22-24 Celsius. External Stage Criteria: Medium-cell blastula stage. Surface not yet entirely smooth. Border of animal pigment cap more diffuse at dorsal than at lateral and ventral sides. Gradual transition in cell size from animal to vegetative pole." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 164)"]
+synonym: "128-cell stage" RELATED []
+is_a: XAO:1000003 ! blastula
+
+[Term]
+id: XAO:1000019
+name: NF stage 9
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 9. Age: 7 hr at 22-24 Celsius. External Stage Criteria: Fine-cell blastula stage. Animal cells smaller at dorsal than at ventral side. Border between marginal zone and vegetative field distinct, particularly dorsally, owing to difference in cell size." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 164-5)"]
+is_a: XAO:1000003 ! blastula
+
+[Term]
+id: XAO:1000020
+name: NF stage 10
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 10. Age: 9 hr at 22-24 Celsius. External Stage Criteria: Initial gastrula stage. First indication of blastopore only by pigment concentration. No formation of groove." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 165)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000021
+name: NF stage 11
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 11. Age: 11 hr 45 min at 22-24 Celsius. External Stage Criteria: Horse-shoe-shaped blastopore stage. Blastopore groove surrounding about half of future yolk plug and indicated at its ventral side; future yolk plug often rounded rectangular, slightly elongated in dorso-ventral direction, diameter more than two-fifths of diameter of egg (plus or minus 50 degrees of circumference)." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 165)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000022
+name: NF stage 12
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 12. Age: 13 hr 15 min at 22-24 Celsius. External Stage Criteria: Medium yolk plug stage. Yolk plug circular; diameter somewhat less than one fourth of diameter of egg (plus or minus 25 degrees). More and less pigmented fields radiating from yolk plug." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 166)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000023
+name: NF stage 13
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 13. Age: 14 hr 45 min at 22-24 Celsius. External Stage Criteria: Slit-blastopore stage. Neural plate faintly delimited; slight elevation of its rostral part and slight flattening of its caudal part. Caudal part of median groove formed." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 166)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000024
+name: NF stage 14
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 14. Age: 16 hr 15 min at 22-24 Celsius. External Stage Criteria: Neural plate stage. Cerebral part of neural plate bent downwards, with median elevation at rostral end of median groove. Initial elevation of neural folds, most pronounced in future nucal region. Blastopore always slit-shaped." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 167)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000025
+name: NF stage 15
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 15. Age: 17 hr 30 min at 22-24 Celsius. External Stage Criteria: Early neural fold stage. Presumptive cement gland faintly circumscribed. Anterior part of neural plate roundish. Neural folds distinct, except medio-rostrally; initial formation of sharp inner ridges on neural folds in rhombencephalic region." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 167)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000026
+name: NF stage 16
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 16. Age: 18 hr 15 min at 22-24 Celsius. External Stage Criteria: Mid neural fold stage. Anterior part of neural plate rectangular; darkly pigmented eye anlagen present; neural plate sharply constricted in the middle. Inner ridges on neural folds forming angle of about 90 degrees with neural plate in rhombencephalic region." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 167)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000027
+name: NF stage 17
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 17. Age: 18 hr 45 min at 22-24 Celsius. External Stage Criteria: Late neural fold stage. Anterior part of neural plate oblong triangular, angles formed by eye anlagen. Neural folds approaching each other from blastopore up to anterior trunk region." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 168)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000028
+name: NF stage 2 minus
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 2 minus. Age: 1 hr 15 min at 22-24 Celsius. External Stage Criteria: Beginning of first cleavage. First cleavage groove has not yet reached vegetal pole." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 163)"]
+synonym: "NF stage 2-" EXACT []
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000029
+name: NF stage 6.5
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 6.5. Age: 3 hr 30 min at 22-24 Celsius. External Stage Criteria: Morula stage. About 48 blastomeres. In animal view about 6 micromeres along meridian." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 164)"]
+is_a: XAO:1000004 ! cleavage
+
+[Term]
+id: XAO:1000030
+name: NF stage 10.25
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 10.25. Age: 10 hr at 22-24 Celsius. External Stage Criteria: Early gastrula stage. First formation of dorsal blastopore groove; groove still straight." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 165)"]
+synonym: "NF stage 10plus" RELATED []
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000031
+name: NF stage 10.5
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 10.5. Age: 11 hr at 22-24 Celsius. External Stage Criteria: Crescent-shaped blastopore stage. Blastopore groove angular. Vegetal field slightly decreased in size, ventral border of future yolk plug indicated by pigment contraction." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 165)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000032
+name: NF stage 11.5
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 11.5. Age: 12 hr 30 min at 22-24 Celsius. External Stage Criteria: Large yolk plug stage. Blastopore groove closed ventrally; yolk plug not yet quite circular. At ventral side concentrated superficial pigment still visible. Diameter of yolk plug about a third of diameter of egg (plus or minus 40 degrees)." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 166)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000033
+name: NF stage 12.5
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 12.5. Age: 14 hr 15 min at 22-24 Celsius. External Stage Criteria: Small yolk plug stage. Future position of neural plate and median groove indicated by darker pigment lines. Yolk plug usually ovoid, variable in size." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 166)"]
+is_a: XAO:1000005 ! gastrula
+
+[Term]
+id: XAO:1000034
+name: NF stage 18
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 18. Age: 19 hr 45 min at 22-24 Celsius. External Stage Criteria: Neural groove stage. Anterior part of neural plate narrow, more or less club-shaped, often narrower towards rostral end. Parallel neural folds in trunk region very close to each other, not yet touching." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 168)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000035
+name: NF stage 19
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 19. Age: 20 hr 45 min at 22-24 Celsius. External Stage Criteria: Initial neural tube stage. Neural folds touching each other, except for inconstant openings at anterior and posterior end and behind nucal region. Considerable lateral extension of brain. Lateral outline of embryo still convex." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 168)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000036
+name: NF stage 20
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 20. Age: 21 hr 45 min at 22-24 Celsius. External Stage Criteria: Neural folds fused, suture still present. The two eye anlagen showing through dumb-bell-shaped, eyes hardly protruding. Beginning of stretching of embryos. Lateral outline flat." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 168)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000037
+name: NF stage 21
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 21. Age: 22 hr 30 min at 22-24 Celsius. External Stage Criteria: Suture of neural tube completely closed. Delimitation of frontal field by pigment lines. Primary eye vesicles showing through in the form of two separate, obliquely placed oval spots; beginning of protrusion of eyes. Lateral outline of embryo just becoming concave, ventral outline flat." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 169)"]
+is_a: XAO:1000006 ! neurula
+
+[Term]
+id: XAO:1000038
+name: NF stage 22
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 22. Age: 24 hr at 22-24 Celsius. External Stage Criteria: Distinct protrusion of eyes. Initial groove between jaw- and gill-areas only at latero-dorsal side. Lateral and ventral outlines of embryo slightly concave. Anal opening displaced to ventral side. Vitelline membrane becoming wider." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 169)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000039
+name: NF stage 23
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 23. Age: 1 day, 45 min at 22-24 Celsius. External Stage Criteria: Jaw- and gill-areas completely separated by groove. Ventral outline of embryo more concave." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 169)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000040
+name: NF stage 24
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 24. Age: 1 day, 2 hr 15 min at 22-24 Celsius. External Stage Criteria: Eyes protruding less far laterally than gill-area. Gill-area more prominent than jaw-area, gill-area not yet grooved. Ventral outline of embryo nicked. Tail bud discernible. Initial motor reactions to external stimulation." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 170)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000041
+name: NF stage 25
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 25. Age: 1 day, 3 hr 30 min at 22-24 Celsius. External Stage Criteria: Eyes protruding equally far or further laterally than gill-area. Gill-area grooved. Invagination of otic vesicle indicated by pigment spot. Beginning of fin formation." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 170)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000042
+name: NF stage 26
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 26. Age: 1 day, 5 hr 30 min at 22-24 Celsius. External Stage Criteria: otic vesicle protruding. Pronephros distinctly visible. Myotomes showing through for the first time. Fin somewhat broadened at dorso-caudal end of body. Beginning of spontaneous movements." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 170)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000043
+name: NF stage 27
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 27. Age: 1 day, 7 hr 15 min at 22-24 Celsius. External Stage Criteria: Lateral flattening of eyes. Fin transluscent, except for region behind anus. Tail bud formation accentuated in lateral outline." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 170)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000044
+name: NF stage 28
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 28. Age: 1 day, 8 hr 30 min at 22-24 Celsius. External Stage Criteria: Fin extending up to anus. Fin broadened and distinctly divided into outer transparent and inner translucent band." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 171)"]
+is_a: XAO:1000002 ! early tailbud
+
+[Term]
+id: XAO:1000045
+name: NF stage 29 and 30
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 29 and 30. Age: 1 day, 11 hr at 22-24 Celsius. External Stage Criteria: Gray eye cup showing through for the first time. Fin transparent up to the base over its whole length. Tail bud distinct." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 171)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000046
+name: NF stage 31
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 31. Age: 1 day, 13 hr 30 min at 22-24 Celsius. External Stage Criteria: Tail bud equally long as broad." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 171)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000047
+name: NF stage 32
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 32. Age: 1 day, 16 hr at 22-24 Celsius. External Stage Criteria: Eye cup horse-shoe-shaped, standing out distinctly. Length of tail bud about 1.5 times its breadth." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 172)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000048
+name: NF stage 33 and 34
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 33 and 34. Age: 1 day, 20 hr 30 min at 22-24 Celsius. External Stage Criteria: Stomodeal invagination a shallow vertical groove. Dorsal part of eye more pigmented than ventral part; distinct melanophores in dorsal part. Melanophores appearing dorsally on the head and laterally in a row extending from just below the pronephros backwards. Length of tail bud about twice its breadth. Beginning of heart beat." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 172)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000049
+name: NF stage 35 and 36
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 35 and 36. Age: 2 days, 2 hr at 22-24 Celsius. External Stage Criteria: Stomodeal invagination roundish. Eye entirely black, choroid fissure nearly closed. Formation of two gill rudiments, anterior one nipple-shaped. Melanophores appearing on back. Posterior outline of proctodeum still curved. Length of tail bud about three times its breadth. Beginning of hatching." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 173)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000050
+name: NF stage 37 and 38
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 37 and 38. Age: 2 days, 5 hr 30 min at 22-24 Celsius. External Stage Criteria: Stomodeal invagination much deeper, opening round. Both gill rudiments nipple-shaped, a branch of the anterior one indicated. Posterior outline of proctodeum straight, forming very obtuse angle with ventral border of tail myotomes. Melanophores spreading over tail." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 173)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000051
+name: NF stage 39
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 39. Age: 2 days, 8 hr 30 min at 22-24 Celsius. External Stage Criteria: Melanophores appearing around nasal pits. Opening of stomodeal invagination transversely elongated. Melanophores on back arranged in a superficial and a deeper layer. Outlines of proctodeum and tail myotomes forming angle of about 135 degrees. Melanophores appearing along ventral edge of tail musculature." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 174)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000052
+name: NF stage 40
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 40. Age: 2 days, 18 hr at 22-24 Celsius. External Stage Criteria: Mouth broken through. Length of gills about twice their breadth, posterior one sometimes also showing a branch. Outlines of proctodeum and tail myotomes forming angles of 90 degrees. Beginning of blood circulation in gills." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 174)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000053
+name: NF stage 41
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 41. Age: 3 days, 4 hr at 22-24 Celsius. External Stage Criteria: Gills broader and flatter, more laterally directed. Formation of a left-rostral and a right-caudal furrow in yolk mass; torsion of interjacent part about 45 degrees; formation of conical proctodeum, forming angle of about 60 degrees with tail myotomes. Formation of fin rostral to proctodeum; ventral outline of yolk mass and proctodeum a smooth concave line." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 175)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000054
+name: NF stage 42
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 42. Age: 3 days, 8 hr at 22-24 Celsius. External Stage Criteria: Beginning of formation of opercular folds. Torsion of intestine about 90 degrees; proctodeum connected with yolk mass by short horizontal intestinal tube." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 175)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000055
+name: NF stage 43
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 43. Age: 3 days, 15 hr at 22-24 Celsius. External Stage Criteria: Lateral line system becoming visible externally. Cement gland losing its pigment. Torsion of intestine about 180 degrees; proctodeum narrower, arched or S-shaped." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 176)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000056
+name: NF stage 44
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 44. Age: 3 days, 20 hr at 22-24 Celsius. External Stage Criteria: Appearance of tentacle rudiments. Opercular folds protruding further. Coiling part of intestine showing S-shaped loop; torsion about 360 degrees. Blood-circulation in gills usually ceased (gills smaller)." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 176)"]
+is_a: XAO:1000080 ! late tailbud
+
+[Term]
+id: XAO:1000057
+name: NF stage 45
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 45. Age: 4 days, 2 hr at 22-24 Celsius. External Stage Criteria: Operculum partly covering gills, edge still straight. Intestine spiralized in ventral aspects, showing 1.5 revolutions. Beginning of feeding." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 177)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000058
+name: NF stage 46
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 46. Age: 4 days, 10 hr at 22-24 Celsius. External Stage Criteria: Edge of operculum becoming convex. Xantophores appearing on eye and abdomen. Intestine showing 2 to 2.5 revolutions. Hindlimb bud visible for the first time." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 177)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000059
+name: NF stage 47
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 47. Age: 5 days, 12 hr at 22-24 Celsius. External Stage Criteria: Tentacles larger. Edge of operculum forming quarter of a circle. Xantophores forming opaque layer on abdomen. Intestine showing 2.5 to 3.5 revolutions. Hindlimb bud more distinct." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 177)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000060
+name: NF stage 48
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 48. Age: 7.5 days at 22-24 Celsius. External Stage Criteria: Beginning of pigmentation around n. acusticus. Forelimb bud visible for the first time. Shining gold-coloured abdomen. Hindlimb bud semicircular in lateral aspect." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 178)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000061
+name: NF stage 49
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 49. Age: about 12 days at 22-24 Celsius. External Stage Criteria: Melanophores usually appearing around thymus gland and nerves and blood vessels of head; xantophores appearing on pericard. Forelimb bud distinct. Hindlimb bud somewhat longer, distal outline still circular, no constrictions at base. Melanophores appearing on dorsal and ventral fin." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 178)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000062
+name: NF stage 50
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 50. Age: about 15 days at 22-24 Celsius. External Stage Criteria: Forelimb bud somewhat oval-shaped in dorsal aspect. Hindlimb bud longer than broad, constricted at base, distal outline somewhat conical." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 179)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000063
+name: NF stage 51
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 51. Age: about 17 days at 22-24 Celsius. External Stage Criteria: Tentacles much longer. Forelimb bud oval-shaped in lateral aspect. Hindlimb bud conical in shape, its length about 1.5 times its breadth; melanophores appearing on it." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 180)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000064
+name: NF stage 52
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 52. Age: about 21 days at 22-24 Celsius. External Stage Criteria: Forelimb bud irregularly conical. Hindlimb bud showing first indication of ankle constriction and first sign of flattening of foot." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 180)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000065
+name: NF stage 53
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 53. Age: about 24 days at 22-24 Celsius. External Stage Criteria: Fore- and hindlimbs in paddle stage. Hindlimb whithout foot somewhat longer than broad; 4th and 5th toe indicated." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 181)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000066
+name: NF stage 54
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 54. Age: about 26 days at 22-24 Celsius. External Stage Criteria: All four fingers indicated; edge of hand slightly scalloped between fingers; melanophores appearing on forelimb. Length of hindlimb without foot nearly twice its breadth; all five toes indicated, the second only very slightly." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 181)"]
+is_a: XAO:1000089 ! premetamorphosis
+
+[Term]
+id: XAO:1000067
+name: NF stage 55
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 55. Age: about 32 days at 22-24 Celsius. External Stage Criteria: Hand pronated about 90 degrees; free parts of fingers about equally long as broad. Length of hindlimb without foot about 3 times its breadth; length of cartilages of 4th and 5th toe about 4 times their breadth." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 181)"]
+is_a: XAO:1000090 ! prometamorphosis
+
+[Term]
+id: XAO:1000068
+name: NF stage 56
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 56. Age: about 38 days at 22-24 Celsius. External Stage Criteria: Elbow and wrist clearly indicated; length of free parts of fingers 3 to 4 times their breadth. Length of cartilages of 4th and 5th toe about 6 times their breadth." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 182)"]
+is_a: XAO:1000090 ! prometamorphosis
+
+[Term]
+id: XAO:1000069
+name: NF stage 57
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 57. Age: about 41 days at 22-24 Celsius. External Stage Criteria: Pigment-free spot appearing above \"Stirnorgan\". Angle of elbow more than 90 degrees; fingers stretched out in forelimb atrium, their length about 7 times their breadth." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 183)"]
+is_a: XAO:1000090 ! prometamorphosis
+
+[Term]
+id: XAO:1000070
+name: NF stage 58
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 58. Age: about 44 days at 22-24 Celsius. External Stage Criteria: Forelimbs broken through. Guanophores appearing on abdomen and thighs (adult skin areas). All three claws present on hindlimbs." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 183)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000071
+name: NF stage 59
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 59. Age: about 45 days at 22-24 Celsius. External Stage Criteria: Tentacles beginning to shrivel up. Stretched forelimb reaching down to base of hindlimb. Guanophores appearing near base of forelimb (adult skin area); anterior border of adult skin area on abdomen not yet sharp; appearance of irregular dark spots on back." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 184)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000072
+name: NF stage 60
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 60. Age: about 46 days at 22-24 Celsius. External Stage Criteria: N. olfactorius still longer than bulbus olfactorius. Guanophores appearing on lower jaw (adult skin area). Openings of gill chambers still wide. Distal half of fingers of stretched forelimb extending beyond base of hindlimb; forelimb still situated behind level of heart. Adult skin area of base of forelimb covered with guanophores; anterior border of adult skin area on abdomen sharper, reaching up to heart." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 184)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000073
+name: NF stage 61
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 61. Age: about 48 days at 22-24 Celsius. External Stage Criteria: Head narrower. Tentacles considerably shortened, mostly curved backwards. Length of n. olfactorius equal to diameter of bulbus olfactorius. 4th arterial arch seen just in front of adult skin area of forelimb. Openings of gill chambers considerably narrowed. Forelimb at level of posterior half of heart. Adult skin area on abdomen covering posterior half of heart. Fins considerably reduced." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 185)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000074
+name: NF stage 62
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 62. Age: about 49 days at 22-24 Celsius. External Stage Criteria: Head still somewhat broader than cranial part of trunk. Tentacles short, straight. N. olfactorius shorter than diameter of bulbus olfactorius. Corner of mouth still in front of eye. Thymus gland somewhat protruding. 3rd arterial arch (\"larval aorta\") seen at distance of its own diameter in front of adult skin area of forelimb. Opening of operculum reduced to curved slit. Forelimb at level of middle of heart. Anterior border of adult skin area on abdomen entirely sharp, mostly nicked medially. Ventral fin disappeared from abdomen." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 186)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000075
+name: NF stage 63
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 63. Age: about 51 days at 22-24 Celsius. External Stage Criteria: Head narrower than trunk. Tentacles mostly disappeared. Corner of mouth at level of caudal border of eye. \"Larval aorta\" and thymus gland no longer externally visible. Operculum closed. Adult skin areas on abdomen and lower jaw separated by narrow band of larval skin. Forelimb at level of anterior half of heart. Fin mostly perforated near anus. Tail still slightly longer than body." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 186)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000076
+name: NF stage 64
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 64. Age: about 53 days at 22-24 Celsius. External Stage Criteria: Corner of mouth well behind eye. Various adult skin areas joined almost everywhere, borderlines still clearly visible. Length of tail (from anus) is a third of body length." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 187)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000077
+name: NF stage 65
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 65. Age: about 54 days at 22-24 Celsius. External Stage Criteria: Borderlines between adult skin areas partly disappeared. Tail oblong triangular in dorsal aspect, length abouth one tenth of body length." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 188)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000078
+name: NF stage 66
+namespace: xenopus_developmental_stage
+def: "Nieuwkoop and Faber stage 66. Age: about 58 days at 22-24 Celsius. External Stage Criteria: Border lines between adult skin areas disappeared. Tail only a very small triangle, no longer visible from ventral side." [ISBN:0815318960 "Nieuwkoop and Faber (pg. 188)"]
+is_a: XAO:1000091 ! climax
+
+[Term]
+id: XAO:1000079
+name: metamorphosing tadpole
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 54 to stage 66." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000008 ! tadpole
+
+[Term]
+id: XAO:1000080
+name: late tailbud
+namespace: xenopus_developmental_stage
+def: "From Nieuwkoop and Faber stage 29/30 to stage 44." [ISBN:0815318960 "Nieuwkoop and Faber"]
+is_a: XAO:1000007 ! tailbud
+
+[Term]
+id: XAO:1000081
+name: unknown
+namespace: xenopus_developmental_stage
+is_a: XAO:1000000 ! Xenopus developmental stage
+
+[Term]
+id: XAO:1000089
+name: premetamorphosis
+namespace: xenopus_developmental_stage
+def: "Limb bud growth. The period covering Nieuwkoop and Faber stage 45 to stage 53." [ISBN:unk "Dodd MHI and Dodd JM (1976)"]
+is_a: XAO:1000008 ! tadpole
+
+[Term]
+id: XAO:1000090
+name: prometamorphosis
+namespace: xenopus_developmental_stage
+def: "Toe differentiation and rapid hind limb growth. The period covering Nieuwkoop and Faber stage 53 to stage 57." [ISBN:unk "Dodd MHI and Dodd JM (1976)"]
+is_a: XAO:1000079 ! metamorphosing tadpole
+
+[Term]
+id: XAO:1000091
+name: climax
+namespace: xenopus_developmental_stage
+def: "Tail resorption. The period covering Nieuwkoop and Faber stage 58 to stage 66." [ISBN:unk "Dodd MHI and Dodd JM (1976)"]
+is_a: XAO:1000079 ! metamorphosing tadpole
+
+[Typedef]
+id: develops_from
+name: develops from
+is_transitive: true
+
+[Typedef]
+id: end_stage
+name: ends at
+
+[Typedef]
+id: part_of
+name: part of
+is_transitive: true
+
+[Typedef]
+id: start_stage
+name: starts at

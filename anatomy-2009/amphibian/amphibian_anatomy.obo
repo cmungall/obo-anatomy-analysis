@@ -1,0 +1,4305 @@
+format-version: 1.0
+date: 18:06:2008 13:34
+saved-by: annemaglia
+auto-generated-by: OBO-Edit 1.101
+default-namespace: amphibanat
+
+[Term]
+id: AAO:0000001
+name: adipose_tissue
+def: "Tissue that contains adipocytes, used for cushioning, thermal insulation, lubrication (primarily in the pericardium) and energy storage." [AAO:LAP]
+is_a: AAO:0000099 ! connective_tissue_proper
+
+[Term]
+id: AAO:0000002
+name: alary_cartilage
+def: "Paired, cup-shaped cartilage that are dorsal to the septomaxillae and anterior to the oblique cartilage. The anterior, convex face of each alary cartilage is synchondrotically fused to the superior prenasal cartilage and the ventral edge is fused to the superior margin of the crista intermedia." [AAO:LAP]
+related_synonym: "alinasal cartilage" []
+related_synonym: "cartilago alaris" []
+related_synonym: "cartilago alaris nasi" []
+related_synonym: "cartilago cupullaris" []
+related_synonym: "copula anterior" []
+related_synonym: "naseflngelknorpel" []
+related_synonym: "processus alaris" []
+related_synonym: "second upper labial" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000003
+name: alary_process_of_premaxilla
+def: "Dorsal process that extends toward the nasal bone. The posterior (inner) face of each alary process is concave and is invested dorsomedially by the superior prenasal cartilage and ventromedially by the inferior prenasal cartilage." [AAO:LAP]
+related_synonym: "dorsal process of premaxilla" []
+related_synonym: "pars dorsalis of premaxilla" []
+related_synonym: "pars facialis of premaxilla" []
+related_synonym: "pars frontalis of premaxilla" []
+related_synonym: "pars prenasalis of premaxilla" []
+related_synonym: "premaxillary spine" []
+related_synonym: "processus ascendens of premaxilla" []
+related_synonym: "processus frontalis of premaxilla" []
+related_synonym: "processus nasalis of premaxilla" []
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000006
+name: alveolar_foramen
+def: "Foramen for the R. alveolaris of Nerve VII and the alveolar artery." [AAO:LAP]
+is_a: AAO:0000273 ! lower_jaw_opening
+synonym: "inferior dental foramen" RELATED[]
+
+[Term]
+id: AAO:0000007
+name: anatomical_system
+
+[Term]
+id: AAO:0000010
+name: angular
+related_synonym: "postoperculare" []
+related_synonym: "praearticulare" []
+is_a: AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000012
+name: angulosplenial_coronoid_process
+def: "Point of insertion of the adductor mandibulae musculature." [AAO:LAP]
+is_a: AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000013
+name: animal_tissue
+is_a: AAO:0000607 ! tissue
+
+[Term]
+id: AAO:0000015
+name: anterior_maxillary_process
+def: "Process that extends anteriorly from the planum triangulare and invests the medial face of the pars facialis of the maxilla." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000016
+name: anterior_nasal_wall
+def: "Paired, vertical, and relatively straight plates that form the anterior limit of the nasal capsule." [AAO:LAP]
+related_synonym: "prenasal wall" []
+related_synonym: "solum anterius" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000017
+name: anterior_process_of_pars_palatina_of_maxilla
+relationship: part_of AAO:0000413 ! pars_palatina_of_maxilla
+
+[Term]
+id: AAO:0000018
+name: anterior_ramus_of_pterygoid
+def: "In a triradiate pterygoid, the process that extends anteriorly towards the maxilla." [AAO:LAP]
+related_synonym: "ramus maxillaris of pterygoid" []
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000020
+name: anterolateral_process_of_frontoparietal
+relationship: part_of AAO:0000207 ! frontoparietal
+
+[Term]
+id: AAO:0000022
+name: antorbital_process
+relationship: part_of AAO:0000400 ! pars_facialis_of_maxilla
+
+[Term]
+id: AAO:0000024
+name: apertura_nasalis_externa
+def: "Hole on the nasal capsule that connects the nasal cavity with the exterior." [AAO:LAP]
+related_synonym: "external naris" []
+related_synonym: "external nostril" []
+related_synonym: "nostril" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000025
+name: apertura_nasalis_interna
+def: "Hole on the nasal capsule that connects the nasal and buccal cavites." [AAO:LAP]
+related_synonym: "Choana" []
+related_synonym: "internal naris" []
+related_synonym: "internal nostril" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000027
+name: areolar_connective_tissue
+def: "Also known as loose connective tissue. A pliable, mesh-like tissue with a fluid matrix that functions to cushion and protect body organs." [AAO:LAP]
+is_a: AAO:0000099 ! connective_tissue_proper
+
+[Term]
+id: AAO:0000028
+name: articular
+def: "Endochondral ossification of the posterior articular part of Meckel's cartilage." [AAO:LAP]
+related_synonym: "angulaire" []
+related_synonym: "angulare" []
+related_synonym: "dermarticulare" []
+related_synonym: "goniale" []
+related_synonym: "operculo angulaire" []
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000031
+name: ascending_process_of_palatoquadrate
+related_synonym: "apophyse ascendens" []
+related_synonym: "cartilage craniofacial" []
+related_synonym: "oberste abteilung des zweiten visceralbogens" []
+related_synonym: "pedicle" []
+related_synonym: "pediculus" []
+related_synonym: "processus ascendens of palatoquadrate" []
+related_synonym: "schlafenflugelknorpel" []
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000032
+name: auditory_muscles
+is_a: AAO:0000107 ! cranial_muscles
+
+[Term]
+id: AAO:0000033
+name: autonomic_nervous_system
+is_a: AAO:0000429 ! peripheral_nervous_system
+
+[Term]
+id: AAO:0000034
+name: axial_skeleton
+def: "The axial skeleton is formed by the vertebral column, a metameric, semi-flexible, arched bar located in the dorsal part of the trunk, and is formed by a series of cartilaginous or bony vertebrae. It provides suspension for the appendicular skeleton and protection for the spinal nerve cord." [AAO:Pugener_and_Maglia_2008]
+related_synonym: "spinal column" []
+related_synonym: "vertebral column" []
+relationship: part_of AAO:0000566 ! skeletal_system
+
+[Term]
+id: AAO:0000036
+name: basal_process_of_palatoquadrate
+def: "Process that extends medially from the ventromedial corner of the palatoquadrate cartilage and articulates or fuses to the anterior wall of the otic capsule via the basitrabecular process." [AAO:LAP]
+related_synonym: "processus basalis" []
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000037
+name: basicranial_fontanelle
+def: "Ventral opening of the neurocranium." [AAO:LAP]
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000038
+name: basimandibulare
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000039
+name: basioccipital
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000040
+name: basisphenoid
+def: "Endochondral ossification of the ventromedial portion of the braincase." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000041
+name: bidders_organ
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000042
+name: blastoderm
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000043
+name: blastodisc
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000044
+name: blastomere
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000045
+name: blastopore
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000046
+name: blood
+def: "Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma." [AAO:LAP]
+is_a: AAO:0000571 ! specialized_connective_tissue
+
+[Term]
+id: AAO:0000047
+name: bone
+def: "Also called osseous tissue, (Latin: os). Is a type of hard endoskeletal connective tissue found in many vertebrate animals. Bone is the main tissue of body organs; organs that support body structures, protect internal organs, (in conjunction with muscles) facilitate movement; and are involved with cell formation, calcium metabolism, and mineral storage." [AAO:LAP]
+is_a: AAO:0000571 ! specialized_connective_tissue
+
+[Term]
+id: AAO:0000049
+name: bottle_cells
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000050
+name: braincase_and_auditory_apparatus
+def: "The part of the skull that encloses the brain and surrounds the inner ear." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000051
+name: braincase_and_otic_capsule_opening
+is_a: AAO:0000050 ! braincase_and_auditory_apparatus
+
+[Term]
+id: AAO:0000052
+name: braincase_and_otic_capsule_skeleton
+is_a: AAO:0000050 ! braincase_and_auditory_apparatus
+
+[Term]
+id: AAO:0000053
+name: buccal_cavity
+relationship: part_of AAO:0000129 ! digestive_system
+
+[Term]
+id: AAO:0000054
+name: buccopharyngeal_cavity
+relationship: part_of AAO:0000541 ! respiratory_system
+
+[Term]
+id: AAO:0000057
+name: canalis_semircularis_anterior
+relationship: part_of AAO:0000420 ! pars_superior_of_labyrinth
+
+[Term]
+id: AAO:0000058
+name: canalis_semircularis_posterior
+relationship: part_of AAO:0000420 ! pars_superior_of_labyrinth
+
+[Term]
+id: AAO:0000059
+name: capsular_process
+def: "Narrow process of the skeletal support that projects forward." [AAO:LAP]
+relationship: part_of AAO:0000565 ! skeletal_support_for_eminentia_olfactoria
+
+[Term]
+id: AAO:0000060
+name: cartilage
+def: "A type of dense connective tissue. It is composed of cells called chondrocytes which are dispersed in a firm gel-like ground substance, called the matrix. Cartilage is avascular (contains no blood vessels) and nutrients are diffused through the matrix. Cartilage is found in the joints, the rib cage, the ear, the nose, in the throat and between intervertebral disks. It makes up virtually the entire skeleton in chondrichthyes." [AAO:LAP]
+is_a: AAO:0000571 ! specialized_connective_tissue
+
+[Term]
+id: AAO:0000061
+name: cartilage_bridge
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000068
+name: cartilago_ectochoanalis
+def: "Lateral cartilaginous border of the fenestra endochoanalis." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000069
+name: cartilago_infranarina
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000074
+name: cartilago_orbitalis
+related_synonym: "dorsale randspange" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000078
+name: cartilago_prootico-occipitalis
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000079
+name: cartilago_retronarina
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000080
+name: caudal-sacral_region
+def: "Region of the vertebral column posterior to the sacrum consisting of two to four vertebrae. The last of these vertebrae is distinguished by the possession of a well-developed haemal arch; it supports the posterior part of the cloaca and marks the posterior limit of the trunk." [AAO:Duellman_and_Treub_1994]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000081
+name: caudal_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000082
+name: caudal_region
+def: "Region of the vertebral column posterior to the caudal-sacral region, that may consists of two or three to more than 100 vertebrae. These vertebrae exhibit a gradual reduction in the sizes of their transverse processes and zygapophyses, but these structures are never entirely absent. All caudal vertebrae bear haemal arches." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "postsacral region" []
+related_synonym: "tail region" []
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000085
+name: cavum_inferius
+def: "Accessory cavity located ventral to the cavum principale and cavum medius." [AAO:LAP]
+is_a: AAO:0000314 ! nasal_cavity
+
+[Term]
+id: AAO:0000086
+name: cavum_internasale
+is_a: AAO:0000314 ! nasal_cavity
+
+[Term]
+id: AAO:0000087
+name: cavum_medius
+def: "Small accessory cavity located between the cavum principale and cavum inferius." [AAO:LAP]
+is_a: AAO:0000314 ! nasal_cavity
+
+[Term]
+id: AAO:0000088
+name: cavum_praenasale
+is_a: AAO:0000314 ! nasal_cavity
+
+[Term]
+id: AAO:0000089
+name: cavum_principale
+def: "Largest and most dorsal of the nasal cavities." [AAO:LAP]
+is_a: AAO:0000314 ! nasal_cavity
+
+[Term]
+id: AAO:0000090
+name: central_nervous_system
+relationship: part_of AAO:0000324 ! nervous_system
+
+[Term]
+id: AAO:0000091
+name: cervical_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000092
+name: cervical_region
+def: "Anterior region of the vertebral column consisting of one to 19 or 20 vertebrae." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000093
+name: choana
+def: "Opening between the nasal cavity and the nasopharynx." [AAO:LAP]
+relationship: part_of AAO:0000541 ! respiratory_system
+
+[Term]
+id: AAO:0000094
+name: chondrocranium
+is_a: AAO:0000265 ! larval_structure
+
+[Term]
+id: AAO:0000095
+name: cloaca
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000098
+name: connective_tissue
+def: "One of the four types of tissue in traditional classifications. It is largely a category of exclusion rather than one with a precise definition, but there are certain characteristics shared by all or most tissues in this category, such as involvement in structure and support, derived from mesoderm, and characterized largely by the traits of non-living tissue." [AAO:LAP]
+is_a: AAO:0000013 ! animal_tissue
+
+[Term]
+id: AAO:0000099
+name: connective_tissue_proper
+is_a: AAO:0000098 ! connective_tissue
+
+[Term]
+id: AAO:0000103
+name: coronoid
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000104
+name: coronoid_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000107
+name: cranial_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000108
+name: cranial_nerves
+relationship: part_of AAO:0000324 ! nervous_system
+
+[Term]
+id: AAO:0000109
+name: cranial_skeleton
+def: "Bony structure that encases the central nervous system and the primary sense organs of sight, olfaction, hearing, and equilibrium." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000566 ! skeletal_system
+
+[Term]
+id: AAO:0000110
+name: crista_contacta
+def: "Thin, horizontal ridge that extends medially from the corpus of the septomaxilla; it lays on the lamina inferior." [AAO:LAP]
+relationship: part_of AAO:0000645 ! corpus
+
+[Term]
+id: AAO:0000111
+name: crista_dentalis_of_maxilla
+relationship: part_of AAO:0000396 ! pars_dentalis_of_maxilla
+
+[Term]
+id: AAO:0000112
+name: crista_dentalis_of_premaxilla
+related_synonym: "dental ridge of premaxilla" []
+relationship: part_of AAO:0000397 ! pars_dentalis_of_premaxilla
+
+[Term]
+id: AAO:0000113
+name: crista_intermedia
+def: "Paired, oblique plates of cartilage located ventral to the alary cartilages. The dorsomedial margin of each crista intermedia is fused to the transitional zone between the septum nasi and the tectum nasi, whereas the ventrolateral margin bears two laminae, the lamina superior and the lamina inferior." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000115
+name: crista_lateralis_of_premaxilla
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000116
+name: crista_parotica
+related_synonym: "processus muscularis capsulae auditivae" []
+related_synonym: "processus squamosus" []
+related_synonym: "tegmen tympani" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000117
+name: crista_subnasalis
+def: "Ventral crest of the paries nasi." [AAO:LAP]
+related_synonym: "subnasal crest" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000118
+name: crista_supraorbitalis
+def: "Short and blunt process that extends posteriorly from the posteromedial margin of the postnasal wall, on the anterodorsal corner of the orbit above the medial orbitonasal foramen." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000119
+name: cutaneous_muscles
+relationship: part_of AAO:0000611 ! trunk_muscles
+
+[Term]
+id: AAO:0000121
+name: dense_connective_tissue
+def: "Also known as fibrous connective tissue. Forms ligaments and tendons and is characterized by densely packed collagen fibers that have great tensile strength." [AAO:LAP]
+is_a: AAO:0000099 ! connective_tissue_proper
+
+[Term]
+id: AAO:0000124
+name: dentary
+def: "Ossified element of intramembranous origin that invests the lateral margin of the mentomeckelian bone and Meckel's cartilage, thus forming the lateral margin of the mandible." [AAO:LAP]
+related_synonym: "dentale" []
+related_synonym: "os dentale" []
+related_synonym: "sur-angulaire" []
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000125
+name: dentary_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000126
+name: dentition
+def: "Dentition refers to set of teeth, especially with regard to their number, kind, and arrangement, in the mouth." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000128
+name: dermis
+is_a: AAO:0000239 ! integument
+
+[Term]
+id: AAO:0000129
+name: digestive_system
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000130
+name: digestive_system_glands
+relationship: part_of AAO:0000129 ! digestive_system
+
+[Term]
+id: AAO:0000131
+name: dilatatio_alaris
+def: "Flange that extends ventrally from about the middle portion of the margo mandibularis." [AAO:LAP]
+related_synonym: "ventral flange of anterior ramus of pterygoid" []
+relationship: part_of AAO:0000280 ! margo_mandibularis_of_pterygoid
+
+[Term]
+id: AAO:0000132
+name: dorsal_plate
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000135
+name: ductus_endolymphaticus
+relationship: part_of AAO:0000141 ! endolymphatic_system
+
+[Term]
+id: AAO:0000136
+name: ductus_perilymphaticus
+relationship: part_of AAO:0000428 ! perilymphatic_system
+
+[Term]
+id: AAO:0000137
+name: ectoderm
+is_a: AAO:0000480 ! primary_germ_layer
+
+[Term]
+id: AAO:0000138
+name: embryonic_structure
+
+[Term]
+id: AAO:0000139
+name: endoderm
+is_a: AAO:0000480 ! primary_germ_layer
+
+[Term]
+id: AAO:0000141
+name: endolymphatic_system
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000142
+name: epaxial_muscles
+relationship: part_of AAO:0000611 ! trunk_muscles
+
+[Term]
+id: AAO:0000143
+name: epidermis
+is_a: AAO:0000239 ! integument
+
+[Term]
+id: AAO:0000144
+name: epithelium
+def: "One of the four types of tissue in traditional classifications. Tissues composed of layers of cells that cover organ surfaces such as surface of the skin and inner lining of digestive tract." [AAO:LAP]
+is_a: AAO:0000013 ! animal_tissue
+
+[Term]
+id: AAO:0000145
+name: esophagus
+relationship: part_of AAO:0000129 ! digestive_system
+
+[Term]
+id: AAO:0000146
+name: eustachian_canal
+def: "Furrow on the ventral surface of the otic capsule, and occasionally also the parasphenoid, that houses the Eustachian tube." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000147
+name: exoccipital
+def: "Endochondral bone that forms the posterior end of the neurocranium and the margin of the foramen magnum. In addition, this bone contributes to the posteromedial portion of the otic capsule and forms the occipital condyle." [AAO:LAP]
+related_synonym: "exoccipitale" []
+related_synonym: "occipitale laterale" []
+related_synonym: "opisthoticum" []
+related_synonym: "pleurooccipitale" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000155
+name: extremitas_anterior
+def: "Large anterior outgrowth of the septomaxilla that is directed into the space between the alary cartilage and the lamina inferior." [AAO:LAP]
+related_synonym: "anterior ramus" []
+relationship: part_of AAO:0000556 ! septomaxilla
+
+[Term]
+id: AAO:0000156
+name: eye_muscles
+is_a: AAO:0000107 ! cranial_muscles
+
+[Term]
+id: AAO:0000157
+name: fat_bodies
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000160
+name: fenestra_dorsalis_nasi
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000161
+name: fenestra_endochoanalis
+def: "Opening on the ventral aspect of the nasal capsule. It contains the apertura nasalis interna." [AAO:LAP]
+related_synonym: "fenestra exochoanalis" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000162
+name: fenestra_endonarina_communis
+def: "Opening on the anterolateral aspect of the nasal capsule. It contains the apertura nasalis externa." [AAO:LAP]
+related_synonym: "apertura nasalis externa" []
+related_synonym: "fenestra narina" []
+related_synonym: "narial fenestra" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000164
+name: fenestra_lateralis_nasi
+def: "Opening on the lateral side of the nasal capsule." [AAO:LAP]
+related_synonym: "fenestra infraconchalis" []
+related_synonym: "fenestra retronarina" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000166
+name: fenestra_nasobasalis
+def: "Small opening at the anterior tip of the nasal capsule, on the floor of the cavum inferius. It is located medially to the base of the inferior prenasal cartilage and serves for the passage of the ramus medialis narium and arteria orbitonasalis." [AAO:LAP]
+related_synonym: "basal fenestra" []
+related_synonym: "fenestra basalis nasi" []
+related_synonym: "foramen apicale" []
+related_synonym: "foramen epiphaniale" []
+related_synonym: "nasobasal fenestra" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000167
+name: fenestra_nasolateralis
+def: "Elongated opening located on the lateral side of the nasal capsule." [AAO:LAP]
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000169
+name: fenestra_ovalis
+related_synonym: "fenestra vestibuli" []
+related_synonym: "foramen ovale" []
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000170
+name: fenestra_precerebralis
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000171
+name: fenestra_prechoanalis
+def: "Large opening of the nasal floor anterior to the fenestra endochoanalis." [AAO:LAP]
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000177
+name: flange_of_quadratojugal
+relationship: part_of AAO:0000532 ! quadratojugal
+
+[Term]
+id: AAO:0000178
+name: footplate_of_pars_media_plectri
+def: "Independent, horizontal bar of cartilage located on the anterior part of the fenestra ovalis in front of the pars interna plectri." [AAO:LAP]
+related_synonym: "fenestral plate" []
+related_synonym: "interstapediale" []
+related_synonym: "otostapes" []
+related_synonym: "pars otica columellae" []
+related_synonym: "pseudooperculum" []
+relationship: part_of AAO:0000408 ! pars_media_plectri
+
+[Term]
+id: AAO:0000179
+name: foramen_acusticum
+related_synonym: "acoustic foramen" []
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000180
+name: foramen_acusticum_anterius
+relationship: part_of AAO:0000179 ! foramen_acusticum
+
+[Term]
+id: AAO:0000181
+name: foramen_acusticum_maius
+relationship: part_of AAO:0000180 ! foramen_acusticum_anterius
+
+[Term]
+id: AAO:0000182
+name: foramen_acusticum_minus
+relationship: part_of AAO:0000180 ! foramen_acusticum_anterius
+
+[Term]
+id: AAO:0000183
+name: foramen_acusticum_posterius
+relationship: part_of AAO:0000179 ! foramen_acusticum
+
+[Term]
+id: AAO:0000185
+name: foramen_endolymphaticum
+related_synonym: "endolymphatic foramen" []
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000189
+name: foramen_orbitonasale_laterale
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000190
+name: foramen_orbitonasale_mediale
+related_synonym: "canalis orbitonasalis" []
+related_synonym: "canalis orbitonasalis medialis" []
+related_synonym: "foramen orbitonasale" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000192
+name: foramen_perilymphaticum
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000193
+name: foramen_perilymphaticum_accessorium
+relationship: part_of AAO:0000192 ! foramen_perilymphaticum
+
+[Term]
+id: AAO:0000194
+name: foramen_perilymphaticum_superius
+related_synonym: "foramen rotundum" []
+related_synonym: "superior perilymphatic formaen" []
+relationship: part_of AAO:0000192 ! foramen_perilymphaticum
+
+[Term]
+id: AAO:0000195
+name: foramen_perilymphaticus_inferius
+related_synonym: "foramen pro aquaeducto cochleae" []
+related_synonym: "inferior perilymphatic foramen" []
+relationship: part_of AAO:0000192 ! foramen_perilymphaticum
+
+[Term]
+id: AAO:0000199
+name: fore_propodium
+def: "Segment of the forearm corresponding to the humerus." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000202 ! forelimb_skeleton
+
+[Term]
+id: AAO:0000200
+name: fore_epipodium
+def: "Segment of the forearm corresponding to the radius and ulna." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "antibrachium" []
+is_a: AAO:0000202 ! forelimb_skeleton
+
+[Term]
+id: AAO:0000201
+name: fore_mesopodium
+def: "Segment of the forearm corresponding to the carpus. It consists of several elements that articulate with the radius and ulna at one end and the metacarpals at the other end." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000202 ! forelimb_skeleton
+
+[Term]
+id: AAO:0000202
+name: forelimb_skeleton
+def: "Skeletal structure of the paired, anterior appendages." [AAO:LAP]
+is_a: AAO:0000205 ! forelimb
+
+[Term]
+id: AAO:0000203
+name: forelimb_muscles_proper
+is_a: AAO:0000204 ! forelimb_muscles
+
+[Term]
+id: AAO:0000204
+name: forelimb_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000205
+name: forelimb
+def: "Upper limb, which connects the manus with the pectoral girdle." [AAO:LAP]
+relationship: part_of AAO:0000747 ! appendicular_skeleton
+
+[Term]
+id: AAO:0000206
+name: frontal
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000207
+name: frontoparietal
+def: "Paired bone of intramembranous origin that roofs the braincase." [AAO:LAP]
+related_synonym: "fronto-parietaux" []
+related_synonym: "os fronto-parietale" []
+related_synonym: "parietaux" []
+related_synonym: "parietofrontal" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000208
+name: frontoparietal_constriction
+relationship: part_of AAO:0000207 ! frontoparietal
+
+[Term]
+id: AAO:0000209
+name: frontoparietal_fontanelle
+def: "Dorsal opening of the neurocranium." [AAO:LAP]
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000211
+name: germ_ring
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000212
+name: glands
+is_a: AAO:0000239 ! integument
+
+[Term]
+id: AAO:0000213
+name: gonad
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000216
+name: hind_epipodium
+def: "Segment of the leg corresponding to the tibia and fibula." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000217 ! hind_limb_skeleton
+
+[Term]
+id: AAO:0000217
+name: hind_limb_skeleton
+def: "Skeletal structure of the paired, posterior appendages." [AAO:LAP]
+is_a: AAO:0000219 ! hind_limb
+
+[Term]
+id: AAO:0000218
+name: hind_limb_muscles_proper
+is_a: AAO:0000222 ! hindlimb_muscles
+
+[Term]
+id: AAO:0000219
+name: hind_limb
+def: "Lower limb, which connects the pes with the pelvic girdle." [AAO:LAP]
+relationship: part_of AAO:0000747 ! appendicular_skeleton
+
+[Term]
+id: AAO:0000220
+name: hind_mesopodium
+def: "Segment of the leg corresponding to the tarsus. It consists of several elements that articulate with the tibia and fibula at one end and the metatarsals at the other end." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000217 ! hind_limb_skeleton
+
+[Term]
+id: AAO:0000221
+name: hind_metapodium
+def: "Segment of the leg corresponding to the metatarsus, which articulates with the carpals at one end and with the phalanges at the other end." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000217 ! hind_limb_skeleton
+
+[Term]
+id: AAO:0000222
+name: hindlimb_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000224
+name: hyobranchial_muscles
+is_a: AAO:0000107 ! cranial_muscles
+
+[Term]
+id: AAO:0000225
+name: hyoid_apparatus
+def: "Apparatus located in the floor of the mouth, under the mandibular arcade. The apparatus consists of a central corpus and four pairs of processes. This apparatus serves as the site of insertion for a variety of muscles associated with movements of the tongue and as the origin of the m. hyoglossus." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "hyobranchial apparatus" []
+relationship: part_of AAO:0000226 ! hyolaryngeal_complex
+
+[Term]
+id: AAO:0000226
+name: hyolaryngeal_complex
+def: "Complex formed by two units, the hyoid and laryngeal apparatuses, which are both derived from the larval hyobranchial skeleton." [AAO:LAP]
+relationship: part_of AAO:0000566 ! skeletal_system
+
+[Term]
+id: AAO:0000228
+name: hypaxial_muscles
+relationship: part_of AAO:0000611 ! trunk_muscles
+
+[Term]
+id: AAO:0000229
+name: hypoblast
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000234
+name: inferior_prenasal_cartilage
+def: "Elongate cartilage that extends anteroventrally from the solum nasi to abut the ventral portion of the posterior aspect of the alary process of the premaxilla. It was first discribed by Wiedersheim in 1876." [AAO:LAP]
+related_synonym: "inferior prenasal process" []
+related_synonym: "processus prenasalis inferior" []
+related_synonym: "processus prenasalis inferior lateralis" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000237
+name: infrarrostral_cartilage
+relationship: part_of AAO:0000094 ! chondrocranium
+
+[Term]
+id: AAO:0000238
+name: inner_ear
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000239
+name: integument
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000246
+name: intestines
+relationship: part_of AAO:0000129 ! digestive_system
+
+[Term]
+id: AAO:0000247
+name: jaw_muscles
+is_a: AAO:0000107 ! cranial_muscles
+
+[Term]
+id: AAO:0000249
+name: jugular_foramen
+def: "Large foramen that houses the glossopharyngeal and vagus nerves and is located inside the condyloid fossa." [AAO:LAP]
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000250
+name: kidney
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000253
+name: lagena
+relationship: part_of AAO:0000550 ! sacculus
+
+[Term]
+id: AAO:0000254
+name: lamella_alaris
+def: "Dorsal plate of the squamosal." [AAO:LAP]
+related_synonym: "horizontal arm of squamosal" []
+relationship: part_of AAO:0000574 ! squamosal
+
+[Term]
+id: AAO:0000255
+name: lamina_anterior_of_pars_facialis
+relationship: part_of AAO:0000400 ! pars_facialis_of_maxilla
+
+[Term]
+id: AAO:0000259
+name: lamina_inferior
+def: "Lateral expansion of the crista intermedia that serves as the floor of the cavum medium." [AAO:LAP]
+related_synonym: "lamina inferior cristae intermediae" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000260
+name: lamina_nariochoanalis
+def: "Free, dorsal margin of the lamina inferior." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000262
+name: lamina_orbitonasalis
+def: "In the larva, structure that is fused to the wall of the braincase, lateral to the olfactory foramen, and separates the nasal capsule and orbit. In the adult frog it constitutes the ventral part of postnasal wall." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000263
+name: lamina_precerebralis
+def: "Posterior face of septum nasi." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000264
+name: lamina_superior
+def: "Lateral expansion of the crista intermedia that serves as the roof of the cavum medium." [AAO:LAP]
+related_synonym: "Lamina superior cristae intermediae" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000265
+name: larval_structure
+
+[Term]
+id: AAO:0000267
+name: laryngeal_apparatus
+def: "Apparatus located between the lungs and the buccal cavity. This apparatus is composed of a pair of arytenoid cartilages that are supported by the cricoid ring." [AAO:LAP]
+relationship: part_of AAO:0000226 ! hyolaryngeal_complex
+
+[Term]
+id: AAO:0000268
+name: larynx
+relationship: part_of AAO:0000541 ! respiratory_system
+
+[Term]
+id: AAO:0000269
+name: lateral_line_system
+is_a: AAO:0000555 ! sensory_system
+
+[Term]
+id: AAO:0000272
+name: lower_jaw
+def: "Inferior mandibular arch located on the anterior and lateral sides of the skull." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000273
+name: lower_jaw_opening
+is_a: AAO:0000272 ! lower_jaw
+
+[Term]
+id: AAO:0000274
+name: lower_jaw_skeleton
+is_a: AAO:0000272 ! lower_jaw
+
+[Term]
+id: AAO:0000275
+name: lungs
+relationship: part_of AAO:0000541 ! respiratory_system
+
+[Term]
+id: AAO:0000277
+name: mandibular_symphysis
+relationship: part_of AAO:0000272 ! lower_jaw
+
+[Term]
+id: AAO:0000280
+name: margo_mandibularis_of_pterygoid
+def: "Ventrally directed margin that connects the anterior and posterior rami of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000281
+name: margo_orbitalis_of_maxilla
+def: "Dorsal margin of the maxilla between the frontal and zygomatico-maxillary processes." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000282
+name: margo_orbitalis_of_pterygoid
+def: "Margin that connects the anterior and medial rami of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000283
+name: margo_orbitalis_of_squamosal
+def: "Anterior margin of the squamosal that takes part in the formation of the orbit." [AAO:LAP]
+relationship: part_of AAO:0000254 ! lamella_alaris
+
+[Term]
+id: AAO:0000284
+name: margo_tympanicus_of_pterygoid
+def: "Margin that connects the posterior and medial rami of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000285
+name: maxilla
+def: "Paired, intramembranous bone located on the lateral sides of the skull, posterior to the premaxillae." [AAO:LAP]
+related_synonym: "os maxillaire" []
+related_synonym: "os maxillare superior" []
+related_synonym: "os maxillo-jugaux" []
+relationship: part_of AAO:0000622 ! upper_jaw_skeleton
+
+[Term]
+id: AAO:0000287
+name: maxillary_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000288
+name: maxillopalatine
+relationship: part_of AAO:0000622 ! upper_jaw_skeleton
+
+[Term]
+id: AAO:0000289
+name: Meckel's_cartilage
+def: "Paired, rod-shaped elements that extend the length of the mandible and lie between the dentaries and the angulosplenials." [AAO:LAP]
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000290
+name: medial_inferior_prenasal_cartilage
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000291
+name: medial_orbitonasal_foramen
+def: "Opening on the postnasal wall for the medial branch (= ramus medialis nasi) of the ophthalmicus nerve." [AAO:LAP]
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000292
+name: medial_ramus_of_pterygoid
+def: "In a triradiate pterygoid, the process that extends medially towards the otic capsule." [AAO:LAP]
+related_synonym: "ramus interior of pterygoid" []
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000294
+name: median_prenasal_process
+def: "Anterior projection of the septum nasi that protrudes through the anterior nasal wall." [AAO:LAP]
+related_synonym: "processus prenasalis medius" []
+relationship: part_of AAO:0000559 ! septum_nasi
+
+[Term]
+id: AAO:0000295
+name: median_symphysis
+relationship: part_of AAO:0000620 ! upper_jaw
+
+[Term]
+id: AAO:0000298
+name: mental_foramen
+is_a: AAO:0000273 ! lower_jaw_opening
+
+[Term]
+id: AAO:0000301
+name: mentomeckelian
+def: "Paired, cylindrical, and small bones of endochondral origin that lie anteromedial to the anterior end of Meckel's cartilage. The precursors of the mentomeckelian bones are the larval infrarostral cartilages." [AAO:LAP]
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000303
+name: mesethmoid
+def: "Endochondral ossification of the anteromedial portion of the braincase." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000304
+name: mesoderm
+is_a: AAO:0000480 ! primary_germ_layer
+
+[Term]
+id: AAO:0000306
+name: muscle_tissue
+def: "One of the four types of tissue in traditional classifications. Tissue that contains cells with contractile filaments that move past each other and change the size of the cell. Muscle tissue also is separated into three distinct categories." [AAO:LAP]
+is_a: AAO:0000013 ! animal_tissue
+
+[Term]
+id: AAO:0000307
+name: muscular_system
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000309
+name: narial_muscles
+is_a: AAO:0000107 ! cranial_muscles
+
+[Term]
+id: AAO:0000311
+name: naris
+relationship: part_of AAO:0000541 ! respiratory_system
+
+[Term]
+id: AAO:0000312
+name: nasal
+def: "Paired bone of intramembranous origin that roofs the olfactory capsule." [AAO:LAP]
+related_synonym: "frontaux anterieurs" []
+related_synonym: "fronto-nasale" []
+related_synonym: "fronto-nasaux" []
+related_synonym: "nasale" []
+related_synonym: "nasenstirnbein" []
+related_synonym: "supraethmoid" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000313
+name: nasal_capsule
+def: "Structure that has both respiratory and olfactory functions and lies anterior to the braincase, in the foremost section of the cranium." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000314
+name: nasal_cavity
+def: "Saclike space internal to the nasal capsule lined by respiratory and sensory epithelium and glandular tissue." [AAO:LAP]
+is_a: AAO:0000313 ! nasal_capsule
+
+[Term]
+id: AAO:0000316
+name: nasal_opening
+is_a: AAO:0000313 ! nasal_capsule
+
+[Term]
+id: AAO:0000320
+name: nasal_skeleton
+def: "Structural framework that provides support to the nasal sacs and ducts." [AAO:LAP]
+is_a: AAO:0000313 ! nasal_capsule
+
+[Term]
+id: AAO:0000323
+name: nasopremaxilla
+relationship: part_of AAO:0000622 ! upper_jaw_skeleton
+
+[Term]
+id: AAO:0000324
+name: nervous_system
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000325
+name: nervous_tissue
+def: "One of the four types of tissue in traditional classifications. Cells forming the brain, spinal cord and peripheral nervous system." [AAO:LAP]
+is_a: AAO:0000013 ! animal_tissue
+
+[Term]
+id: AAO:0000327
+name: notochord
+def: "Slender rod of fibrous connective tissue surrounding a core of fluid-filled cells of mesodermal origin; it lies above the gut and directly beneath the spinal cord. The notochord is present during early development and in a few cases it is retained through life; however, usually the notochord is replaced by the vertebral column." [AAO:Pugener_2002]
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000329
+name: oblique_cartilage
+def: "Semi-circular cartilaginous sheet that lies lateral to the side of the septum nasi." [AAO:LAP]
+related_synonym: "cartilago obliqua" []
+related_synonym: "cartilago obliqua nasi" []
+related_synonym: "cartilago obliquo" []
+related_synonym: "dorsal process" []
+related_synonym: "lamina obliqua" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000330
+name: occipital_condyle
+relationship: part_of AAO:0000147 ! exoccipital
+
+[Term]
+id: AAO:0000332
+name: oculomotor_foramen
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000333
+name: olfactory_foramen
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000334
+name: olfactory_system
+relationship: part_of AAO:0000555 ! sensory_system
+
+[Term]
+id: AAO:0000341
+name: optic_fenestra
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000342
+name: optic_foramen
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000343
+name: orbit
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000344
+name: orbitonasal_foramen
+def: "Foramen that forms a passage for one of the branches of the trigeminal nerve into the nasal region." [AAO:LAP]
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000345
+name: orbitosphenoid
+def: "Endochondral ossification of the lateral sides of the braincase." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000346
+name: organizer
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000347
+name: os_articulare
+def: "Ossified posterior articular portion of Meckel's cartilage." [AAO:LAP]
+relationship: part_of AAO:0000289 ! Meckel's_cartilage
+
+[Term]
+id: AAO:0000348
+name: os_basale
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000362
+name: other_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000363
+name: otic_ligament
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000364
+name: otic_plate_of_pterygoid
+def: "Osseous expansion of the posterior and medial rami of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000365
+name: otic_process_of_palatoquadrate
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000367
+name: otic_ramus_of_squamosal
+def: "Ramus (process) that extends medially toward the otic capsule." [AAO:LAP]
+related_synonym: "posterior ramus" []
+related_synonym: "ramus paroticus" []
+relationship: part_of AAO:0000254 ! lamella_alaris
+
+[Term]
+id: AAO:0000368
+name: otoccipital
+def: "Fused prootic and exoccipital bones." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000371
+name: ovary
+is_a: AAO:0000213 ! gonad
+
+[Term]
+id: AAO:0000372
+name: palatine
+def: "Sliver of bone that invest part of or all the posterior aspect of each antorbital plane." [AAO:LAP]
+broad_synonym: "neopalatine" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000374
+name: palatine_process_of_pars_palatina_of_premaxilla
+related_synonym: "median palatal squame " []
+relationship: part_of AAO:0000414 ! pars_palatina_of_premaxilla
+
+[Term]
+id: AAO:0000375
+name: palatine_process_of_the_pars_facialis_of_the_maxilla
+relationship: part_of AAO:0000400 ! pars_facialis_of_maxilla
+
+[Term]
+id: AAO:0000376
+name: palatine_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000379
+name: palatoquadrate
+def: "Column of catilage, remnant in the adult of the larval palatoquadrate cartilage, that is located lateral or antero-lateral to the auditory capsule." [AAO:LAP]
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000380
+name: palatoquadrate_articular_process
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000381
+name: paranasal_commissure
+def: "Cartilaginous bridge that extends posteriorly to the anterolateral corner of the posterior nasal wall." [AAO:LAP]
+related_synonym: "commissura lateralis nasi" []
+related_synonym: "connection between lamina nariochoanalis and postnasal wall" []
+related_synonym: "processus lingularis" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000384
+name: parasagittal_crest
+relationship: part_of AAO:0000207 ! frontoparietal
+
+[Term]
+id: AAO:0000385
+name: parasphenoid
+def: "Azygous, median bone of intramembranous origin that underlies the ventral surface of the braincase." [AAO:LAP]
+related_synonym: "keilbein" []
+related_synonym: "os parasphenoidale" []
+related_synonym: "os sphenoideum" []
+related_synonym: "parabasale" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000386
+name: cultriform_process
+def: "Process that extends anteriorly from the orbitotemporal region." [AAO:LAP]
+related_synonym: "pars medialis" []
+related_synonym: "rostrum" []
+relationship: part_of AAO:0000385 ! parasphenoid
+
+[Term]
+id: AAO:0000387
+name: subotic_ala
+def: "Paired, lateral processes that, when present, support the otic capsules ventrally." [AAO:LAP]
+related_synonym: "processus lateralis" []
+relationship: part_of AAO:0000385 ! parasphenoid
+
+[Term]
+id: AAO:0000388
+name: parasphenoid_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000389
+name: paries_nasi
+def: "Paired, elongate, ventrolaterally-orieted cartilaginous structures that extend to the premaxilla-maxilla articulation." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000390
+name: parietal
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000393
+name: pars_amphibiorum
+relationship: part_of AAO:0000550 ! sacculus
+
+[Term]
+id: AAO:0000394
+name: pars_articularis_of_mandibular_arch
+def: "Posterior end of Meckel's cartilage that forms the articular head of the mandibular arch." [AAO:LAP]
+relationship: part_of AAO:0000289 ! Meckel's_cartilage
+
+[Term]
+id: AAO:0000395
+name: pars_basilaris
+relationship: part_of AAO:0000550 ! sacculus
+
+[Term]
+id: AAO:0000396
+name: pars_dentalis_of_maxilla
+def: "Tooth-bearing part of the maxilla." [AAO:LAP]
+related_synonym: "crista dentalis" []
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000397
+name: pars_dentalis_of_premaxilla
+def: "Tooth-bearing part of the premaxilla." [AAO:LAP]
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000399
+name: pars_externa_plectri
+related_synonym: "extracolumellare" []
+related_synonym: "extrapediale" []
+related_synonym: "extraplectral" []
+related_synonym: "extrastapes" []
+related_synonym: "hyostapes" []
+related_synonym: "medio-stapedial" []
+related_synonym: "pars quadrata columellae" []
+relationship: part_of AAO:0000443 ! plectral_apparatus
+
+[Term]
+id: AAO:0000400
+name: pars_facialis_of_maxilla
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000401
+name: pars_facialis_of_maxillopalatine
+relationship: part_of AAO:0000288 ! maxillopalatine
+
+[Term]
+id: AAO:0000405
+name: pars_inferior_of_labyrinth
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000406
+name: pars_interna_plectri
+def: "Plate-like structure that lies in the fenestra ovalis. It arises within the membrana opercularis in the posterior part of the fenestra." [AOO:LAP]
+related_synonym: "operculum auris" []
+related_synonym: "operculum fenestrae ovalis" []
+relationship: part_of AAO:0000443 ! plectral_apparatus
+
+[Term]
+id: AAO:0000408
+name: pars_media_plectri
+relationship: part_of AAO:0000443 ! plectral_apparatus
+
+[Term]
+id: AAO:0000413
+name: pars_palatina_of_maxilla
+def: "Lingual ledge on the inner surface of the maxilla." [AAO:LAP]
+related_synonym: "lamina horizontalis" []
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000414
+name: pars_palatina_of_premaxilla
+def: "Lingual ledge on the inner surface of the premaxilla." [AAO:LAP]
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000420
+name: pars_superior_of_labyrinth
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000422
+name: pectoral_girdle
+def: "Skeletal structure immediately behind the head attached to the vertebral column by muscles and supporting the forelimbs." [AAO:LAP]
+related_synonym: "shoulder girdle" []
+relationship: part_of AAO:0000747 ! appendicular_skeleton
+
+[Term]
+id: AAO:0000423
+name: pectoral_girdle_muscles
+relationship: part_of AAO:0000204 ! forelimb_muscles
+
+[Term]
+id: AAO:0000426
+name: pelvic_girdle
+def: "Skeletal structure by which the hind limbs are supported and attached to the vertebral column." [AAO:LAP]
+relationship: part_of AAO:0000747 ! appendicular_skeleton
+
+[Term]
+id: AAO:0000427
+name: pelvic_girdle_muscles
+relationship: part_of AAO:0000222 ! hindlimb_muscles
+
+[Term]
+id: AAO:0000428
+name: perilymphatic_system
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000429
+name: peripheral_nervous_system
+is_a: AAO:0000324 ! nervous_system
+
+[Term]
+id: AAO:0000430
+name: pigment_cells
+is_a: AAO:0000239 ! integument
+
+[Term]
+id: AAO:0000431
+name: pila_antotica
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000432
+name: pila_metoptica
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000433
+name: pineal_foramen
+relationship: part_of AAO:0000207 ! frontoparietal
+
+[Term]
+id: AAO:0000434
+name: planum_antorbitale
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000437
+name: planum_conchale
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000438
+name: planum_internasale
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000440
+name: planum_terminale
+def: "Vertical plate of cartilage that is fused posterodorsally to the oblique cartilage and anteriorly to the lamina inferior." [AAO:LAP]
+related_synonym: "pars terminalis" []
+related_synonym: "terminal plate" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000441
+name: planum_triangulare
+def: "Cartilaginous, distal expansion of the lamina orbitonasalis that invests the pars facialis of the maxilla medially." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000443
+name: plectral_apparatus
+def: "Complex sound-conducting anatomical structure." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000446
+name: posterior_condyle
+relationship: part_of AAO:0000515 ! pseudoangular
+
+[Term]
+id: AAO:0000448
+name: posterior_maxillary_process
+def: "Process that extends posteriorly from the planum triangulare and invests the maxilla laterally and the anterior ramus of the pterygoid medially." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000449
+name: posterior_maxillary_process_dorsal_process
+relationship: part_of AAO:0000448 ! posterior_maxillary_process
+
+[Term]
+id: AAO:0000450
+name: posterior_mental_process
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000451
+name: posterior_ramus_of_pterygoid
+def: "In a triradiate pterygoid, the process that extends posterolaterally towards the jaw articulation." [AAO:LAP]
+relationship: part_of AAO:0000521 ! pterygoid
+
+[Term]
+id: AAO:0000453
+name: posterolateral_vomerine_process
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000454
+name: postnasal_wall
+def: "Paired, anteriorly concave structures that form the posterior limit of nasal capsule. It consists of two parts: a ventral piece, the lamina orbitonasalis, and a dorsal plate that is part of the tectum nasi." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000458
+name: prearticular
+def: "Osseous element of intramembranous origin that extends along the lingual margin of Meckel's cartilage." [AAO:LAP]
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000459
+name: prearticular_coronoid_process
+def: "Point of insertion of the masticatory musculature." [AAO:LAP]
+relationship: part_of AAO:0000458 ! prearticular
+
+[Term]
+id: AAO:0000460
+name: prefrontal
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000461
+name: premaxilla
+def: "Paired, intramembranous bones located at the anterior end of the skull; they form the anterior-most segment of the maxillary arch." [AAO:LAP]
+related_synonym: "intermaxillaire" []
+related_synonym: "premaxillary" []
+relationship: part_of AAO:0000622 ! upper_jaw_skeleton
+
+[Term]
+id: AAO:0000464
+name: premaxillary_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000467
+name: preorbital_process_of_the_pars_facialis_of_the_maxilla
+relationship: part_of AAO:0000400 ! pars_facialis_of_maxilla
+
+[Term]
+id: AAO:0000468
+name: presumptive_blood
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000469
+name: presumptive_central_nervous_system
+is_a: AAO:0000477 ! presumptive_nervous_system
+
+[Term]
+id: AAO:0000470
+name: presumptive_ectoderm
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000471
+name: presumptive_endoderm
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000472
+name: presumptive_enteric_nervous_system
+is_a: AAO:0000477 ! presumptive_nervous_system
+
+[Term]
+id: AAO:0000473
+name: presumptive_epidermis
+is_a: AAO:0000475 ! presumptive_integument
+
+[Term]
+id: AAO:0000474
+name: presumptive_hypochord
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000475
+name: presumptive_integument
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000476
+name: presumptive_mesoderm
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000477
+name: presumptive_nervous_system
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000478
+name: presumptive_notochord
+is_a: AAO:0000479 ! presumptive_structure
+
+[Term]
+id: AAO:0000479
+name: presumptive_structure
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000480
+name: primary_germ_layer
+is_a: AAO:0000138 ! embryonic_structure
+
+[Term]
+id: AAO:0000486
+name: processus_ascendens_plectri
+def: "Cartilaginous or ligamentous connection between the pars externa plectri and the crista parotica." [AAO:LAP]
+related_synonym: "laterohyale" []
+related_synonym: "processus ascendens columellae" []
+related_synonym: "processus dorsalis columellae" []
+related_synonym: "processus superior columellae" []
+related_synonym: "suprastapediale" []
+relationship: part_of AAO:0000399 ! pars_externa_plectri
+
+[Term]
+id: AAO:0000492
+name: processus_infrafenestralis
+def: "Posterior part of the corpus of the septomaxilla; the posterior surface of the processus infrafenestralis is in contact with the oblique cartilage." [AAO:LAP]
+related_synonym: "dorsal crest" []
+relationship: part_of AAO:0000645 ! corpus
+
+[Term]
+id: AAO:0000493
+name: processus_internus
+relationship: part_of AAO:0000515 ! pseudoangular
+
+[Term]
+id: AAO:0000494
+name: processus_lingualis_of_pterygoid
+def: "Dorsolateral process of the of the medial ramus of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000292 ! medial_ramus_of_pterygoid
+
+[Term]
+id: AAO:0000500
+name: processus_posterior_of_maxilla
+def: "Posterior, toothless portion of the maxilla by which it usually comes in contact with the quadratojugal." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000505
+name: processus_pterygoideus_of_maxilla
+def: "Posterior end of the pars palatina of the maxilla that is in contact with the anterior ramus of the pterygoid." [AAO:LAP]
+relationship: part_of AAO:0000413 ! pars_palatina_of_maxilla
+
+[Term]
+id: AAO:0000509
+name: processus_suprafenestralis
+relationship: part_of AAO:0000645 ! corpus
+
+[Term]
+id: AAO:0000512
+name: processus_zygomatico-maxillaris
+def: "Posterodorsal extension of the maxilla by which it establishes contact with the squamosal." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000514
+name: prootic
+def: "Paired, endochondral bones that form the lateral borders of the posterior portion of the braincase and the dorsal, anterior, and lateral walls of the otic capsules." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000515
+name: pseudoangular
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000516
+name: pseudobasal_process
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000518
+name: pseudodentary
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000519
+name: pseudodentary_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000521
+name: pterygoid
+def: "Palatal bones of intramembranous origin that lie anterior to the otic capsules, lateral to the orbits, and medial to the maxillae." [AAO:LAP]
+related_synonym: "pterygoidien" []
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000523
+name: pterygoid_process_of_palatoquadrate
+def: "Process that extends anteriorly from the anterolateral margin of the palatoquadrate and articulates or synchondrotically fuses to the posterior end of the posterior maxillary process." [AAO:LAP]
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000524
+name: pterygoquadrate
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000525
+name: quadrate_bone
+def: "Ossified pars articularis of the palatoquadrate cartilage." [AAO:LAP]
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000527
+name: quadrate_process_of_palatoquadrate
+relationship: part_of AAO:0000379 ! palatoquadrate
+
+[Term]
+id: AAO:0000532
+name: quadratojugal
+def: "Paired intramembranous bones that completes the maxillary arch posteriorly; they appear at the end of, or just after, metamorphosis." [AAO:LAP]
+related_synonym: "jugau" []
+related_synonym: "os jugale" []
+related_synonym: "quadratjochbeine" []
+related_synonym: "quadrato-jugals" []
+related_synonym: "quadrato-maxillare" []
+related_synonym: "quadratojugale" []
+related_synonym: "tympano maleaux" []
+relationship: part_of AAO:0000622 ! upper_jaw_skeleton
+
+[Term]
+id: AAO:0000538
+name: recessus_fenestrae_ovalis
+relationship: part_of AAO:0000428 ! perilymphatic_system
+
+[Term]
+id: AAO:0000539
+name: recessus_marsupiatus_of_premaxilla
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000540
+name: recessus_vaginiformis
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000541
+name: respiratory_system
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000542
+name: reticular_connective_tissue
+def: "Network of reticular fibres (fine collagen) that form a soft skeleton to support the lymphoid organs (lymph nodes, bone marrow, and spleen)." [AAO:LAP]
+is_a: AAO:0000099 ! connective_tissue_proper
+
+[Term]
+id: AAO:0000543
+name: retroarticular_process
+def: "Point of insertion of the m. interhuoideus posterior." [AAO:LAP]
+relationship: part_of AAO:0000515 ! pseudoangular
+
+[Term]
+id: AAO:0000545
+name: rib
+def: "Endochondral, rodlike element that articulates with the transverse process and parapophysis (double-headed rib), or with the transverse process only (single-headed rib); it extends into the body wall and provides a site for muscle attachment." [AAO:Pugener_2002]
+related_synonym: "dorsal rib" []
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000547
+name: rostral_process
+relationship: part_of AAO:0000312 ! nasal
+
+[Term]
+id: AAO:0000550
+name: sacculus
+relationship: part_of AAO:0000405 ! pars_inferior_of_labyrinth
+
+[Term]
+id: AAO:0000551
+name: saccus_endolymphaticus
+relationship: part_of AAO:0000141 ! endolymphatic_system
+
+[Term]
+id: AAO:0000552
+name: sacrum
+def: "Enlarged vertebra with transverse processes (diapophyses), and ocassionally ribs, that are modified and elaborated for support of the pelvic girdle." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000724 ! sacral_region
+
+[Term]
+id: AAO:0000555
+name: sensory_system
+relationship: part_of AAO:0000324 ! nervous_system
+
+[Term]
+id: AAO:0000556
+name: septomaxilla
+def: "Paired, intramembranous bones located within the nasal capsules and embedded in the nasal cartilages; it is pierced by the ductus nasolacrimalis." [AAO:LAP]
+related_synonym: "internasale" []
+related_synonym: "intranasal" []
+related_synonym: "lacrimale" []
+related_synonym: "le cornet" []
+related_synonym: "nariale" []
+related_synonym: "nasale" []
+related_synonym: "os internasale" []
+related_synonym: "os nariale" []
+related_synonym: "septomaxillary" []
+related_synonym: "turbinale" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000559
+name: septum_nasi
+def: "Medial, vertical plate that separates the nasal capsules." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000560
+name: septum_semicircularium_anterior
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000561
+name: septum_semicircularium_laterale
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000562
+name: septum_semircularium_posterior
+relationship: part_of AAO:0000238 ! inner_ear
+
+[Term]
+id: AAO:0000563
+name: seydels_palatal_process
+relationship: part_of AAO:0000068 ! cartilago_ectochoanalis
+
+[Term]
+id: AAO:0000565
+name: skeletal_support_for_eminentia_olfactoria
+def: "Elevation of the dorsal surface of the solum nasi medial to the fenestra endochoanalis that provides support for the eminentia olfactoria." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000566
+name: skeletal_system
+def: "System that provides physical support to the organism." [AAO:LAP]
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000569
+name: solum_nasi
+def: "Unpaired, horizontal plate that forms the floor of the nasal capsule." [AAO:LAP]
+related_synonym: "nasal floor" []
+related_synonym: "planum basale" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000570
+name: spatium_sacculare
+relationship: part_of AAO:0000428 ! perilymphatic_system
+
+[Term]
+id: AAO:0000571
+name: specialized_connective_tissue
+is_a: AAO:0000098 ! connective_tissue
+
+[Term]
+id: AAO:0000572
+name: sphenethmoid
+def: "Azygous, endochondral bone that houses the anterior portion of the brain." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000573
+name: splenial
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000574
+name: squamosal
+def: "Paired, intramembranous bones that lie at the posterolateral margins of the skull. These bones are composed of three rami that give the squamosals their characteristic T shape." [AAO:LAP]
+related_synonym: "os squamosum" []
+related_synonym: "os tympanicum" []
+related_synonym: "paraquadratum" []
+related_synonym: "squamosum" []
+related_synonym: "supratemporale" []
+related_synonym: "supratemporo-squamosum" []
+related_synonym: "temporo-mastoidien" []
+related_synonym: "tympanique" []
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000579
+name: stomach
+relationship: part_of AAO:0000129 ! digestive_system
+
+[Term]
+id: AAO:0000580
+name: stylus_of_pars_media_plectri
+related_synonym: "columella auris" []
+related_synonym: "columellare" []
+related_synonym: "interstapediale" []
+related_synonym: "mediostapediale" []
+related_synonym: "mesostapediale" []
+related_synonym: "os columellare" []
+related_synonym: "os intermedium" []
+related_synonym: "stapes" []
+related_synonym: "stelidium" []
+related_synonym: "stilus columellare" []
+relationship: part_of AAO:0000408 ! pars_media_plectri
+
+[Term]
+id: AAO:0000581
+name: sulcus_dentalis_of_maxilla
+def: "Groove located between the pars dentalis and the bases of the maxillary teeth." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000582
+name: sulcus_dentalis_of_premaxilla
+relationship: part_of AAO:0000461 ! premaxilla
+
+[Term]
+id: AAO:0000583
+name: sulcus_for_Meckels_cartilage
+relationship: part_of AAO:0000012 ! angulosplenial_coronoid_process
+
+[Term]
+id: AAO:0000586
+name: superior_prenasal_cartilage
+def: "Paired, elongate cartilages that extend anteroventrally to abut the dorsomedial margin of the posterior face of the alary process of the premaxilla. The function of these cartilages is to transmit the movement of the premaxilla to the alary cartilages during the closure of the apertura nasalis externa." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000587
+name: supraangular
+relationship: part_of AAO:0000274 ! lower_jaw_skeleton
+
+[Term]
+id: AAO:0000588
+name: supraoccipital
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000590
+name: supraorbital_flange
+relationship: part_of AAO:0000207 ! frontoparietal
+
+[Term]
+id: AAO:0000591
+name: suprasphenoid
+def: "Endochondral ossification of the dorsomedial portion of the braincase." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000596
+name: suspensorium
+def: "Apparatus located toward the posterolateral end of the skull, at the level of the anterior margin of the otic capsule that suspends and braces the jaw against the skull." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000597
+name: symphysis_maxillaris
+relationship: part_of AAO:0000620 ! upper_jaw
+
+[Term]
+id: AAO:0000599
+name: taenia_tecti_marginalis
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000601
+name: tectum_nasi
+def: "Roof of the nasal capsule." [AAO:LAP]
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000602
+name: tectum_synoticum
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000605
+name: tentacular_foramen
+is_a: AAO:0000621 ! upper_jaw_opening
+
+[Term]
+id: AAO:0000606
+name: testis
+is_a: AAO:0000213 ! gonad
+
+[Term]
+id: AAO:0000607
+name: tissue
+
+[Term]
+id: AAO:0000610
+name: trochlear_foramen
+is_a: AAO:0000051 ! braincase_and_otic_capsule_opening
+
+[Term]
+id: AAO:0000611
+name: trunk_muscles
+relationship: part_of AAO:0000307 ! muscular_system
+
+[Term]
+id: AAO:0000612
+name: trunk_region
+def: "Region of the vertebral column between the atlas and the sacrum consisting of seven to 285 vertebrae." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "presacral region" []
+related_synonym: "thoracolumbar region" []
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000615
+name: tympanic_annulus
+def: "Funnel-like ring structure located lateral to the ventral ramus of the squamosal, beneath the skin; it provides support to the tympanic membrane." [AAO:LAP]
+related_synonym: "annulus tympanicus" []
+related_synonym: "processus basilaris" []
+related_synonym: "tympanic ring" []
+relationship: part_of AAO:0000443 ! plectral_apparatus
+
+[Term]
+id: AAO:0000619
+name: tympanosquamosal
+def: "Central, funnel-shaped, ossified portion of the tympanic annulus fused to the squamosal bone." [AAO:LAP]
+relationship: part_of AAO:0000596 ! suspensorium
+
+[Term]
+id: AAO:0000620
+name: upper_jaw
+def: "Superior maxillary arch located on the anterior and lateral sides of the skull." [AAO:LAP]
+relationship: part_of AAO:0000109 ! cranial_skeleton
+
+[Term]
+id: AAO:0000621
+name: upper_jaw_opening
+is_a: AAO:0000620 ! upper_jaw
+
+[Term]
+id: AAO:0000622
+name: upper_jaw_skeleton
+is_a: AAO:0000620 ! upper_jaw
+
+[Term]
+id: AAO:0000623
+name: urinary_bladder
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000624
+name: urogenital_system
+is_a: AAO:0000007 ! anatomical_system
+
+[Term]
+id: AAO:0000625
+name: utriculus
+relationship: part_of AAO:0000420 ! pars_superior_of_labyrinth
+
+[Term]
+id: AAO:0000628
+name: ventral_ramus_of_squamosal
+def: "Longest of the three squamosal rami; it invests the dorsolateral margin of the palatoquadrate. The distal end of the ventral ramus invests the quadrate and articulates with the quadratojugal." [AAO:LAP]
+related_synonym: "processus posterolateralis" []
+relationship: part_of AAO:0000574 ! squamosal
+
+[Term]
+id: AAO:0000629
+name: ventrolateral_process_of_palatoquadrate
+relationship: part_of AAO:0000094 ! chondrocranium
+
+[Term]
+id: AAO:0000631
+name: vestibuloauditory_system
+is_a: AAO:0000555 ! sensory_system
+
+[Term]
+id: AAO:0000632
+name: visual_system
+is_a: AAO:0000555 ! sensory_system
+
+[Term]
+id: AAO:0000633
+name: vomer
+def: "Paired, palatal bones of intramembranous origin that lie ventral to the olfactory region and help to floor the nasal capsules ." [AAO:LAP]
+related_synonym: "praevomer" []
+related_synonym: "prevomer" []
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000634
+name: vomerine_canal
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000635
+name: vomerine_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000637
+name: Wolffian_duct
+relationship: part_of AAO:0000624 ! urogenital_system
+
+[Term]
+id: AAO:0000639
+name: zygomatic_ramus_of_squamosal
+def: "Ramus (process) that forms part of the posterior margin of the orbit." [AAO:LAP]
+relationship: part_of AAO:0000254 ! lamella_alaris
+
+[Term]
+id: AAO:0000640
+name: arcus_praeoccipitalis
+def: "Skeletal structure that separates the inferior and superior perilymphatic foramina." [AAO:LAP]
+relationship: part_of AAO:0000052 ! braincase_and_otic_capsule_skeleton
+
+[Term]
+id: AAO:0000641
+name: mandibular_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000642
+name: maxillopalatine_teeth
+relationship: part_of AAO:0000126 ! dentition
+
+[Term]
+id: AAO:0000643
+name: nasolarimal_duct
+related_synonym: "canalis nasolacrimalis" []
+related_synonym: "ductus nasolacrimalis" []
+related_synonym: "nasal duct" []
+is_a: AAO:0000316 ! nasal_opening
+
+[Term]
+id: AAO:0000644
+name: processus_lingularis
+def: "Rod-shaped process that extends caudally from the inferior edge of the planum terminale." [AAO:LAP]
+related_synonym: "lingular process" []
+relationship: part_of AAO:0000320 ! nasal_skeleton
+
+[Term]
+id: AAO:0000645
+name: corpus
+def: "Basal part of the septomaxilla." [AAO:LAP]
+related_synonym: "pars horizontalis" []
+relationship: part_of AAO:0000556 ! septomaxilla
+
+[Term]
+id: AAO:0000646
+name: margo_libera
+def: "Anterior, rounded portion of the corpus of the septomaxilla." [AAO:LAP]
+relationship: part_of AAO:0000645 ! corpus
+
+[Term]
+id: AAO:0000647
+name: crista_interna
+def: "Sharp ridge that extends medially from the basal part of the processus infrafenestralis; it separates the diverticulum proncipale from the diverticulum medium." [AAO:LAP]
+relationship: part_of AAO:0000492 ! processus_infrafenestralis
+
+[Term]
+id: AAO:0000648
+name: crista_praeopercularis
+def: "Synchondrotic or synostotic connection between the footplate of the pars media plectri and the ventral margin of the fenestra ovalis." [AAO:LAP]
+relationship: part_of AAO:0000408 ! pars_media_plectri
+
+[Term]
+id: AAO:0000649
+name: anterior_process_of_vomer
+def: "Process that extends anterolaterally toward the maxilla-premaxilla articulation." [AAO:LAP]
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000650
+name: processus_frontalis
+def: "Anterio portion of the maxilla that may contact the nasal and take part in the formation of a groove for the nasolacrimal duct." [AAO:LAP]
+related_synonym: "processus praeorbitalis of the pars facialis" []
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000651
+name: lamina_anterior_of_maxilla
+def: "Most anterior part of the maxilla, which is in contact with the premaxilla." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000652
+name: fossa_maxillaris
+def: "Depression lacated on the inner surface of the maxilla between the palatine process and the pars palatina." [AAO:LAP]
+relationship: part_of AAO:0000285 ! maxilla
+
+[Term]
+id: AAO:0000653
+name: pars_glenoidalis_of_quadratojugal
+def: "Portion of the quadratojugal that makes contact dorsally with the distal portion of the squamosal." [AAO:LAP]
+relationship: part_of AAO:0000532 ! quadratojugal
+
+[Term]
+id: AAO:0000654
+name: pars_jugalis
+def: "Anterior part of the quadratojugal that is in contact with the processus posterior of the maxilla." [AAO:LAP]
+relationship: part_of AAO:0000532 ! quadratojugal
+
+[Term]
+id: AAO:0000655
+name: processus_dorsalis
+def: "Dorsal process of the lamella alaris located at the anterior end of the margo orbitalis; a narrow ligament that runs from the frontoparietal is attached to it." [AAO:LAP]
+relationship: part_of AAO:0000254 ! lamella_alaris
+
+[Term]
+id: AAO:0000656
+name: processus_posterodorsalis
+def: "Posterior process of the lamella alaris." [AAO:LAP]
+relationship: part_of AAO:0000254 ! lamella_alaris
+
+[Term]
+id: AAO:0000657
+name: dentigerous_ process
+def: "Tooth-bearing process of the vomer." [AAO:LAP]
+related_synonym: "torus dentigerous" []
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000658
+name: prechoanal_process
+def: "Process that extends laterally from the anterior process; its bifurcation from the postchoanal process occurs at the level of the dentigerous process." [AAO:LAP]
+related_synonym: "processus choanalis anterior" []
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000659
+name: postchoanal_process
+def: "Process that extends laterally from the anterior process; its bifurcation from the prechoanal process occurs at the level of the dentigerous process." [AAO:LAP]
+related_synonym: "processus choanalis posterior" []
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000660
+name: margo_choanalis
+def: "Margin between the prechoanal and postchoanal process. It bounds the fenestra endochoanalis." [AAO:LAP]
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000661
+name: crista_vomeri
+def: "Ridge on the dorsal surface of the vomer that runs from the anterior to the postchoanal processes of the vomer; it takes part in the fixation of the bone to the lateral margin of the solum nasi." [AAO:LAP]
+relationship: part_of AAO:0000633 ! vomer
+
+[Term]
+id: AAO:0000662
+name: processus_posterior
+def: "Posterior projection of the median part of the parsphenoid, which may extend over the posterior margins of the subotic alae." [AAO:LAP]
+relationship: part_of AAO:0000385 ! parasphenoid
+
+[Term]
+id: AAO:0000663
+name: parahyoid
+relationship: part_of AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000664
+name: hyoid_plate
+def: "Azygous or paired bone that occurs on the ventral surface of the hyoid plate." [AAO:LAP]
+relationship: part_of AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000665
+name: hyobranchial_skeleton
+is_a: AAO:0000265 ! larval_structure
+
+[Term]
+id: AAO:0000666
+name: ceratohyal
+def: "Paired elements that lie ventral to the hypobranchials and curve dorsally from their medial articulation with basibranchial toward the suspensorium." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "ceratohyale" []
+related_synonym: "hyale" []
+related_synonym: "hyoid" []
+related_synonym: "keratohyale" []
+related_synonym: "zungenbeinknorpel" []
+relationship: part_of AAO:0000665 ! hyobranchial_skeleton
+
+[Term]
+id: AAO:0000667
+name: pars_reuniens
+def: "Area of fusion of the ceratohyals." [AAO:LAP]
+relationship: part_of AAO:0000665 ! hyobranchial_skeleton
+
+[Term]
+id: AAO:0000668
+name: hypoglossal_sinus
+relationship: part_of AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000669
+name: hyale
+relationship: part_of AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000670
+name: anterior_process_of_hyoid_apparatus
+relationship: part_of AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000671
+name: anterolateral_process_of_hyoid_plate
+def: "Processes that flank the hyales laterally and extend anterolaterally from the anterolateral margin of the hyoid plate. They are formed as a result of new cartilaginous growth lateral to the basibranchial." [AAO:Rocek_2003]
+related_synonym: "processus alaris" []
+related_synonym: "processus anterolateralis" []
+related_synonym: "processus lateralis anterior" []
+relationship: part_of AAO:0000664 ! hyoid_plate
+
+[Term]
+id: AAO:0000672
+name: posterolateral_process
+def: "Paired processes that extend posterolaterally from the posterolateral margin of the hyoid plate. These processes are formed as a result of new cartilaginous growth lateral to the basibranchial and hypobranchial plate." [AAO:LAP]
+relationship: part_of AAO:0000664 ! hyoid_plate
+
+[Term]
+id: AAO:0000673
+name: posteromedial_process
+def: "Cartilaginous, paired processes that extend posterolaterally from the posterior margin of the hyoid plate. These processes invest the laryngeal apparatus and are ossified in the adult." [AAO:LAP]
+related_synonym: "cornua posteriores" []
+related_synonym: "hyoid" []
+relationship: part_of AAO:0000664 ! hyoid_plate
+
+[Term]
+id: AAO:0000674
+name: arytenoid_cartilage
+def: "Paired, anteroposteriorly elongated cartilages that are associated with the vocal cords. These cartilages are medially separated and hemispherical, and their concave side faces ventromedially." [AAO:Maglia_et_al_2007, AAO:Rocek_2003]
+related_synonym: "cartilago arytaenoidea" []
+relationship: part_of AAO:0000267 ! laryngeal_apparatus
+
+[Term]
+id: AAO:0000675
+name: cricoid_cartilage
+def: "Cartilaginous ring that provides support for the arytenoid cartilages. Its ventral part is bent posteriorly to form a V." [AAO:Maglia_et_al_2003, AAO:Rocek_2003]
+related_synonym: "cartilago cricoidea" []
+related_synonym: "cartilago cricotrachealis" []
+relationship: part_of AAO:0000267 ! laryngeal_apparatus
+
+[Term]
+id: AAO:0000676
+name: bronchial_process
+def: "Paired processes that extend posteroventrally from the anterolateral margins of the cricoid ring." [AAO:Maglia_et_al_2007]
+related_synonym: "processus trachealis" []
+relationship: part_of AAO:0000675 ! cricoid_cartilage
+
+[Term]
+id: AAO:0000677
+name: lateral_process
+relationship: part_of AAO:0000675 ! cricoid_cartilage
+
+[Term]
+id: AAO:0000678
+name: esophageal_process
+def: "Median process located on the posterior end of the cricoid cartilage." [AAO:Rocek_2003]
+related_synonym: "spina oesophagea" []
+relationship: part_of AAO:0000675 ! cricoid_cartilage
+
+[Term]
+id: AAO:0000679
+name: humerus
+def: "Paired, elongate, cylindrical bones of endochondral origin that extend from the pectoral girdle to the elbows." [AAO:Maglia_et_al_1994]
+relationship: part_of AAO:0000199 ! fore_propodium
+
+[Term]
+id: AAO:0000680
+name: manubrium
+def: "Proximal section of the hyale." [AAO:Rocek_1993]
+related_synonym: "processus anteriores" []
+relationship: part_of AAO:0000669 ! hyale
+
+[Term]
+id: AAO:0000681
+name: hyoid_apparatus_opening
+is_a: AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000682
+name: hyoid_apparatus_skeleton
+is_a: AAO:0000225 ! hyoid_apparatus
+
+[Term]
+id: AAO:0000683
+name: sinus_nervi_hypoglossi
+def: "Depression that houses the hypoglossus nerve and is located between the anterolateral process and the proximal part of the hyale." [AAO:Rocek_2003]
+is_a: AAO:0000681 ! hyoid_apparatus_opening
+
+[Term]
+id: AAO:0000684
+name: hyoid_bone
+def: "Paired processes that extend posterolaterally from the posterior margin of the hyoid plate. These processes are the ossified posteromedial processes and invest the laryngeal apparatus." [AAO:Rocek_2003]
+related_synonym: "hyoid" []
+related_synonym: "os postero-mediale" []
+related_synonym: "ossa thyroidea" []
+relationship: part_of AAO:0000664 ! hyoid_plate
+
+[Term]
+id: AAO:0000685
+name: foramen_nervi_hypoglossi
+def: "Foramen that houses the hypoglossus nerve and is located between the anterolateral process and the proximal part of the hyale." [AAO:Rocek_2003]
+related_synonym: "foramen laterale" []
+is_a: AAO:0000681 ! hyoid_apparatus_opening
+
+[Term]
+id: AAO:0000686
+name: basibranchial
+def: "Medial element to which other parts of the hyoid apparatus are attached." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "copula I" []
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000687
+name: processus_confluens
+def: "Strip of cartilage that forms the lateral margin of the foramen nervi hypoglossi." [AAO:Rocek_2003]
+related_synonym: "processus alaris" []
+relationship: part_of AAO:0000669 ! hyale
+
+[Term]
+id: AAO:0000688
+name: prominentia_apicalis_dorsalis
+def: "Anterior end of the arytenoid cartilage." [AAO:Rocek_2003]
+related_synonym: "prominentia apicalis anterior" []
+relationship: part_of AAO:0000674 ! arytenoid_cartilage
+
+[Term]
+id: AAO:0000689
+name: prominentia_apicalis_ventralis
+def: "Posterior (cardiac) end of the arytenoid cartilage." [AAO:Rocek_2003]
+related_synonym: "prominentia apicalis posterior" []
+relationship: part_of AAO:0000674 ! arytenoid_cartilage
+
+[Term]
+id: AAO:0000690
+name: wrisbergi_cartilage
+def: "Independent cartilage that may occur dorsal or anterior to the prominentiae apicales dorsales of the arytenoid cartilages." [AAO:Rocek_2003]
+related_synonym: "cartilago apicalis intermedia" []
+related_synonym: "cartilago apicalis seu cartilago santoriniana" []
+relationship: part_of AAO:0000267 ! laryngeal_apparatus
+
+[Term]
+id: AAO:0000691
+name: vertebra
+def: "Main component of the vertebral column. It consists of two essential parts, a dorsal neural arch and a ventral centrum." [AAO:Pugener_and_Maglia_2008]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000692
+name: pedicel
+def: "Paired stalks located dorsolateral to the vertebral centrum that provide support to the lateral margins of the neural arch laminae." [AAO:LAP]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000693
+name: neural_canal
+def: "Canal formed by the vertebral centra ventrally, the pedicels laterally, and the neural arches dorsally that encloses and protects the spinal cord." [AAO:LAP]
+related_synonym: "foramen vertebrale" []
+related_synonym: "spinal canal" []
+is_a: AAO:0000700 ! vertebral_column_opening
+
+[Term]
+id: AAO:0000694
+name: atlantal_cotyle
+def: "Anterior, single or paired concave facets for articulation with the condyle(s) of the urostyle." [AAO:Francis_1934]
+related_synonym: "cavitas glenoidalis" []
+relationship: part_of AAO:0000709 ! atlas
+
+[Term]
+id: AAO:0000695
+name: neural_arch_lamina
+def: "Paired plates that form the neural arch. The lateral margin of each lamina rests dorsal to the superior end of the pedicel, and the medial end fuses to the medial end of the opposite lamina." [AAO:Pugener_and_Maglia_2008]
+relationship: part_of AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000696
+name: posterior_intervertebral_notch
+def: "Indentation on the anterior margin of the pedicel. When two vertebrae articulate, the anterior notch of one vertebra and the posterior notch of the other create a bilateral intervertebral space." [AAO:LAP]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000697
+name: centrum
+def: "Cylindrical body of bone, round or oval in cross section, which functionally replaces the notochord." [AAO:Duellman_and_Trueb_2008]
+related_synonym: "corpus" []
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000698
+name: transverse_process
+def: "Projections on each side of the vertebra from the point where the neural arch lamina joins the pedicel for the articulation with the head of a single-headed rib or the upper head of a double-headed rib. Also called diapophyses. They provide surfaces for the attachment of muscles. In anurans, the term transverse process is used in reference to the processes associated with the presacral and postsacral vertebrae." [AAO:Pugener_2002, AAO:Pugener_and_Maglia_2008, AAO:Trueb_1973]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000699
+name: vertebral_column_skeleton
+is_a: AAO:0000034 ! axial_skeleton
+
+[Term]
+id: AAO:0000700
+name: vertebral_column_opening
+is_a: AAO:0000034 ! axial_skeleton
+
+[Term]
+id: AAO:0000701
+name: intervertebral_space
+def: "Space formed by the anterior and posterior intervertebral notches. The intervertebral spaces accommodate the spinal nerves as they emerge from the spinal canal." [AAO:LAP]
+related_synonym: "intervertebral space" []
+is_a: AAO:0000700 ! vertebral_column_opening
+
+[Term]
+id: AAO:0000702
+name: postzygapophysis
+def: "Paired processes at the caudal end of the neural arch. The articular facets of the postzygapophyses face lateroventrally and articulate with the dorsomedially facing facets of the prezygapophyses of the succeeding vertebra." [AAO:LAP]
+related_synonym: "processus obliquus posterior" []
+is_a: AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000703
+name: prezygapophysis
+def: "Paired processes at the cephalic end of the neural arch. The articular facets of the prezygapophyses face dorsomedially and articulate with the lateroventrally facing facets of the postzygapophyses of the preceding vertebra." [AAO:Pugener_and_Maglia_2008]
+related_synonym: "processus obliquus anterior" []
+is_a: AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000704
+name: anterior_intervertebral_notch
+def: "Indentation on the posterior margin of the pedicel. When two vertebrae articulate, the anterior notch of one vertebra and the posterior notch of the other create a bilateral intervertebral space." [AAO:LAP]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000705
+name: neural_spine
+def: "Elaboration of the mid-dorsal keel into a posterior or posterolateral process." [AAO:Pugener_and_Maglia_2008]
+related_synonym: "processus spinosus" []
+relationship: part_of AAO:0000735 ! mid-dorsal_keel
+
+[Term]
+id: AAO:0000706
+name: diapophysis
+def: "Paired processes that arise near the midpoint of the neural arch lamina, for the attachment of the tuberculum of two-headed ribs. Also called transverse processes. In anurans, the term diapophysis is used in reference to the modified transverse processes of the sacral vertebra elaborated for support of the pelvic girdle." [AAO:Duellman_and_Trueb_1994, AAO:Pugener_2002]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000707
+name: pleurapophysis
+def: "Paired processes that represent the rib attachments to the vertebra plus the ribs." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000708
+name: parapophysis
+def: "Paired processes, which arise near the dorsolateral part of the vertebral centrum, for the attachment of the capitulum of two-headed ribs." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000709
+name: atlas
+def: "First postcranial vertebra, which is modified anteriorly to articulate with the skull." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "presacral I" []
+relationship: part_of AAO:0000092 ! cervical_region
+
+[Term]
+id: AAO:0000710
+name: zygapophysis
+def: "Paired processes at the cephalic and caudal ends of the neural arch. They function as interlocking structures between adjacent vertebrae, and limit dorsoventral flexion and lateral movement of the column in the trunk region." [AAO:Pugener_and_Maglia_2008]
+related_synonym: "processus articularis" []
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000711
+name: procoelous
+def: "Holochordal vertebral centra that are concave anteriorly and convex posteriorly; they bear a condyle on the posterior end for the articulation with the posterior adjacent vertebral centrum, forming a ball-and-socket joint that allows extensive motion in most directions." [AAO:Pugener_2002, AAO:Trueb_1973]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000712
+name: opisthocoelous
+def: "Ectochordal or stegochordal vertebral centra that are convex anteriorly and concave posteriorly; they bear a condyle on the anterior end for the articulation with the posterior adjacent vertebral centrum, forming a ball-and-socket joint that allows extensive motion in most directions." [AAO:Pugener_2002, AAO:Trueb_1973]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000713
+name: epichordal
+def: "Vertebral centrum that originates from ossification of the dorsal portion of the perichordal tube; the resulting element tends to be depressed in cross section." [AAO:Kluge_and_Farris_1969]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000714
+name: perichordal
+def: "Vertebral centrum that originates from ossification of the entire perichordal tube; the resulting element is cylindrical in cross section and may have an open (notochord retained) or solid center." [AAO:Kluge_and_Farris_1969]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000715
+name: heterocoelous
+def: "Vertebral centrum that bears saddle-shaped articular surfaces at both ends, having a convexity in the right-left axis and a concavity in the dorsoventral axis. This morphology allows great lateral and vertical flexion." [AAO:LAP]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000716
+name: acoelous
+def: "Vertebral centrum with flat ends. Between successive vertebrae there is a fibrocartilaginous intervertebral body with a gel-like core, the nucleus pulposus, which is derived from the embryonic notochord. Acoelous vertebrae seem especially suited to receive and distribute compressive forces within the vertebral column." [AAO:LAP]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000717
+name: amphicoelous
+def: "Ectochordal, biconcave or terminally flat vertebral centrum. This design seems to allow limited motion in most directions. An intervertebral body (which may or may not be independent from the adjacent centra) fills the cavity between successive centra. The intervertebral body usually is formed by soft material that may be derived, at least in part, from the embryonic notochord." [AAO:Pugener_2002, AAO:Trueb_1973]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000718
+name: ectochordal
+def: "Spool-shaped vertebral centrum with an open center in which the notochord lies." [AAO:Griffiths_1959]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000719
+name: holochordal
+def: "Spool-shaped vertebral centrum with a solid center. All traces of the notochord dissapear." [AAO:Griffiths_1959]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000720
+name: stegochordal
+def: "Vertebral centrum that is depressed dorsoventrally and solid. All traces of the notochord dissapear." [AAO:Griffiths_1959]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000721
+name: odontoid_process
+def: "Anterior process located between the atlantal cotyles that projects into the foramen magnum of the skull and bears facets that articulate with the lateral walls of the foramen." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "tuberculum interglenoideum" []
+relationship: part_of AAO:0000709 ! atlas
+
+[Term]
+id: AAO:0000722
+name: tuberculum
+def: "Dorsal head of a bicapitate rib. It articulates with the diapophysis." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000545 ! rib
+
+[Term]
+id: AAO:0000723
+name: capitulum_of_rib
+def: "Ventral head of a bicapitate rib. It articulates with the parapophysis." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000545 ! rib
+
+[Term]
+id: AAO:0000724
+name: sacral_region
+def: "Region of the vertebral column represented by one or two vertebrae." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000725
+name: neural_arch
+def: "Bony arch perched on the vertebral centrum; successive arches enclose the neural canal that surrounds and protects the spinal cord dorsally." [AAO:Pugener_2002]
+related_synonym: "carina neuralis" []
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000726
+name: haemal_arch
+def: "Bony canal attached to the ventral surface or the vertebral centrum that encloses and protects the caudal artery and vein ventrally. The arch consists of right and left halves, which are fused ventrally to give a V- or Y-shape to the ventral aspect of the vertebra." [AAO:Pugener_2002]
+related_synonym: "ventral arch" []
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000727
+name: haemal_arch_lamina
+def: "Paired plates that form the haemal arch. The lateral margin of each lamina is firmly attached to the ventral surface of the caudal vertebral centrum and the medial end fuses to the medial end of the opposite lamina." [AAO:Pugener_2002]
+relationship: part_of AAO:0000726 ! haemal_arch
+
+[Term]
+id: AAO:0000728
+name: nucal_keel
+def: "Longitudinal process found in all cervical vertebrae, except the atlas, for the attachment of dorsal head musculature." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000709 ! atlas
+
+[Term]
+id: AAO:0000729
+name: spinal_foramen
+def: "Opening on the vertebra for a spinal nerve as it emerges from the spinal canal." [AAO:Francis_1934]
+is_a: AAO:0000700 ! vertebral_column_opening
+
+[Term]
+id: AAO:0000730
+name: foramen_nutritium
+def: "Opening on the lateral side of the vertebra for the passage of blood vessels." [AAO:Francis_1934]
+is_a: AAO:0000700 ! vertebral_column_opening
+
+[Term]
+id: AAO:0000731
+name: coccyx
+def: "Small, bony element consisting of several fused, rudimentary caudal vertebrae; near metamorphosis the hypochord fuses to the coccyx, thereby forming the urostyle." [AAO:Pugener_2002, AAO:Pugener_and_Maglia_2008]
+relationship: part_of AAO:0000734 ! vertebral_column
+
+[Term]
+id: AAO:0000732
+name: urostyle
+def: "Rodlike caudal bony structure unique to anurans that lies within a compartment formed by the elongated, anteriorly oriented pelvic girdle. The urostyle is formed by the fusion of the coccyx and the hypochord." [AAO:Pugener_2002, AAO:Pugener_and_Maglia_2008]
+related_synonym: "os coccygei" []
+relationship: part_of AAO:0000082 ! caudal_region
+
+[Term]
+id: AAO:0000733
+name: hypochord
+def: "Unsegmented ventral structure in the caudal region of anuran larvae; near metamorphosis the hypochord fuses to the coccyx, thereby forming the urostyle." [AAO:Pugener_2002]
+relationship: part_of AAO:0000734 ! vertebral_column
+
+[Term]
+id: AAO:0000734
+name: vertebral_column
+is_a: AAO:0000265 ! larval_structure
+
+[Term]
+id: AAO:0000735
+name: mid-dorsal_keel
+def: "Ridge-shaped structure present on the dorsomedial surface of the neural arch lamina; this structure is produced at the point of junction of the contralateral sides of each neural arch." [AAO:Pugener_2002]
+relationship: part_of AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000736
+name: crista_ventralis
+def: "Ridge on the ventral aspect of the humeral shaft that extends from the level of the glenoid head to about one-third to one-half the lenfth of the shaft. It serves for the attachment of the mm pectoralis and supra-coracoideus." [AAO:Francis_1934]
+related_synonym: "crista_ventralis_humeri" []
+related_synonym: "deltoid crest" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000737
+name: perichordal_tube
+def: "Coat around the notochord that originates from cells derived from the sclerotomes." [AAO:Pugener_2002]
+relationship: part_of AAO:0000327 ! notochord
+
+[Term]
+id: AAO:0000738
+name: perichordal_ring
+def: "Segmental sections of the perichordal tube that give rise to vertebrae." [AAO:Pugener_2002]
+relationship: part_of AAO:0000737 ! perichordal_tube
+
+[Term]
+id: AAO:0000739
+name: spinous_process
+def: "Small, posteriorly directed process at the posterior margin of each neural arch lamina; it is not a neural spine." [AAO:Pugener_2002]
+relationship: part_of AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000740
+name: synsacrum
+def: "Complex of synostotically fused vertebrae supporting the pelvic girdle. In anurans, the synsacrum is formed by two vertebrae and the urostyle is fused to its posterior end." [AAO:Pugener_2002]
+relationship: part_of AAO:0000724 ! sacral_region
+
+[Term]
+id: AAO:0000741
+name: uncinate_process
+def: "Posteriorly directed process (occasionally directed anteriorly) usually associated with the rib (sometimes with the transverse process) of the third vertebra; they provide the origin of the mm serratus superior, medius, and inferior." [AAO:Pugener_2002]
+relationship: part_of AAO:0000545 ! rib
+
+[Term]
+id: AAO:0000742
+name: epiphysis
+def: "Cartilaginous expansion at the distal end of an anterior rib or transverse process that serves for the attachment of muscles suspending the pectoral girdle to the vertebral column." [AAO:Pugener_2002]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000743
+name: sacral_condyle
+def: "Anterior, paired convex facets for articulation with the cotyle(s) of the urostyle." [AAO:LAP]
+relationship: part_of AAO:0000552 ! sacrum
+
+[Term]
+id: AAO:0000744
+name: urostyle_cotyle
+def: "Anterior, single or paired concave facets for articulation with the sacral condyle(s)." [AAO:LAP]
+related_synonym: "fossa condyloidea ossis coccygei" []
+relationship: part_of AAO:0000732 ! urostyle
+
+[Term]
+id: AAO:0000745
+name: webbing_of_bone
+def: "In anurans, pair of bony plates that connect the posteromedial margins of the sacral diapophyses with the lateral margins of the anterior portion of the urostyle." [AAO:Pugener_and_Maglia_2008]
+relationship: part_of AAO:0000699 ! vertebral_column_skeleton
+
+[Term]
+id: AAO:0000746
+name: urostyle_ridge
+def: "Longitudinal crest on the dorsal side of the urostyle formed by the caudal neural arches." [AAO:Maglia_et_al_2007]
+related_synonym: "crista ossi coccygei" []
+relationship: part_of AAO:0000732 ! urostyle
+
+[Term]
+id: AAO:0000747
+name: appendicular_skeleton
+def: "The pectoral and pelvic girdles, which articulate with the axial skeleton, together with their associated limbs, the forelimbs and hind limbs, form the appendicular skeleton." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000566 ! skeletal_system
+
+[Term]
+id: AAO:0000748
+name: suprascapula
+def: "Paired, cartilaginous elements located in the dorsolateral shoulder region. Each suprascapula is a flat broad blade that extends medially." [AAO:Maglia_et_al_2007]
+related_synonym: "adscapulum" []
+related_synonym: "episcapulum" []
+related_synonym: "omolita" []
+related_synonym: "scapula major" []
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000749
+name: glenoid_fossa
+def: "Cavity for the articulation of the forelimb formed by the scapula, coracoid, and clavicle." [AAO:Maglia_et_al_2007]
+related_synonym: "glenoid cavity" []
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000750
+name: cleithrum
+def: "Paired bones of intramembranous origin. Each cleithrum extends medially from a point near the suprascapular-scapular articulation to invest the anterior margin of the suprascapula, and occasionoally it may extend to the dorsal (medial) surface. Usually, this bone is bifurcate." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000751
+name: scapula
+def: "Paired bony elements of endochondral origin. They are situated at the level of the jaw articulation, in a vertical position, with the suprascapular margin being dorsal and the glenoid end being ventral." [AAO:Maglia_et_al_2007]
+related_synonym: "collum scapulae" []
+related_synonym: "lower shoulder blade" []
+related_synonym: "omoplate" []
+related_synonym: "scapula minor" []
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000752
+name: pars_acromialis
+def: "Prominent structure (anteromedial head) that forms the anterior section of the ventral margin of the scapula." [AAO:Trueb_1973]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000753
+name: pars_glenoidalis_of_scapula
+def: "Concave structure (posteromedial head) that forms the posterior head of the ventral margin of the scapula. The pars glenoidalis articulates with the humerus, and comprises the dorsal portion of the glenoid fossa." [AAO:Trueb_1973]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000754
+name: pectoral_girdle_skeleton
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000755
+name: pectoral_girdle_opening
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000756
+name: crista_dorsalis
+def: "Small hooked process on the dorsal aspect of the humeral shaft; it does not extend on to the glenoid head. The m subscapularis is inserted on it." [AAO:Francis_1934]
+related_synonym: "crista_dorsalis_humeri" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000757
+name: zonal_area
+def: "All those parts of the pectoral girdle ventral and medial to the glenoid fossa." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000754 ! pectoral_girdle_skeleton
+
+[Term]
+id: AAO:0000758
+name: lateral_epicondyle
+def: "Rounded projection at the distal head of the humerus (larger and more prominent than the lateral epicondyle) and lateral to the humeral head, which serves as a place of attachment for the mm extensor antebrachii et carpi radialis, extensor digitorum communis, and in part to the m extensor antebrachii et carpi ulnaris." [AAO:Francis_1934, AAO:LAP]
+related_synonym: "epicondylus_lateralis_humeri" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000759
+name: omosternum
+def: "Proximal portion of the prezonal element of the pectoral girdle. It may be a flat, midventral cartilaginous structure or a calcified or bony element elaborated into a stylum." [AAO:Maglia_et_al_2007]
+related_synonym: "episternum" []
+related_synonym: "interclavicle" []
+related_synonym: "prezonal element" []
+related_synonym: "prezonal sternum" []
+related_synonym: "sternum superior" []
+relationship: part_of AAO:0000937 ! prezonal_element
+
+[Term]
+id: AAO:0000760
+name: procoracoid
+def: "Cartilaginous, paired structures located on the anterolateral portions of the zonal area of the pectoral girdle." [AAO:Maglia_et_al_2007]
+related_synonym: "precoracoid" []
+relationship: part_of AAO:0000936 ! zonal_element
+
+[Term]
+id: AAO:0000761
+name: clavicle
+def: "Slender, paired bones of intramembranous origin that invest the anterior margins of the procoracoids." [AAO:Maglia_et_al_2007]
+related_synonym: "acromial" []
+related_synonym: "furcula" []
+related_synonym: "os thoracale" []
+relationship: part_of AAO:0000936 ! zonal_element
+
+[Term]
+id: AAO:0000762
+name: epicoracoid
+def: "Paired, flat cartilaginous arches that compose the central portion of the zonal area, unites the clavicle and coracoid of each half of the pectoral girdle, and form the medial margins of the pectoral fenestrae." [AAO:Maglia_et_al_2007]
+related_synonym: "coracoid cartilage" []
+related_synonym: "corpus sterni" []
+related_synonym: "entosternal" []
+related_synonym: "infracoracoid" []
+related_synonym: "sterni ossa media" []
+relationship: part_of AAO:0000936 ! zonal_element
+
+[Term]
+id: AAO:0000763
+name: epicoracoid_bridge
+def: "A pair of cartilaginous expansions (one from each epicoracoid cartilage) that project anteriorly. They articulate anteriorly with the omosternum." [AAO:Maglia_et_al_2007]
+related_synonym: "procoracoid bridge" []
+relationship: part_of AAO:0000762 ! epicoracoid
+
+[Term]
+id: AAO:0000764
+name: coracoid
+def: "Paired cartilaginous structures or endochondral bones located on the posterolateral portions of the zonal area of the pectoral girdle." [AAO:Maglia_et_al_2007]
+related_synonym: "clavicula" []
+related_synonym: "clavicula posterior" []
+related_synonym: "clavicula vera" []
+related_synonym: "coracoideum" []
+related_synonym: "coracoidien" []
+related_synonym: "pars sternalis scapulae" []
+relationship: part_of AAO:0000936 ! zonal_element
+
+[Term]
+id: AAO:0000765
+name: sternum
+def: "Single element that constitutes the postzonal area of the pectoral girdle." [AAO:Maglia_et_al_2007]
+related_synonym: "cartilaginula quadrata intermedia" []
+related_synonym: "hyposternum" []
+related_synonym: "sternum inferius" []
+relationship: part_of AAO:0000938 ! postzonal_element
+
+[Term]
+id: AAO:0000767
+name: pelvic_girdle_opening
+is_a: AAO:0000426 ! pelvic_girdle
+
+[Term]
+id: AAO:0000768
+name: pelvic_girdle_skeleton
+is_a: AAO:0000426 ! pelvic_girdle
+
+[Term]
+id: AAO:0000769
+name: pelvic_girdle_symphisis
+def: "Medial attachement of the two halves of the pelvic girdle." [AAO:Francis_1934]
+relationship: part_of AAO:0000426 ! pelvic_girdle
+
+[Term]
+id: AAO:0000770
+name: acetabulum
+def: "Cavity for the articulation of the proximal bone of the hind limb." [AAO:Maglia_et_al_2007]
+related_synonym: "cavite cotyloide" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000771
+name: acetabular_depression
+def: "Central, most concave portion of the acetabulum, which remains open." [AAO:Maglia_et_al_2007]
+is_a: AAO:0000767 ! pelvic_girdle_opening
+
+[Term]
+id: AAO:0000772
+name: ilium
+def: "Paired, rodlike endochondral bones that constitute the anterior pelvic girdle." [AAO:Maglia_et_al_2007]
+related_synonym: "os ischii" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000773
+name: ilial_ridge
+def: "Longitudinal crest on the dorsal side of the shaft of the ilium." [AAO:Maglia_et_al_2007]
+related_synonym: "ala ossis ilei" []
+relationship: part_of AAO:0000774 ! ilial_shaft
+
+[Term]
+id: AAO:0000774
+name: ilial_shaft
+def: "Anterior rod that articulates with the sacrum." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000772 ! ilium
+
+[Term]
+id: AAO:0000775
+name: ilial_corpus
+def: "Posterior body of the illium that forms the anterior half of the acetabulum." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000772 ! ilium
+
+[Term]
+id: AAO:0000776
+name: glenoid_foramen
+def: "Opening on the glenoid fossa." [AAO:LAP]
+is_a: AAO:0000755 ! pectoral_girdle_opening
+
+[Term]
+id: AAO:0000777
+name: epicoracoid_horn
+def: "A pair of cartilaginous expansions (one from each epicoracoid cartilage) that project posteriorly. They articulate with the sternum by means of grooves, pouches or fossae in the dorsal surface of the sternum and provide a site for the insertion of a pair of muscles derived from the m. rectus abdominis." [AAO:LAP]
+relationship: part_of AAO:0000762 ! epicoracoid
+
+[Term]
+id: AAO:0000778
+name: supracoracoid_foramen
+def: "Opening on the scapulocoracoid bone through which passes the n. supracoracoideus and the corresponding artery and vein." [AAO:Francis_1934]
+related_synonym: "foramen supracoracoideum" []
+is_a: AAO:0000755 ! pectoral_girdle_opening
+
+[Term]
+id: AAO:0000779
+name: pectoral_fenestra
+def: "Ovoid space on the pectoral girdle limited anteriorly by the procoracoid, medially by the epicoracoid, and posteriorly by the coracoid." [AAO:Maglia_et_al_2007]
+related_synonym: "fenestra between procoracoid and coracoid" []
+is_a: AAO:0000755 ! pectoral_girdle_opening
+
+[Term]
+id: AAO:0000780
+name: incisura_coracoidea
+def: "Notch that separates the cartilaginous regions of the procoracoid and coracoid." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000781
+name: scapulocoracoid
+def: "Fused, ossified portions of the scapula, procoracoid, and coracoid." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000782
+name: medial_epicondyle
+def: "Rounded projection at the distal head of the humerus and medial to the humeral head, which serves as a place of attachment for the flexor muscles antogonistic to those that attach to the lateral epicondyle." [AAO:Francis_1934, AAO:LAP]
+related_synonym: "epicondylus_medialis_humeri" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000783
+name: fovea_capitis
+def: "Ovoid roughened pit, which is situated a little below and behind the center of the head, and serves as a site of attachment for ligaments." [AAO:LAP]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000784
+name: ulnar_condyle
+def: "Semi-elliptical ball located at the lower end of the humerus, adjacent to the humeral ball." [AAO:Francis_1934]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000785
+name: trochlear_groove_of_humerus
+def: "Furrow between the humeral head and the ulnar condyle." [AAO:Francis_1934]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000786
+name: fossa_cubitalis_ventralis
+def: "Depresion on the distal end of the humerus, just anterior to the humeral head, in which the end of the radius fits when the forelimb is flexed." [AAO:Francis_1934, LAP:Maglia_et_al_2007]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000787
+name: collum_antibrachii
+def: "In a fused radio-ulna, the proximal portion of the compound bone (where the sulcus longitudinalis is barely evident or absent) is a cylindrical pillar." [AAO:LAP]
+relationship: part_of AAO:0000200 ! fore_epipodium
+
+[Term]
+id: AAO:0000788
+name: radius
+def: "One of the two long bones of endochondral origin of the fore-epipodium; it is located on the lateral side of the ulna. Its upper end articulates with both the humerus and the ulna, whereas the lower articulates with the carpals." [AAO:LAP]
+relationship: part_of AAO:0000200 ! fore_epipodium
+
+[Term]
+id: AAO:0000789
+name: ulna
+def: "One of the two long bones of endochondral origin of the fore-epipodium; it is located on the medial (inner) side of the radius. The upper end of the ulna articulates with the lower end of the humerus forming a strong hinge joint with the carpals, whereas the lower articulates with the carpals." [AAO:LAP]
+relationship: part_of AAO:0000200 ! fore_epipodium
+
+[Term]
+id: AAO:0000790
+name: radiale
+def: "One of two element that constitute the basal row of carpals. It articulates proximally with the radius, mesially with the ulnare (or pars intermedia of the ulnare when the ulnare is fused to the intermedium) and distally with the centrale (also recognized by some authors as element Y). This element originates from one or two condensation centers. Occasionally it may fuse to carpal 5(4), the ulnare, or other elements." [AAO:Fabrezi_1992, AAO:Fabrezi_and_Alberch_1996, AAO:Francis_1934]
+relationship: part_of AAO:0000201 ! fore_mesopodium
+
+[Term]
+id: AAO:0000791
+name: episternum
+def: "Distal, flat, cartilaginous element of the prezonal element of the pectoral girdle." [AAO:LAP]
+relationship: part_of AAO:0000937 ! prezonal_element
+
+[Term]
+id: AAO:0000792
+name: anterior_ramus_of cleithrum
+def: "Subdivision of the cleithrum that extends along the anterior edge of the suprascapula." [AAO:Trueb_1973]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000793
+name: anomocoelous
+def: "Stegochordal slightly biconcave or flat terminally vertebral centrum. Each intervertebral cartilage is subdivided anteriorly and posteriorly, producing a free intervertebral element between adjacent vertebrae. This element subsequently ossifies and remains free." [AAO:Trueb_1973]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000794
+name: displasiocoelous
+def: "Vertebral column in which the first seven vertebrae have holochordal centra and the intervertebral cartilages are posteriorly subdivided in the procoelous manner. The eighth presacral vertebra has a holochordal centrum and the intervertebral cartilage is subdivided in the opisthocoelous manner. Thus, the first seven presacral vertebrae are concave anteriorly and convex posteriorly, whereas the eighth is biconcave." [AAO:Trueb_1973]
+is_a: AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000795
+name: intervertebral_cartilage
+def: "Block of cartilage, which usually ossifies, that lies between successive vertebral centra." [AAO:Trueb_1973]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000796
+name: imbricate_neural_arch
+def: "Overlapping neural arches that obscure the spinal cord dorsally." [AAO:Trueb_1973]
+is_a: AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000797
+name: non-imbricate_neural_arch
+def: "Neural arches that do not overlap, thus exposing the spinal cord dorsally." [AAO:Trueb_1973]
+is_a: AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000798
+name: presacral_shield
+def: "Dorsal, dermal plate of bone that overlies the presacral vertebrae. Such shield usually has irregular, sculptured surfaces, frequently is broadly expanded, and may be composed of several separate plates." [AAO:Trueb_1973]
+relationship: part_of AAO:0000612 ! trunk_region
+
+[Term]
+id: AAO:0000799
+name: cartilago_paraglenoidalis
+def: "Strip of cartilage that separates the coracoid from the scapula." [AAO:Stephenson_1952]
+relationship: part_of AAO:0000935 ! scapular_area
+
+[Term]
+id: AAO:0000800
+name: intercotylar_space
+def: "Space between the atlantal cotyles." [AAO:LAP]
+related_synonym: "spatium interglenoidale" []
+relationship: part_of AAO:0000709 ! atlas
+
+[Term]
+id: AAO:0000801
+name: caput_glenoidale
+def: "Convex articular facet of the vertebral centrum for the articulation with the adjacent centrum." [AAO:LAP]
+relationship: part_of AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000802
+name: fossa_glenoidalis
+def: "Concave articular facet of the vertebral centrum for the articulation with the adjacent centrum." [AAO:LAP]
+relationship: part_of AAO:0000697 ! centrum
+
+[Term]
+id: AAO:0000803
+name: sulcus_articularis_lateralis
+def: "In a zygapophysis that has ridges and sulci, the lateral canal between the carina distalis and the carina medialis." [AAO:LAP]
+relationship: part_of AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000804
+name: sulcus_articularis_medialis
+def: "In a zygapophysis that has ridges and sulci, the medial canal between the carina medialis and the carina proximalis." [AAO:LAP]
+relationship: part_of AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000805
+name: carina_proximalis
+def: "In a zygapophysis that has ridges and sulci, the proximal ridge." [AAO:LAP]
+relationship: part_of AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000806
+name: carina_medialis
+def: "In a zygapophysis that has ridges and sulci, the medial ridge." [AAO:LAP]
+relationship: part_of AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000807
+name: carina_distalis
+def: "In a zygapophysis that has ridges and sulci, the distal ridge." [AAO:LAP]
+relationship: part_of AAO:0000710 ! zygapophysis
+
+[Term]
+id: AAO:0000808
+name: parasagittal_processes
+def: "Paired, posteriorly directed process at the posterior margin of each neural arch lamina." [AAO:Cannatella_1985]
+relationship: part_of AAO:0000725 ! neural_arch
+
+[Term]
+id: AAO:0000809
+name: accessory_articulation
+def: "Paired, additional vertebral articulations located medial to the intervertebral space, adjacent to the vertebral centrum." [AAO:Cannatella_1985]
+relationship: part_of AAO:0000691 ! vertebra
+
+[Term]
+id: AAO:0000810
+name: fissura_sagittalis
+def: "Medial groove in the longitudinal ridge of the urostyle formed by the incomplete dorsal fusion of the caudal neural arches." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000746 ! urostyle_ridge
+
+[Term]
+id: AAO:0000811
+name: glenoid_end_of_clavicle
+def: "Lateral end of the clavicle, which usually lies in close proximity to the pars acromialis of the scapula, and occassionally may fuse to it." [AAO:Cannatella_1985]
+related_synonym: "extremitas glenoidalis" []
+relationship: part_of AAO:0000761 ! clavicle
+
+[Term]
+id: AAO:0000812
+name: sternal_end_of_clavicle
+def: "Medial end of the clavicle, which usually lies on the ventral side of the epicoracoid cartilage, just posterior to the epicoracoid bridge." [AAO:Maglia_et_al_2007]
+related_synonym: "extremitas medialis" []
+related_synonym: "medial end" []
+relationship: part_of AAO:0000761 ! clavicle
+
+[Term]
+id: AAO:0000813
+name: sulcus_pro_cartilagine_praecoracoidealis
+def: "Canal on the posterior aspect of the clavicle that accomodates the anterior margin of the procoracoid cartilage." [AAO:LAP]
+relationship: part_of AAO:0000761 ! clavicle
+
+[Term]
+id: AAO:0000814
+name: glenoid_head_of_coracoid
+def: "Lateral end of the coracoid, which forms the medial portion of the glenoid fossa." [AAO:Maglia_et_al_2007]
+related_synonym: "intumescentia_glenoidalis" []
+relationship: part_of AAO:0000764 ! coracoid
+
+[Term]
+id: AAO:0000815
+name: sternal_head_of_coracoid
+def: "Medial end of the coracoid, which is synchondrotically fused to the epicoracoid cartilage." [AAO:Maglia_et_al_2007]
+related_synonym: "pars epicoracoidealis" []
+relationship: part_of AAO:0000764 ! coracoid
+
+[Term]
+id: AAO:0000816
+name: margo_fenestralis
+def: "Anterior margin of the coracoid, which forms the posterior edge of the pectoral fenestra." [AAO:LAP]
+relationship: part_of AAO:0000764 ! coracoid
+
+[Term]
+id: AAO:0000817
+name: margo_posterior
+def: "Posterior margin of the coracoid." [AAO:LAP]
+relationship: part_of AAO:0000764 ! coracoid
+
+[Term]
+id: AAO:0000818
+name: margo_anterior_of_scapula
+def: "Anterior margin of the scapula." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000819
+name: margo_clavicularis
+def: "Inferior margin of the pars acromialis of the scapula, which articulates with the clavicule." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000820
+name: margo_posterior_of_scapula
+def: "Posterior margin of the scapula." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000821
+name: margo_suprascapularis
+def: "Superior margin of the scapula, which articulates with the suprascapula." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000822
+name: pars_suprascapularis
+def: "Superior portion of the scapula, which is thinner than the rest of the shaft." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000823
+name: sinus_interglenoidalis
+def: "Notch or indentation between the pars glenoidalis and pars acromialis of the scapula." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000824
+name: tenuitas_cristaeformis
+def: "Leading (anterior) portion of the scapula, which is thinner than the rest of the shaft." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000825
+name: crista_longitudinalis
+def: "Longitudinal ridge on the medial (inner) face of the scapula." [AAO:LAP]
+relationship: part_of AAO:0000751 ! scapula
+
+[Term]
+id: AAO:0000826
+name: acromion
+def: "Anterior rounded projection of the pars acromialis of the scapula." [AAO:LAP]
+relationship: part_of AAO:0000752 ! pars_acromialis
+
+[Term]
+id: AAO:0000827
+name: margo_anterior_of_cleithrum
+def: "Anterior margin of the anterior ramus of the cleithrum." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000828
+name: margo_posterior_of_cleithrum
+def: "Posterior margin of the posterior ramus of the cleithrum." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000829
+name: margo_scapularis
+def: "Lateral margin of the suprascapula, which articulates with the scapula." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000830
+name: margo_vertebralis
+def: "Medial margin of the suprascapula, which lies dorsal to the vertebral column." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000831
+name: spina_acromioidea
+def: "Small process of the lamina recurvata that extends laterally toward the scapular-suprascapular articulation." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000832
+name: anterior_lamina_recurvata
+def: "Portion of the anterior ramus of the cleithrum that invest the anterior margin of the suprascapula, extending onto its dorsal surface." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000833
+name: sinus_dorsalis
+def: "Notch or indentation between the anterior and posterior rami of the cleithrum." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000834
+name: posterior_lamina_recurvata
+def: "Portion of the posterior ramus of the cleithrum that invests the posterior margin of the suprascapula, extending onto its dorsal surface." [AAO:LAP]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000835
+name: glenoid_head
+def: "Hemispherical ball on the proximal end of the humerus that fits into the glenoid cavity of the pectoral girdle to form the shoulder joint." [AAO:Maglia_et_al_2007]
+related_synonym: "caput humeri" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000836
+name: crista_lateralis
+def: "Ridge on the lateral aspect of the humeral shaft located just anterior to the radial (lateral) epicondyle." [AAO:LAP]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000837
+name: crista_medialis
+def: "Ridge on the medial aspect of the humeral shaft that extends from the level of the middle portion of the shaft to ulnar (medial) epicondyle." [AAO:LAP]
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000838
+name: humeral_head
+def: "Hemispherical ball located at the lower end of the humerus that stands out prominently from the surrounding structures toward the flexor surface of the forelimb and fits into the socket joint of the olecranon process." [AAO:Francis_1934]
+related_synonym: "eminentia capitata" []
+related_synonym: "radial condyle" []
+relationship: part_of AAO:0000679 ! humerus
+
+[Term]
+id: AAO:0000839
+name: crista_radii
+def: "Small ridge on the lateral aspect of the radial shaft, located at the level of the collum antibrachii." [AAO:LAP]
+relationship: part_of AAO:0000788 ! radius
+
+[Term]
+id: AAO:0000840
+name: capitulum_of_radius
+def: "Lateral portion of the proximal (upper) articular surface of the radius that consists of an eminence with a rounded apex." [AAO:LAP]
+relationship: part_of AAO:0000788 ! radius
+
+[Term]
+id: AAO:0000841
+name: capitulum_radii
+def: "Small eminence on the distal articular head of the radius." [AAO:LAP]
+relationship: part_of AAO:0000788 ! radius
+
+[Term]
+id: AAO:0000842
+name: capitulum_ulnae
+def: "Small eminence on the distal articular head of the ulna." [AAO:LAP]
+relationship: part_of AAO:0000789 ! ulna
+
+[Term]
+id: AAO:0000843
+name: olecranon
+def: "Large and thick process situated at the proximal (upper) end of the ulna. Its inner face forms the medial articular surface that articulates with the humeral head." [AAO:LAP]
+related_synonym: "ulnar_process" []
+relationship: part_of AAO:0000789 ! ulna
+
+[Term]
+id: AAO:0000844
+name: sulcus_longitudinalis
+def: "In a fused radio-ulna, longitudinal furrow that demarcates the area of fusion of both elements. This sulcus is deep in the distal portion of the compound bone, but barely evident or absent at the proximal end." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000901 ! radio-ulna
+
+[Term]
+id: AAO:0000845
+name: ulnare
+def: "One of two element that constitute the basal row of carpals. It articulates with the ulna, radius, radiale, centrale (element Y), and carpal 5(4). This element originates from one condensation center or the fusion of two elements (ulnare and intermedium). Occasionally it may fuse to carpal 5(4), the radiale, or other elements." [AAO:Fabrezi_1992, AAO:Fabrezi_and_Alberch_1996, AAO:Francis_1994]
+relationship: part_of AAO:0000201 ! fore_mesopodium
+
+[Term]
+id: AAO:0000846
+name: element_Y_of_fore_mesopodium
+def: "Oval carpal element that is located on the anteromedial side of the radiale and the anterolateral side of the ulnare. Anteriorly, it articulates with carpals 1 through 4 (or 2 through 5 according to some authors). It is also recognized as centrale by some authors. This element originates from one, two, or three condensation centers. Occasionally it may fuse to carpal 2(1), carpal 3(2), the ulnare, or other elements." [AAO:Fabrezi_1992, AAO:Fabrezi_and_Alberch_1996, AAO:Francis_1934]
+relationship: part_of AAO:0000201 ! fore_mesopodium
+
+[Term]
+id: AAO:0000847
+name: distal_carpal
+def: "Series of elements that articulate with the metacarpals." [AAO:Francis_1934]
+related_synonym: "basale" []
+relationship: part_of AAO:0000201 ! fore_mesopodium
+
+[Term]
+id: AAO:0000848
+name: carpal_2(1)
+def: "Small element that articulates with the prepollex, metacarpal II(I) and metacarpal III(II). It may be fused to element Y or carpal 3(2)." [AAO:Fabrezi_1992, AAO:LAP]
+is_a: AAO:0000847 ! distal_carpal
+
+[Term]
+id: AAO:0000849
+name: carpal_3(2)
+def: "Small element that articulates anteriorly with metacarpal III(II). It may be fused to carpals 2(1), 4(3), 5(4), or other elements." [AAO:Fabrezi_1992, AAO:LAP]
+is_a: AAO:0000847 ! distal_carpal
+
+[Term]
+id: AAO:0000850
+name: carpal_4(3)
+def: "Small element that articulates anteriorly with metacarpal IV(III). It may be fused to carpal 3(2), 5(4), or other elements." [AAO:Fabrezi_1992, AAO:LAP]
+is_a: AAO:0000847 ! distal_carpal
+
+[Term]
+id: AAO:0000851
+name: carpal_5(4)
+def: "Small element that articulates anteriorly with metacarpal IV(V). It may be fused to carpal 4(3), 5(4), the ulnare, radiale, or other elements." [AAO:Fabrezi_1992, AAO:LAP]
+is_a: AAO:0000847 ! distal_carpal
+
+[Term]
+id: AAO:0000852
+name: prepollex
+def: "Two or more elements located ventral and medial to the metacarpal of digit II(I). The proximal prepollex is small and round whereas distal prepollex 1 is usually large and wedge-shaped. When more elements are present, they are smaller than previous elements." [AAO:Fabrezi_and_Alberch_1996, AAO:Maglia_et_al_2007]
+related_synonym: "cartilago_pre-pollicis" []
+relationship: part_of AAO:0000201 ! fore_mesopodium
+
+[Term]
+id: AAO:0000853
+name: metacarpal_II(I)
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with the prepollex and carpal 2(1) or carpal 2+3(1+2) proximally and with the proximal phalanx of digit II(I) distally." [AAO:Fabrezi_1992, AAO:Maglia_et_al_2007]
+is_a: AAO:0000946 ! fore_metapodium
+
+[Term]
+id: AAO:0000854
+name: metacarpal_III(II)
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with carpal 3(2) proximally and with the proximal phalanx of digit III(II) distally." [AAO:Fabrezi_1992, AAO:Maglia_et_al_2007]
+is_a: AAO:0000946 ! fore_metapodium
+
+[Term]
+id: AAO:0000855
+name: metacarpal_V(IV)
+def: "Dumb-bell shaped bones of endochondral origin with cartilaginous epiphyses that articulates with carpal 5(4) proximally and with the proximal phalanx of digit V(IV) distally." [AAO:Fabrezi_1992, AAO:Maglia_et_al_2007]
+is_a: AAO:0000946 ! fore_metapodium
+
+[Term]
+id: AAO:0000856
+name: intercalary_element_of_fore_digit
+def: "Small elements of endochondral origin present in all digits of the manus. Each intercalary element articulates with the anteroventral end of the penultimate phalanx proximally and the distal phalanx distally." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000857 ! fore_digit
+
+[Term]
+id: AAO:0000857
+name: fore_digit
+def: "One of the fingers of the manus." [AAO:LAP]
+relationship: part_of AAO:0000202 ! forelimb_skeleton
+
+[Term]
+id: AAO:0000858
+name: forelimb_opening
+is_a: AAO:0000205 ! forelimb
+
+[Term]
+id: AAO:0000859
+name: foramen_perforans_carpi
+def: "Opening for the passage of the perforans carpi artery from the ventral to the dorsal side. It perforates the compound ulnare + intermedium." [AAO:Francis_1934]
+is_a: AAO:0000856 ! intercalary_element_of_fore_digit
+
+[Term]
+id: AAO:0000860
+name: ischium
+def: "Paired bones of endochondral origin that constitute the posterior elements of the pelvic girdle. They are synostotically fused to each other and form the posterior part of the acetabulum." [AAO:Duellman_and_Trueb_1994, AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000861
+name: pubis
+def: "Paired, cartilaginous (ocassionally calcified) elements that form the ventral portion of the pelvic girdle. Each is located ventral to the acetabulum between the anteroventral margin of the ischium and the posteroventral margin of the illium. When the element calcifies or ossifies, its articulation with adjacent elements is difficult to distinguish. Both pubes are synchondrotically fused to one another." [AAO:Duellman_and_Trueb_1994, AAO:Maglia_et_al_2007]
+related_synonym: "cartilago remanens" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000862
+name: pubo-ischium
+def: "Composite element formed by the fusion of the ischium and pubis." [AAO:Francis_1943]
+related_synonym: "ilio-pubis" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000863
+name: obturator_foramen
+def: "Small opening for the passage of the obturatorius nerve that perforates the pubis." [AAO:Francis_1934]
+is_a: AAO:0000767 ! pelvic_girdle_opening
+
+[Term]
+id: AAO:0000864
+name: acetabular_rim
+def: "Cartilaginous ring that forms the entire acetabular margin." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000770 ! acetabulum
+
+[Term]
+id: AAO:0000865
+name: epileon
+def: "Dorsal extremity of the ilial shaft, which remains cartilaginous." [AAO:Francis_1934]
+relationship: part_of AAO:0000774 ! ilial_shaft
+
+[Term]
+id: AAO:0000866
+name: agger_limitans_anterior
+def: "Shelf-like expansion of the ilial corpus that forms the anterior border of the acetabulum." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000867
+name: agger_limitans_posterior
+def: "Shelf-like expansion of the ischium that forms the posterior border of the acetabulum." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000868
+name: supra-acetabular_expansion
+def: "Dorsal portion of the ilial corpus, located above the acetabulum." [AAO:Maglia_et_al_2007]
+related_synonym: "dorsal acetabular expansion" []
+related_synonym: "pars ascendens ilei" []
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000869
+name: ilial_protuberance
+def: "Small, dorsolaterally projecting knob located just anterior to the supra-acetabular expansion and about the level of the anterior border of the acetabulum." [AAO:Maglia_et_al_2007]
+related_synonym: "dorsal protuberance" []
+related_synonym: "tuber_superior" []
+relationship: part_of AAO:0000774 ! ilial_shaft
+
+[Term]
+id: AAO:0000870
+name: preacetabular_expansion
+def: "Ventral portion of the ilial corpus, located anteroventral to the acetabulum." [AAO:Maglia_et_al_2007]
+related_synonym: "pars descendens ilei" []
+related_synonym: "ventral acetabular expansion" []
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000871
+name: fossula_tuberis_superioris
+def: "Small depression dorsal to the proximal portion of the collum ilei and ventral to the ilial protuberance." [AAO:LAP]
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000872
+name: collum_ilei
+def: "Cyllindrical pillar that originates anterior to the acetabulum and extends to the ilial shaft." [AAO:LAP]
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000873
+name: pars_cylindriformis_ilei
+def: "Elongate, cylindrical structure on the ventral side of the shaft of the ilium that extends through its entire length." [AAO:LAP]
+relationship: part_of AAO:0000774 ! ilial_shaft
+
+[Term]
+id: AAO:0000874
+name: crista_ischii
+def: "Crest on the posterior side of the ischium, which may also extend to the posteroventral aspect of pubis." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000875
+name: spina_pelvis_posterior
+def: "Small, rounded process on the anterodorsal margin of the ischium, just posterior to the area of articulation with the ilium." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000876
+name: spina_pelvis_anterior
+def: "Small, rounded process on the anteroventral margin of the preacetabular expansion of the ilial corpus." [AAO:LAP]
+relationship: part_of AAO:0000775 ! ilial_corpus
+
+[Term]
+id: AAO:0000877
+name: intumescentia_bilateralis_inferior
+def: "Small protuberance on the ischium, located close to its posteroventral margin." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000878
+name: intumescentia_bilateralis_superior
+def: "Small protuberance on the ischium, located at the level of the superior margin of the acetabulum and close to its posterior margin." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000879
+name: incisura_terminalis
+def: "Small indentation on the posterior margin of the ischium, ventral to the intumescentia bilateralis superior." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000880
+name: crista_hypertrophica
+def: "Large protuberance on the dorsal aspect of the ischium that extends from the ischio-ilium articulation to the spina pelvis posterior." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000881
+name: lamina_terminalis
+def: "In those cases in which the interilial region is broadly expanded and the pubis is extremely reduced, the anterior margin of the ischium forms an expanded area." [AAO:LAP]
+relationship: part_of AAO:0000860 ! ischium
+
+[Term]
+id: AAO:0000882
+name: interilial_region
+def: "Area of convergence of the ilial shafts. When the preacetabular ilium is narrow, the interilial configuration is V-shaped or narrowly rounded, whereas when the interilial region is broadly expanded the interilial configuration is U-shaped." [AAO:Baez_and_Trueb_1997]
+relationship: part_of AAO:0000772 ! ilium
+
+[Term]
+id: AAO:0000883
+name: recessus_coccygealis
+def: "Area dorsal to the pelvic girdle symphysis, between the dorsal portions of the ilial corpora, where lies the posterior terminus of the urostyle." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000774 ! ilial_shaft
+
+[Term]
+id: AAO:0000884
+name: epipubis
+def: "Small prepubic element formed by a plate of cartilage (which may calcify in the adult) that is synchondrotically united with the pubis." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000885
+name: postpubis
+def: "Paired cartilaginous rods that lie within the copulatory organ (or so-called tail) and are attached to the posteroventral part of the pelvic girdle." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "Nobelian bone" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000886
+name: ypsiloid_cartilage
+def: "Y-shaped cartilage lying in the middle line, anterior to the pubo-ischium with which it articulates. It lies dorsal to the rectus abdominis muscle with which it articulates." [AAO:Francis_1934]
+related_synonym: "abdominal sternum" []
+related_synonym: "Cartilago epipubes" []
+related_synonym: "cartilago marsupial" []
+related_synonym: "cartilago ypsiloidea" []
+related_synonym: "cartilago ypsiloides" []
+relationship: part_of AAO:0000768 ! pelvic_girdle_skeleton
+
+[Term]
+id: AAO:0000887
+name: hind_propodium
+def: "Segment of the hindleg corresponding to the humerus." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000217 ! hind_limb_skeleton
+
+[Term]
+id: AAO:0000888
+name: hind_digit
+def: "One of the toes of the pes." [AAO:LAP]
+relationship: part_of AAO:0000217 ! hind_limb_skeleton
+
+[Term]
+id: AAO:0000889
+name: femur
+def: "Paired, elongate, cylindrical bones of endochondral origin that form the thighs, extending from the pelvic girdles to the knees." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000887 ! hind_propodium
+
+[Term]
+id: AAO:0000890
+name: tibia
+def: "One of the two long bones of endochondral origin of the hind-epipodium; it is a straight, simple bone whose section is more or less rectangular at the ends and circular at its central portion." [AAO:Francis_1934]
+relationship: part_of AAO:0000216 ! hind_epipodium
+
+[Term]
+id: AAO:0000891
+name: fibula
+def: "One of the two long bones of endochondral origin of the hind-epipodium; it is a rather more slender bone than the tibia but of about the same length." [AAO:Francis_1934]
+relationship: part_of AAO:0000216 ! hind_epipodium
+
+[Term]
+id: AAO:0000892
+name: acetabular_head
+def: "Proximal head of the femur, which articulates with the acetabulum." [AAO:Maglia_et_al_2007]
+related_synonym: "caput femoris" []
+relationship: part_of AAO:0000889 ! femur
+
+[Term]
+id: AAO:0000893
+name: distal_head
+def: "Head of the femur that articulates with the tibia and fibula." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000889 ! femur
+
+[Term]
+id: AAO:0000894
+name: femoral_ridge
+def: "Low crest that arises just behind the acetabular head and extends distally for about one-third the length of the femoral shaft." [AAO:Maglia_et_al_2007]
+related_synonym: "crista femoris" []
+relationship: part_of AAO:0000889 ! femur
+
+[Term]
+id: AAO:0000895
+name: trochlear_groove_of_femur
+def: "Canal on the posteroventral surface of the acetabular head, which articulates with the ischial process on the rim of the acetabulum." [AAO:Francis_1934]
+relationship: part_of AAO:0000892 ! acetabular_head
+
+[Term]
+id: AAO:0000896
+name: foveal_depression
+def: "Ovoid roughened pit situated on the dorsal and anteroventral surface of the acetabular head wherein the ligaments attaching the bone to the acetabulum are inserted." [AAO:Francis_1934]
+relationship: part_of AAO:0000892 ! acetabular_head
+
+[Term]
+id: AAO:0000897
+name: femoral_trochanter
+def: "Process on the ventral surface of the shaft of the femur." [AAO:Francis_1934]
+relationship: part_of AAO:0000889 ! femur
+
+[Term]
+id: AAO:0000898
+name: trochanteric_crest
+def: "Paired ridges on the ventral surface of the femoral shaft that run toward the femoral trochanter; the posterior crest is less developed." [AAO:Francis_1934]
+relationship: part_of AAO:0000889 ! femur
+
+[Term]
+id: AAO:0000899
+name: tibial_condyle
+def: "Convex articular facet of the distal head of the femur that articulates with the proximal head of the tibia." [AAO:Francis_1934]
+relationship: part_of AAO:0000893 ! distal_head
+
+[Term]
+id: AAO:0000900
+name: fibular_condyle
+def: "Convex articular facet of the distal head of the femur that articulates with the proximal head of the fibula." [AAO:LAP]
+relationship: part_of AAO:0000893 ! distal_head
+
+[Term]
+id: AAO:0000901
+name: radio-ulna
+def: "Paired, long bones of endochondral origin formed by the fusion of the radius and ulna." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000200 ! fore_epipodium
+
+[Term]
+id: AAO:0000902
+name: tibiofibula
+def: "Paired, endochondral bones formed by the fusion of the tibia and fibula. They form the shanks, extending from the knees to the ankles." [AAO:Maglia_et_al_2007]
+related_synonym: "os cruris" []
+relationship: part_of AAO:0000216 ! hind_epipodium
+
+[Term]
+id: AAO:0000903
+name: tibial_crest
+def: "Ridge that arises from the dorso-masial side of the extensor surface of the tibia. It receives the insertion of the tendon of the extensor ilio-tibialis muscle." [AAO:Francis_1934]
+relationship: part_of AAO:0000890 ! tibia
+
+[Term]
+id: AAO:0000904
+name: apophysis_distalis_of_tibiofibula
+def: "Swelling on the extensor surface of the distal head of the tibiofibula." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000905
+name: caput_ossis_cruris
+def: "Proximal head of the tibiofibula that articulates with the distal head of the femur." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000906
+name: sulcus_pro_musculo_extensori_cruris_brevis
+def: "Small canal on the proximal head of to the tibiofibula, lateral to the apophysis distalis, for the insertion of the cruris brevis muscle." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000907
+name: eminentia_arcuata
+def: "Small crest on the extensor surface of the proximal head of the tibiofibula (tibial side)." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000908
+name: sulcus_distalis_ossis_cruris
+def: "In a fused tibiofibula, longitudinal furrow in the distal portion of the compound bone that demarcates the area of fusion of both elements." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000909
+name: sulcus_proximalis_ossis_cruris
+def: "In a fused tibiofibula, longitudinal furrow in the proximal portion of the compound bone that demarcates the area of fusion of both elements." [AAO:LAP]
+relationship: part_of AAO:0000902 ! tibiofibula
+
+[Term]
+id: AAO:0000910
+name: hind_limb_opening
+is_a: AAO:0000219 ! hind_limb
+
+[Term]
+id: AAO:0000911
+name: foramen_nutritium_exterius
+def: "Foramen for the tibial artery and vein and the deep peroneal nerve; it pierces through the midpoint of the shaft of the tibiofibula." [AAO:Maglia_et_al_2007]
+is_a: AAO:0000910 ! hind_limb_opening
+
+[Term]
+id: AAO:0000912
+name: tibiale
+def: "One of two element that constitute the basal row of tarsals. The tibiale constitutes the postaxial element. In salamanders this element is aproximatelly rounded, whereas in anurans it is an elongate, cylindrical bone with the proximal and distal heads fused to the heads of the fibulare." [AAO:LAP]
+related_synonym: "calcaneus" []
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000913
+name: fibulare
+def: "One of two element that constitute the basal row of tarsals. The fibulare constitutes the preaxial element. In salamanders this element is aproximatelly rounded, whereas in anurans it is an elongate, cylindrical bone with the proximal and distal heads fused to the heads of the tibiale." [AAO:Maglia_et_al_2007]
+related_synonym: "astragalus" []
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000914
+name: distal_tarsal
+def: "Series of elements that articulate with the metatarsals." [AAO:LAP]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000915
+name: spatium_intertarsale
+def: "Separation of the tibiale and fibulare along their longitudinal axia." [AAO:Maglia_et_al_2007]
+is_a: AAO:0000910 ! hind_limb_opening
+
+[Term]
+id: AAO:0000916
+name: apophysis_proximalis
+def: "Swelling on the extensor surface of the proximal compound head of the tibiale and fibulare." [AAO:LAP]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000917
+name: apophysis_distalis_of_tibiale_fibulare
+def: "Swelling on the extensor surface of the distal compound head of the tibiale and fibulare." [AAO:LAP]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000918
+name: tarsal_1
+def: "Small element that articulates with the prehallux, metatarsal I and element Y. It may be fused to tarsal 2." [AAO:Fabrezi_1993, AAO:Fancis_1934]
+is_a: AAO:0000914 ! distal_tarsal
+
+[Term]
+id: AAO:0000919
+name: tarsal_2
+def: "Small element that articulates anteriorly with metatarsal II. It may be fused to tarsal 1 or to tarsal 3." [AAO:Fabrezi_1993, AAO:Francis_1934]
+is_a: AAO:0000914 ! distal_tarsal
+
+[Term]
+id: AAO:0000920
+name: tarsal_3
+def: "Small element that articulates anteriorly with metatarsal III. It may be fused to tarsal 2." [AAO:Fabrezi_1993, AAO:Francis_1934]
+is_a: AAO:0000914 ! distal_tarsal
+
+[Term]
+id: AAO:0000921
+name: element_Y_of_hind_mesopodium
+def: "Oval tarsal element that is located on the anteromedial side of the tibiale. Anteriorly, it articulates with the proximal prehallux, tarsals 1, 2, and 3." [AAO:Fabrezi_1993]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000922
+name: prehallux
+def: "One to three or four elements located ventral and medial to the metatarsal of digit I. When more than one elements are present, they are smaller than the proximal prehallux." [AAO:Fabrezi_1993, AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000923
+name: intermedium
+def: "Small, wedge-shaped tarsal element of which the thiner edge projects between the tibia and fibula, thus separating the distal ends of this two bones. Distally, it articulates with the centrale, fibulare, and tibiale." [AAO:Francis_1934]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000924
+name: centrale
+def: "Oval tarsal element that is located on the center of the mesopodium. It articulates with all other elements of the tarsus except tarsal 5." [AAO:Francis_1934]
+relationship: part_of AAO:0000220 ! hind_mesopodium
+
+[Term]
+id: AAO:0000925
+name: metatarsal_I
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with the prepollex and tarsal 1 proximally and with the proximal phalanx of digit I distally." [AAO:Fabrezi_1993, AAO:Francis_1934]
+relationship: part_of AAO:0000221 ! hind_metapodium
+
+[Term]
+id: AAO:0000926
+name: metatarsal_II
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with tarsal 2 proximally and with the proximal phalanx of digit II distally." [AAO:Fabrezi_1993, AAO:Francis_1934]
+relationship: part_of AAO:0000221 ! hind_metapodium
+
+[Term]
+id: AAO:0000927
+name: metatarsal_III
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with tarsal 3 proximally and with the proximal phalanx of digit III distally." [AAO:Fabrezi_1993, AAO:Francis_1934]
+relationship: part_of AAO:0000221 ! hind_metapodium
+
+[Term]
+id: AAO:0000928
+name: metatarsal_IV
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with tarsal 4 or the distal head of the tibiale-fibulare proximally and with the proximal phalanx of digit IV distally." [AAO:Fabrezi_1993, AAO:Francis_1934]
+relationship: part_of AAO:0000221 ! hind_metapodium
+
+[Term]
+id: AAO:0000929
+name: metatarsal_V
+def: "Dumb-bell-shaped bone of endochondral origin with cartilaginous epiphyses that articulates with tarsal 5 or the distal head of the tibiale-fibulare proximally and with the proximal phalanx of digit V distally." [AAO:Fabrezi_1993, AAO:Francis_1934]
+relationship: part_of AAO:0000221 ! hind_metapodium
+
+[Term]
+id: AAO:0000930
+name: phalanges_of_hind_digit
+def: "Dumb-bell shaped bones of endochondral origin with cartilaginous epiphyses that make the five digits of the pes. The terminal phalanges are much smaller than the proximal and penultimate phalanges. The typical phalangeal formula of the pes, in a medial to lateral sequence, is 2(1)-2-3-4(3)-3(2)." [AAO:Francis_1934, AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000888 ! hind_digit
+
+[Term]
+id: AAO:0000931
+name: intercalary_element_of_hind_digit
+def: "Small elements of endochondral origin present in all digits of the pes. Each intercalary element articulates with the anteroventral end of the penultimate phalanx proximally and the distal phalanx distally." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000888 ! hind_digit
+
+[Term]
+id: AAO:0000932
+name: tarsal_4
+def: "Small element that articulates anteriorly with metatarsal IV. It may be absent in some taxa." [AAO:Fabrezi_1993]
+is_a: AAO:0000914 ! distal_tarsal
+
+[Term]
+id: AAO:0000933
+name: tarsal_5
+def: "Small element that articulates anteriorly with metatarsal V. It may be absent in some taxa." [AAO:Francis_1934]
+is_a: AAO:0000914 ! distal_tarsal
+
+[Term]
+id: AAO:0000934
+name: foramen_perforans_tarsi
+def: "Small opening between the centrale and fibulare that allows the perforans tarsi artery to pass from the ventral to the dorsal side of the ankle." [AAO:Francis_1934]
+is_a: AAO:0000910 ! hind_limb_opening
+
+[Term]
+id: AAO:0000935
+name: scapular_area
+def: "Dorso-lateral portion of the pectoral girdle." [AAO:Francis_1934]
+related_synonym: "pars scapularis" []
+related_synonym: "scapula et adscapulum" []
+related_synonym: "scapula-suprascapula area" []
+related_synonym: "scapulum et episcapulum" []
+relationship: part_of AAO:0000754 ! pectoral_girdle_skeleton
+
+[Term]
+id: AAO:0000936
+name: zonal_element
+def: "All those parts of the pectoral girdle in the central region of the zonal area." [AAO:LAP]
+relationship: part_of AAO:0000757 ! zonal_area
+
+[Term]
+id: AAO:0000937
+name: prezonal_element
+def: "All those parts of the pectoral girdle that lie anterior to the zonal area." [AAO:LAP]
+relationship: part_of AAO:0000757 ! zonal_area
+
+[Term]
+id: AAO:0000938
+name: postzonal_element
+def: "All those parts of the pectoral girdle that lies posterior to the zonal area." [AAO:LAP]
+relationship: part_of AAO:0000757 ! zonal_area
+
+[Term]
+id: AAO:0000939
+name: mesosternum
+def: "Proximal portion of the sternum, usually elaborated into a stylum that may be ossified." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000765 ! sternum
+
+[Term]
+id: AAO:0000940
+name: xiphisternum
+def: "Distal, cartilaginous portion of the sternum." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "metasternum" []
+relationship: part_of AAO:0000765 ! sternum
+
+[Term]
+id: AAO:0000941
+name: arciferal_girdle
+def: "Pectoral girdle in which the epicoracoid cartilages are elaborated into posteriorly directed epicoracoid horns. Most arciferal pectoral girdles are characterized by fusion of the epicoracoid cartilages in the interclavicle region. Posterior to the clavicles, the epicoracoids usually are free and overlapping." [AAO:Duellman_and_Trueb_1994, AAO:Griffiths_1959]
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000942
+name: firmisternal_girdle
+def: "Pectoral girdle that lacks epicoracoid horns. The sternum is fused to the pectoral arch, and the epicoracoid cartilages of each half of the girdle are fused to one another. The midzonal length of the girdle is shorter than that of an arciferal girdle, but pre- and postzonal elements tend to be longer." [AAO:Duellman_and_Trueb_1994, AAO:Griffiths_1959]
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000943
+name: pseudofirmisternal_girdle
+def: "Modified arciferal pectoral girdle in which the fusion of the epicoracoid cartilages in the interclavicle region is extended posteriorly. Thus, the cartilages no longer overlap freely, and functionally a partially firmisternal condition is created." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000944
+name: pseudoarciferal_girdle
+def: "Modified firmisternal pectoral girdle in which the epicoracoid cartilages are partly free and overlapping; however, the epicoracoids are fused to one another and the sternum postermodially." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000422 ! pectoral_girdle
+
+[Term]
+id: AAO:0000945
+name: inscriptional_rib
+def: "Three pairs of cartilaginous elements posterior to the sternum that lie in the myosepta of the ventral trunk musculature." [AAO:Duellman_and_Trueb_1994]
+related_synonym: "abdominal ribs" []
+relationship: part_of AAO:0000938 ! postzonal_element
+
+[Term]
+id: AAO:0000946
+name: fore_metapodium
+def: "Segment of the forearm corresponding to the metacarpus, which articulates with the carpals at one end and with the phalanges at the other end." [AAO:Duellman_and_Trueb_1994]
+is_a: AAO:0000202 ! forelimb_skeleton
+
+[Term]
+id: AAO:0000947
+name: phalanges_of_fore_digit
+def: "Dumb-bell shaped bones of endochondral origin with cartilaginous epiphyses that make the four digits of the manus. The terminal phalanges are much smaller than the proximal and penultimate phalanges. The typical phalangeal formula of the manus, in a medial to lateral sequence, is 2-2-3-3." [AAO:Maglia_et_al_2007]
+relationship: part_of AAO:0000857 ! fore_digit
+
+[Term]
+id: AAO:0000948
+name: articular_process
+def: "Paired processes located on the anterior end of the cricoid cartilage." [AAO:Maglia_et_al_2007]
+related_synonym: "processus articularis anterior" []
+relationship: part_of AAO:0000675 ! cricoid_cartilage
+
+[Term]
+id: AAO:0000949
+name: posterior_ramus_of_cleithrum
+def: "Laminar subdivision of the cleithrum that extends along the ventral (lateral) midbody of the suprascapula." [AAO:Trueb_1973]
+relationship: part_of AAO:0000750 ! cleithrum
+
+[Term]
+id: AAO:0000950
+name: os_triangulare
+def: "Small, broadly triangular bar of bone lying across the ventral side of the pharynx at the junction of the M. genio-hyoideus and the M. rectus cervicis superficialis." [AAO:Francis_1934]
+related_synonym: "basi-branchial II" []
+related_synonym: "os thyroideum" []
+related_synonym: "os triquetum" []
+related_synonym: "sternum" []
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000951
+name: anterior_radial
+def: "Paired, horn-like processes of basibranchial I that protrude in an antero-dorso-lateral direction, being more or less embedded in the tongue musculature. These elements contitute the hypohyals." [AAO:Francis_1934]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000952
+name: posterior_radial
+def: "Paired, horn-like processes of basibranchial I that protrude in an antero-dorso-lateral direction, being more or less embedded in the tongue musculature. They arise secondarily during metamorphosis, and are therefore not strictly part of the visceral skeleton." [AAO:Francis_1934]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000953
+name: ceratobranchials_II--IV
+def: "Paired bars that articulate with hypobranchial II. Reduction of loss of these elements is common in salamanders." [AAO:LAP]
+related_synonym: "epibranchials" []
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000954
+name: hypobranchial_I
+def: "Paired bar that articulates with basibranchial I. It forms the anterior portion of the posterior cornu of the hyoid." [AAO:Francis_1934]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000955
+name: ceratobranchial_I
+def: "Paired bar that articulates with, or is fused to, hypobranchial I. It forms the posterior portion of the posterior cornu of the hyoid." [AAO:Francis_1934]
+related_synonym: "epibranchial" []
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000956
+name: hypobranchial_II
+def: "Paired bar that articulates anteriorly with basibranchial I and posteriorly with ceratobranchials II--IV." [AAO:Duellman_and_Trueb_1994]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000957
+name: basihyal
+def: "Paired, anterior element that articulates medially with basibranchial I and posterolaterally with the paired hypohyals." [AAO:LAP]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Term]
+id: AAO:0000958
+name: hypohyal
+def: "Paired element that articulates anterioly with the basihyal and posteriorly with the ceratohyal hypohyals." [AAO:LAP]
+relationship: part_of AAO:0000682 ! hyoid_apparatus_skeleton
+
+[Typedef]
+id: develops_from
+name: develops_from
+is_transitive: true
+
+[Typedef]
+id: part_of
+name: part_of
+is_transitive: true
+
