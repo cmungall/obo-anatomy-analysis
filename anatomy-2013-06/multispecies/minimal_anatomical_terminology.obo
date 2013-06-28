@@ -1,0 +1,4918 @@
+format-version: 1.0
+date: 12:0:2009 17:44
+saved-by: jonathanbard
+auto-generated-by: COBrA 1.2
+typeref: http\://www.xspan.org/obo.owl#
+default-namespace: http\://www.ebi.ac.uk/microarray-srv/mat/ o
+
+[Term]
+id: MAT:0000342
+name: somatic nervous system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: WBbt:0005760
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000195
+name: DNA virus
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000194
+
+[Term]
+id: MAT:0000235
+name: petal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009032
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000212
+name: neurohemal organ
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005757
+alt_id: TADS:0000245
+synonym: "neurohaemal organ" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000397
+name: neurula stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:1000006
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000525
+name: histoblast
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FBbt:00001789
+is_a: MAT:0000019
+
+[Term]
+id: MAT:0000289
+name: amygdala
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100189
+alt_id: FMAID:61841
+alt_id: MA:0000887
+alt_id: SAEL:4
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000509
+name: visual cortex
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:236871
+alt_id: EV:0100469
+alt_id: MA:0000914
+synonym: "striate cortex" []
+relationship: broader MAT:0000507
+
+[Term]
+id: MAT:0000507
+name: occipital lobe
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:67325
+alt_id: EV:0100170
+relationship: broader MAT:0000421
+
+[Term]
+id: MAT:0000302
+name: skeletal muscle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: BFBbt:00003259
+alt_id: EV:0100377
+alt_id: FMAID:5022
+alt_id: SAEL:94
+alt_id: XAO:0000174
+alt_id: EHDAA:5031
+alt_id: EMAPA:17745
+related_synonym: "adult somatic muscle" []
+related_synonym: "muscle organ - human" []
+synonym: "skeletal muscle system" []
+relationship: broader MAT:0000025
+
+[Term]
+id: MAT:0000034
+name: artery
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100026
+alt_id: FMAID:50720
+alt_id: MA:0000061
+alt_id: MFO:0002900
+alt_id: MP:0002191
+alt_id: ZFA:0000005
+alt_id: XAO:0000114
+alt_id: TAO:0000005
+alt_id: EHDAA:396
+alt_id: EMAPA:16201
+synonym: "arterial system" []
+relationship: broader MAT:0000016
+
+[Term]
+id: MAT:0000200
+name: cranial ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100182
+alt_id: MA:0000184
+alt_id: MA:0000214
+alt_id: MP:0001081
+alt_id: ZFA:0000013
+alt_id: WBbt:0005135
+alt_id: TAO:0000013
+alt_id: EHDAA:920
+alt_id: EMAPA:16659
+broad_synonym: "basasl nucleus" []
+synonym: "head ganglion" []
+synonym: "cranial ganglia" []
+relationship: broader MAT:0000098
+relationship: broader MAT:0000343
+
+[Term]
+id: MAT:0000121
+name: urethra
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100099
+alt_id: FMAID:19667
+alt_id: MA:0000379
+alt_id: MP:0000537
+alt_id: WBbt:0005777
+alt_id: XAO:0000153
+alt_id: EMAPA:18692
+related_synonym: "excretory duct" []
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000244
+name: segment - embryonic
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000154
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000116
+name: olfactory lobe
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100173
+alt_id: FMAID:77624
+alt_id: SAEL:75
+alt_id: ZFA:0000402
+alt_id: EHDAA:5480
+alt_id: EMAPA:17778
+related_synonym: "olfactory bulb" []
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000493
+name: ventral
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000526
+name: colon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100079
+alt_id: FMAID:14543
+alt_id: MA:0000335
+alt_id: SAEL:22
+alt_id: ZFA:0000706
+alt_id: XAO:0000243
+alt_id: EMAPA:18939
+broad_synonym: "posterior intestine - zebrafish" []
+relationship: broader MAT:0000046
+
+[Term]
+id: MAT:0000051
+name: stomach
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100070
+alt_id: FMAID:7148
+alt_id: MA:00000353
+alt_id: MFO:0003120
+alt_id: MP:0000470
+alt_id: SAEL:102
+alt_id: TGMA:0001041
+alt_id: XAO:0000128
+alt_id: TADS:0000172
+alt_id: EHDAA:2993
+alt_id: EMAPA:17021
+alt_id: AAO:0000579
+relationship: broader MAT:0000018
+
+[Term]
+id: MAT:0000393
+name: blood vessel
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100456
+alt_id: MFO:0002960
+alt_id: SAEL:9
+alt_id: TAO:0001079
+synonym: "vessel" []
+synonym: "vasculature" []
+relationship: broader MAT:0000016
+
+[Term]
+id: GO:0000001
+name: <new term>
+namespace: http\://www.xspan.org/obo.owl#
+is_obsolete: true
+
+[Term]
+id: MAT:0000306
+name: spore - sexual
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0000019
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000421
+name: telencephalon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:6200
+alt_id: ZFA:0000079
+alt_id: TAO:0000079
+alt_id: MFO:0002300
+alt_id: MA:0000183
+alt_id: XAO:0000012
+alt_id: EHDAA:3496
+alt_id: EMAPA:16910
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000309
+name: gram-negative eubacterium
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000191
+
+[Term]
+id: MAT:0000118
+name: mesonephros - adult
+namespace: http\://www.xspan.org/obo.owl#
+def: "The functioning kidney in fish and amphibia" []
+alt_id: MFO:0003300
+alt_id: ZFA:0000529
+alt_id: XAO:0000154
+alt_id: TAO:0000529
+related_synonym: "kidney - fish" []
+synonym: "mesonephrpric kidney" []
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000293
+name: body part
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100008
+alt_id: FMAID:67504
+alt_id: XAO:0003013
+alt_id: TAO:0001308
+related_synonym: "anatomical site" []
+related_synonym: "subdivision of cardinal body part" []
+synonym: "organism subdivision" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000186
+name: penis
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100107
+alt_id: FBbt:00004852
+alt_id: FMAID:9707
+alt_id: MA:0000408
+alt_id: MP:0005187
+alt_id: SAEL:80
+alt_id: EHDAA:9380
+alt_id: EMAPA:18682
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000388
+name: Dictyostelium discoideum (DDANA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000387
+
+[Term]
+id: MAT:0000214
+name: megaspore
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020019
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000340
+name: cranium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TGMA:0000003
+alt_id: EHDAA:6029
+alt_id: EMAPA:17680
+alt_id: MA:0000316
+alt_id: FMAID:87596
+alt_id: ZFA:0000737
+alt_id: TAO:0000737
+synonym: "skeletal system of head" []
+synonym: "cranial skeleton" []
+relationship: broader MAT:0000017
+
+[Term]
+id: MAT:0000159
+name: pigment
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MFO:0003360
+alt_id: MP:0002095
+alt_id: ZFA:0009090
+alt_id: AAO:0000430
+related_synonym: "pigmentation" []
+synonym: "pigment cells" []
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000000
+name: anatomy basic component
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000441
+
+[Term]
+id: MAT:0000123
+name: Malpighian tubules
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005786
+alt_id: TGMA:0001038
+alt_id: TADS:0000163
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000188
+name: joint
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100142
+alt_id: FBbt:00004645
+alt_id: FMAID:228659
+alt_id: FMAID:7490
+alt_id: MA:0000319
+alt_id: MP:0002932
+alt_id: XAO:0000171
+alt_id: TAO:0000367
+broad_synonym: "set of all joints" []
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000418
+name: hypoblast
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TAO:000017
+alt_id: ZFA:0000117
+alt_id: ZFA:0001136
+alt_id: AAO:0000229
+synonym: "hypodermis" []
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000114
+name: hippocampus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100180
+alt_id: FMAID:62493
+alt_id: MA:0000191
+alt_id: MP:0000807
+alt_id: SAEL:51
+alt_id: EMAPA:19148
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000376
+name: zebrafish (ZFA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000193
+name: archaeobacterium
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000190
+
+[Term]
+id: MAT:0000237
+name: seedhead
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000527
+name: definitive endoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:218
+alt_id: EMAPA:16070
+alt_id: SAEL:26
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000404
+name: sporophyte stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZEA:0015177
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000130
+name: epididymus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100103
+alt_id: FMAID:18255
+alt_id: MA:0000397
+alt_id: MP:0002631
+alt_id: SAEL:36
+alt_id: EMAPA:19290
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000344
+name: body ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: WBbt:0005332
+alt_id: TAO:0001573
+synonym: "trunk ganglion" []
+relationship: broader MAT:0000343
+
+[Term]
+id: MAT:0000272
+name: rhombomere
+namespace: http\://www.xspan.org/obo.owl#
+def: "a segment of the rhombencephalon" []
+alt_id: EMAPA:16478
+alt_id: MFO:0002400
+alt_id: ZFA:0001064
+related_synonym: "future rhombencephalon" []
+related_synonym: "rhombomeres" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000255
+name: germ ring
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZFA:0000111
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000015
+name: fat tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100382
+alt_id: FBbt:00005065
+alt_id: MA:0000009
+alt_id: MP:0000003
+alt_id: SAEL:2
+synonym: "adipose tissue" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000199
+name: white fat
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000058
+relationship: broader MAT:0000015
+
+[Term]
+id: MAT:0000174
+name: mesoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:183
+alt_id: EMAPA:16071
+alt_id: FBbt:00000126
+alt_id: SAEL:67
+alt_id: ZFA:0000041
+alt_id: XAO:0000050
+alt_id: EVM:2000312
+alt_id: EV:3000143
+alt_id: AAO:0000304
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000477
+name: tissue modifier
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000476
+
+[Term]
+id: MAT:0000053
+name: faeces
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:64183
+alt_id: MA:0002509
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000032
+name: skeleton
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:23875
+alt_id: MA:0000018
+alt_id: MP:0005508
+alt_id: ZFA:0000434
+alt_id: TAO:0000434
+alt_id: EHDAA:5047
+alt_id: EMAPA:17213
+related_synonym: "skeletal system" []
+synonym: "skeleton component" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000059
+name: branchial arch
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:571
+alt_id: EMAPA:16117
+alt_id: MP:0002884
+alt_id: ZFA:0005004
+alt_id: XAO:0000099
+alt_id: EVM:2000314
+alt_id: EV:3000600
+related_synonym: "aortic arch" []
+synonym: "pharyngeal arch" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000242
+name: pharyngeal arch
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZFA:0001306
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000339
+name: ventral nerve cord
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00001102
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000231
+name: flower
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009046
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000365
+name: wood parenchyma
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0004525
+relationship: broader MAT:0000363
+
+[Term]
+id: MAT:0000030
+name: respiratory system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100036
+alt_id: FBbt:00005024
+alt_id: FMAID:7158
+alt_id: MA:0000327
+alt_id: MFO:0003160
+alt_id: MP:0005388
+alt_id: SAEL:90
+alt_id: XAO:0000117
+alt_id: TADS:0000043
+alt_id: TAO:0000272
+alt_id: EHDAA:2203
+alt_id: EMAPA:16727
+alt_id: AAO:0000541
+related_synonym: "tracheal system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000363
+name: xylem
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0005352
+relationship: broader MAT:0000009
+relationship: broader MAT:0000362
+
+[Term]
+id: MAT:0000180
+name: hatching gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TAO:0000026
+alt_id: ZFA:0000026
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000072
+name: gall bladder
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100090
+alt_id: FMAID:7202
+alt_id: MA:000356
+alt_id: MFO:0003020
+alt_id: SAEL:44
+alt_id: ZFA:0000208
+alt_id: XAO:0000135
+alt_id: TAO:0000208
+alt_id: EHDAA:8062
+alt_id: EMAPA:17202
+relationship: broader MAT:0000021
+relationship: broader MAT:0000024
+
+[Term]
+id: MAT:0000065
+name: limb bud - forelimb
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:1699
+alt_id: EMAPA:16406
+broad_synonym: "upper limb bud" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000151
+name: limb bone
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000688
+alt_id: MP:0002115
+related_synonym: "limb skeleton" []
+relationship: broader MAT:0000090
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000402
+name: juvenile stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0300051
+alt_id: XAO:1000010
+synonym: "child" []
+synonym: "young adult" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000484
+name: apical
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000057
+name: seminal fluid
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:62967
+alt_id: MA:0002523
+alt_id: SAEL:93
+broad_synonym: "semen" []
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000082
+name: parathyroid
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100134
+alt_id: FMAID:13890
+alt_id: MA:0000128
+alt_id: MP:0000678
+alt_id: XAO:0000167
+alt_id: TAO:0009207
+alt_id: EHDAA:3870
+alt_id: EHDAA:3864
+synonym: "parathyroid secreting cell" []
+broad_synonym: "superior parrathyroid" []
+broad_synonym: "inferior parathyroid" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000216
+name: pollen
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020097
+related_synonym: "generative cell (male)" []
+relationship: broader MAT:0000004
+relationship: broader MAT:0000514
+
+[Term]
+id: MAT:0000160
+name: hair
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100157
+alt_id: FMAID:53667
+alt_id: MA:0000155
+alt_id: MP:0000367
+alt_id: EMAPA:18769
+alt_id: EMAPA:17529
+synonym: "vibrissa" []
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000283
+name: eyeball
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100337
+alt_id: FMAID:12513
+alt_id: SAEL:40
+alt_id: XAO:0000181
+related_synonym: "globe" []
+relationship: broader MAT:0000140
+
+[Term]
+id: MAT:0000067
+name: epiblast
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:75
+alt_id: EMAPA:16050
+alt_id: MP:0004957
+alt_id: ZFA:0000018
+alt_id: TAO:0000018
+related_synonym: "blastocyst" []
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000218
+name: sperm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0000084
+related_synonym: "sperm cell" []
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000297
+name: neck
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100476
+alt_id: FMAID:7155
+alt_id: SAEL:70
+alt_id: TGMA:0000005
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000132
+name: testis
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100102
+alt_id: FBbt:00004928
+alt_id: FMAID:7210
+alt_id: MA:0000411
+alt_id: MP:0001146
+alt_id: SAEL:104
+alt_id: WBbt:0006794
+alt_id: ZFA:0000242
+alt_id: XAO:0000157
+alt_id: TADS:0000461
+alt_id: TAO:0000598
+alt_id: EHDAA:8146
+alt_id: EMAPA:17972
+alt_id: AAO:0000606
+related_synonym: "male gonad" []
+related_synonym: "testicle" []
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000406
+name: zygotic stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0001097
+alt_id: GRO:00703
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000206
+name: abdominal sensillum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004461
+relationship: broader MAT:0000163
+
+[Term]
+id: MAT:0000098
+name: brain
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100164
+alt_id: FBbt:00003624
+alt_id: FMAID:50801
+alt_id: MA:0000168
+alt_id: MFO:0002240
+alt_id: MP:0002152
+alt_id: SAEL:12
+alt_id: WBbt:0005440
+alt_id: ZFA:0000008
+alt_id: TADS:0000188
+alt_id: TAO:0000008
+alt_id: EHDAA:2641
+synonym: "synganglion" []
+relationship: broader MAT:0000457
+
+[Term]
+id: MAT:0000417
+name: budding yeast
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000387
+relationship: broader MAT:0000014
+
+[Term]
+id: MAT:0000239
+name: stem
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009047
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000148
+name: axial skeleton
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:71221
+alt_id: MA:0000308
+alt_id: MP:0002114
+alt_id: SAEL:121
+alt_id: ZFA:0000317
+alt_id: TAO:0000317
+alt_id: EHDAA:5049
+alt_id: EMAPA:17214
+alt_id: AAO:0000034
+related_synonym: "vertebral column" []
+synonym: "postcranial axia skelton" []
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000176
+name: neurectoderm
+namespace: http\://www.xspan.org/obo.owl#
+def: "The first stage of neural differentiation of ectoderm - it gives rise to the neural and neural crest cells\," []
+alt_id: EMAPA:16073
+alt_id: FBbt:00000113
+alt_id: ZFA:0001120
+alt_id: XAO:0000042
+related_synonym: "neuaral ectoderm" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000516
+name: carpel
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: PO:0009030
+relationship: broader MAT:0000514
+
+[Term]
+id: MAT:0000204
+name: head sensillum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004114
+relationship: broader MAT:0000163
+
+[Term]
+id: MAT:0000191
+name: eubacterium
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000190
+
+[Term]
+id: MAT:0000044
+name: duodenum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100073
+alt_id: FMAID:7206
+alt_id: MA:0000338
+alt_id: MP:0003271
+alt_id: SAEL:31
+alt_id: XAO:0000236
+alt_id: EHDAA:3830
+alt_id: EMAPA:18852
+relationship: broader MAT:0000047
+
+[Term]
+id: MAT:0000019
+name: developmental tissue - animal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000052
+alt_id: MP:0001672
+alt_id: TAO:0001105
+synonym: "embryonic structure" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000202
+name: wing
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004729
+alt_id: TGMA:0000196
+alt_id: TGMA:0000197
+synonym: "adult mesothoracic wing" []
+synonym: "adult metathoracic wing" []
+relationship: broader MAT:0000023
+
+[Term]
+id: MAT:0000281
+name: notochord
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:1241
+alt_id: MFO:0002120
+alt_id: SAEL:73
+alt_id: EVM:2000181
+alt_id: TAO:0000135
+alt_id: AAO:0000327
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000295
+name: thorax
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100010
+alt_id: FBbt:00000015
+alt_id: FMAID:9576
+alt_id: SAEL:106
+alt_id: TGMA:000136
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000134
+name: gill
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MFO:0003180
+alt_id: ZFA:0000354
+alt_id: XAO:0000120
+alt_id: TAO:0000354
+synonym: "external gill" []
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000210
+name: corpus allatum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005800
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000146
+name: middle ear
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100357
+alt_id: FMAID:56513
+alt_id: MA:0000253
+alt_id: MP:0000049
+alt_id: SAEL:69
+alt_id: XAO:0000191
+alt_id: EHDAA:5693
+alt_id: EMAPA:17000
+relationship: broader MAT:0000138
+
+[Term]
+id: MAT:0000512
+name: accumbens nucleus
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61889
+alt_id: MA:0000892
+relationship: broader MAT:0000450
+
+[Term]
+id: MAT:0000285
+name: digit
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: SAEL:29
+alt_id: XAO:0003036
+alt_id: XAO:0003035
+synonym: "forelimb digit" []
+synonym: "hindlimb digit" []
+relationship: broader MAT:0000090
+
+[Term]
+id: MAT:0000162
+name: dorsal root ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:2899
+alt_id: EMAPA:16668
+alt_id: FMAID:5888
+alt_id: MA:0000232
+alt_id: SAEL:30
+alt_id: WBbt:0005189
+alt_id: ZFA:0000200
+alt_id: EVM:2000213
+alt_id: TAO:0000200
+alt_id: EMAPA:18372
+related_synonym: "spinal ganglion" []
+relationship: broader MAT:0000019
+relationship: broader MAT:0000343
+
+[Term]
+id: MAT:0000502
+name: diaphragm
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:13295
+alt_id: EHDAA:4104
+alt_id: EMAPA:17701
+alt_id: EV:0100376
+synonym: "future diaphragm" []
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000076
+name: islet of Langerhans
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100130
+alt_id: MA:0000127
+alt_id: MP:0005215
+alt_id: SAEL:79
+alt_id: XAO:0000159
+alt_id: EMAPA:19246
+related_synonym: "pancreatic islet" []
+relationship: broader MAT:0000075
+
+[Term]
+id: MAT:0000521
+name: plant zygote
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: PO:0000423
+synonym: "zygote" []
+relationship: broader MAT:0000518
+
+[Term]
+id: MAT:0000155
+name: ectoderm
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000346
+name: stomatal complex
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0002000
+relationship: broader MAT:0000234
+
+[Term]
+id: MAT:0000011
+name: mycelium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0000011
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000299
+name: bone
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100140
+alt_id: FMAID:30317
+alt_id: SAEL:10
+alt_id: XAO:0000169
+alt_id: TAO:0001514
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000041
+name: tooth
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100063
+alt_id: FMAID:12516
+alt_id: MA:0000348
+alt_id: SAEL:112
+alt_id: ZFA:0000644
+alt_id: XAO:0000431
+alt_id: EHDAA:8009
+alt_id: EMAPA:17938
+related_synonym: "dental plate" []
+relationship: broader MAT:0000038
+
+[Term]
+id: MAT:0000287
+name: appendix
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100080
+alt_id: FMAID:14542
+alt_id: MA:00001540
+alt_id: SAEL:7
+relationship: broader MAT:0000046
+
+[Term]
+id: MAT:0000276
+name: phyllid
+namespace: http\://www.xspan.org/obo.owl#
+def: "leaf of a moss or liverwort" []
+relationship: broader MAT:0000004
+relationship: broader MAT:0000234
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000153
+name: dermis
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100154
+alt_id: FMAID:70323
+alt_id: MA:0000152
+alt_id: MP:0001243
+alt_id: SAEL:27
+alt_id: ZFA:0001119
+alt_id: XAO:0000217
+alt_id: EMAPA:17527
+alt_id: AAO:0000128
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000415
+name: radicle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020031
+relationship: broader MAT:0000006
+
+[Term]
+id: MAT:0000400
+name: larval stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:1000008
+alt_id: FBdv:00005336
+alt_id: WBIs:0000023
+synonym: "tadpole stage" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000380
+name: Drosophila (FBbt)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000523
+name: amphibia (AAO)
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+is_a: MAT:0000373
+
+[Term]
+id: MAT:0000063
+name: gastrula stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:1000005
+alt_id: FBdv:00005317
+alt_id: WBIs:0000010
+alt_id: EVM:2990009
+synonym: "gastrula" []
+synonym: "gastrulating mbryo" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000077
+name: pituitary
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100132
+alt_id: FMAID:13889
+alt_id: MA:0000127
+alt_id: MP:0000633
+alt_id: SAEL:83
+alt_id: ZFA:0000118
+alt_id: XAO:0000161
+alt_id: EHDAA:2183
+alt_id: EMAPA:16724
+related_synonym: "hypophysis" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000352
+name: root hair
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0000256
+relationship: broader MAT:0000005
+
+[Term]
+id: MAT:0000170
+name: ejaculatory duct
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004965
+alt_id: FMAID:19325
+alt_id: TADS:0000489
+alt_id: EMAPA:19088
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000092
+name: zeugopod
+namespace: http\://www.xspan.org/obo.owl#
+def: "The middle part of the limb (e.g. between the elbow and wrist)" []
+alt_id: MA:0002716
+broad_synonym: "middle part of limb" []
+relationship: broader MAT:0000090
+
+[Term]
+id: MAT:0000008
+name: seed
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZEA:0015178
+alt_id: PO:00099010
+relationship: broader MAT:0000518
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000312
+name: transverse colon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:14546
+relationship: broader MAT:0000526
+
+[Term]
+id: MAT:0000145
+name: inner ear
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100361
+alt_id: FMAID:60909
+alt_id: MA:0000237
+alt_id: MP:0000026
+alt_id: SAEL:54
+alt_id: ZFA:0000217
+alt_id: XAO:0000192
+alt_id: TAO:0000217
+alt_id: EHDAA:504
+alt_id: EMAPA:16194
+related_synonym: "internal ear" []
+relationship: broader MAT:0000138
+
+[Term]
+id: MAT:0000503
+name: seminiferous tubule
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: EMAPA:18685
+alt_id: EV:0100102
+alt_id: MA:0000412
+relationship: broader MAT:0000132
+
+[Term]
+id: MAT:0000317
+name: female inflorescence
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020126
+alt_id: ZEA:0015084
+related_synonym: "ear" []
+relationship: broader MAT:0000233
+
+[Term]
+id: MAT:0000435
+name: eVOC human development stage (EV)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000323
+name: early culminant
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000009
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000505
+name: frontal lobe
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61824
+alt_id: EV:0100167
+relationship: broader MAT:0000421
+
+[Term]
+id: MAT:0000291
+name: palatine tonsil
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100393
+alt_id: FMAID:9610
+alt_id: MA:0000775
+alt_id: SAEL:77
+relationship: broader MAT:0000049
+
+[Term]
+id: MAT:0000446
+name: oropharynx
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:54879
+alt_id: MA:0000351
+relationship: broader MAT:0000049
+
+[Term]
+id: MAT:0000333
+name: vegetative cell
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0000032
+relationship: broader MAT:0000014
+
+[Term]
+id: MAT:0000061
+name: extraembryonic tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EMAPA:16042
+alt_id: FBbt:00005835
+alt_id: MP:0002086
+alt_id: SAEL:39
+alt_id: ZFA:0000020
+related_synonym: "extraembryonic component" []
+related_synonym: "extraembryonic structure" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000331
+name: sporophore
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0000010
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000037
+name: vein
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100031
+alt_id: FMAID:50723
+alt_id: MA:0000066
+alt_id: MP:0002725
+alt_id: ZFA:0000082
+alt_id: XAO:0000115
+alt_id: TAO:0000082
+alt_id: EHDAA:486
+alt_id: EMAPA:16240
+synonym: "venous system" []
+relationship: broader MAT:0000016
+
+[Term]
+id: MAT:0000127
+name: uterus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100113
+alt_id: FBbt:00004924
+alt_id: FMAID:17558
+alt_id: MA:0000389
+alt_id: MP:0001120
+alt_id: SAEL:119
+alt_id: WBbt:0006760
+alt_id: TADS:0000421
+alt_id: EMAPA:18985
+related_synonym: "uterine horns" []
+synonym: "uterine horn" []
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000439
+name: mammalian phenotype (MP)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000042
+name: anal region
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100082
+alt_id: FBbt:00005785
+alt_id: FMAID:15703
+alt_id: MA:0000328
+alt_id: MP:0005034
+alt_id: SAEL:5
+alt_id: WBbt:0005774
+alt_id: ZFA:0000330
+alt_id: TGMA:0001279
+alt_id: XAO:0000244
+alt_id: EMAPA:16831
+related_synonym: "anal canal" []
+related_synonym: "anal pad" []
+related_synonym: "anal region" []
+related_synonym: "cloaca" []
+related_synonym: "cloacal chamber" []
+synonym: "anus" []
+relationship: broader MAT:0000046
+
+[Term]
+id: MAT:0000004
+name: gametophyte
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009004
+alt_id: ZEA:0015175
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000223
+name: cambium
+namespace: http\://www.xspan.org/obo.owl#
+def: "The layer of active cells between xylem and phloem that gives rise to secondary tissues (e.g. bark)" []
+alt_id: PO:0005597
+relationship: broader MAT:0000006
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000316
+name: male inflorescence
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020136
+alt_id: ZEA:0015085
+related_synonym: "tassel" []
+relationship: broader MAT:0000233
+
+[Term]
+id: MAT:0000288
+name: caecum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100397
+alt_id: FMAID:14541
+alt_id: MA:00000334
+alt_id: SAEL:15
+alt_id: EHDAA:3913
+related_synonym: "cecum" []
+relationship: broader MAT:0000046
+
+[Term]
+id: MAT:0000165
+name: hermaphrodite gonad
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: WBbt:0005178
+relationship: broader MAT:0000305
+
+[Term]
+id: MAT:0000518
+name: developmental tissue - plant
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000248
+name: thallus
+namespace: http\://www.xspan.org/obo.owl#
+def: "a primitive plant body of gametophytes that has not differentiated into roots\, stems or leaves" []
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000125
+name: ovary - animal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100111
+alt_id: FBbt:00004865
+alt_id: FMAID:7209
+alt_id: MA:0000384
+alt_id: MP:0001126
+alt_id: SAEL:76
+alt_id: ZFA:0000403
+alt_id: XAO:0000258
+alt_id: TADS:0000400
+alt_id: TAO:0000403
+alt_id: EHDAA:8124
+alt_id: EMAPA:17962
+alt_id: AAO:0000371
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000437
+name: fission yeast
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000387
+relationship: broader MAT:0000014
+
+[Term]
+id: MAT:0000225
+name: shoot meristem - lateral
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0006344
+relationship: broader MAT:0000006
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000314
+name: sigmoid colon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:14548
+relationship: broader MAT:0000526
+
+[Term]
+id: MAT:0000412
+name: influorescence development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0001083
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000070
+name: tail bud
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:1595
+alt_id: EMAPA:16580
+alt_id: ZFA:0000077
+alt_id: XAO:0000107
+alt_id: EVM:2000066
+alt_id: EV:3000627
+alt_id: TAO:0000077
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000450
+name: basal ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:84013
+alt_id: MA:0000184
+synonym: "basal nucleus\]" []
+relationship: broader MAT:0000200
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000335
+name: yolk
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000035
+alt_id: MFO:0003700
+alt_id: XAO:0000281
+alt_id: TAO:0009197
+broad_synonym: "vegetal yolk mass" []
+synonym: "yolk cell" []
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000046
+name: large intestine
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100077
+alt_id: FMAID:7201
+alt_id: MA:0000333
+alt_id: MP:0000489
+alt_id: SAEL:58
+alt_id: ZFA:0000706
+alt_id: TGMA:0001020
+alt_id: XAO:0000131
+alt_id: EMAPA:19252
+narrow_synonym: "posterior intestine" []
+synonym: "hindgut" []
+relationship: broader MAT:0000043
+
+[Term]
+id: MAT:0000079
+name: salivary gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005382
+alt_id: FMAID:9597
+alt_id: MA:0000346
+alt_id: MP:0000613
+alt_id: SAEL:92
+alt_id: TGMA:0001804
+alt_id: TADS:0000119
+alt_id: EHDAA:7987
+alt_id: EMAPA:17751
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000208
+name: spiracle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005054
+alt_id: TGMA:0000578
+alt_id: TADS:0000524
+synonym: "spiracular gland" []
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000006
+name: meristem
+namespace: http\://www.xspan.org/obo.owl#
+def: "Undifferentiated plant issue - the botanical equivalent of animal stem cells" []
+alt_id: PO:0009013
+relationship: broader MAT:0000518
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000056
+name: milk
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100126
+alt_id: FMAID:62100
+alt_id: MA:0002552
+alt_id: EV:3000460
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000433
+name: Xenopus anatomy and development (XAO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000456
+name: fat body sensu amphibia
+namespace: http\://www.xspan.org/obo.owl#
+def: "An adipose tissue associated with the amphibiian gonad" []
+alt_id: AAO:0000157
+synonym: "Fat_bodies" []
+relationship: broader MAT:0000015
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000143
+name: omatidium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004510
+relationship: broader MAT:0000140
+
+[Term]
+id: MAT:0000073
+name: mammary gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100125
+alt_id: FMAID:62088
+alt_id: MA:0000145
+alt_id: MP:0000627
+alt_id: SAEL:64
+alt_id: EHDAA:6522
+alt_id: EMAPA:17759
+related_synonym: "lactiferous gland" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000100
+name: PNS - sympathetic
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100374
+alt_id: FMAID:9906
+alt_id: MA:0000225
+alt_id: MP:0001007
+alt_id: ZFA:0000142
+alt_id: XAO:0000211
+alt_id: TAO:0001576
+alt_id: EHDAA:3769
+alt_id: EMAPA:16985
+related_synonym: "sympathetic chain" []
+synonym: "sympathetic nervous system" []
+relationship: broader MAT:0000338
+
+[Term]
+id: MAT:0000379
+name: teleost (TAO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000510
+name: globus pallidus
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61835
+alt_id: EV:0100188
+alt_id: MA:0000890
+relationship: narrower MAT:0000450
+
+[Term]
+id: MAT:0000454
+name: pericardium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100023
+alt_id: FMAID:9869
+alt_id: EMAPA:17174
+alt_id: EHDAA:5376
+alt_id: ZFA:0000054
+synonym: "pericardial sac" []
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000387
+name: fungus (FAO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000096
+name: fat body sensu invertebrata
+namespace: http\://www.xspan.org/obo.owl#
+def: "An invertebrate tissue which serves as a store of lipids and in \nwhich a great deal of catabolic and anabolic activity occurs" []
+alt_id: FBbt:00005066
+alt_id: TGMA:0001856
+alt_id: TADS:0000321
+relationship: broader MAT:0000015
+relationship: broader MAT:0000024
+
+[Term]
+id: MAT:0000141
+name: lens
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100343
+alt_id: FMAID:58241
+alt_id: MA:0000275
+alt_id: MFO:0003520
+alt_id: MP:0002093
+alt_id: SAEL:60
+alt_id: ZFA:0000035
+alt_id: XAO:0000008
+alt_id: TADS:0000304
+alt_id: TAO:0000035
+alt_id: EHDAA:9057
+alt_id: EMAPA:17838
+relationship: broader MAT:0000140
+
+[Term]
+id: MAT:0000356
+name: tepal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009033
+relationship: broader MAT:0000231
+
+[Term]
+id: MAT:0000479
+name: placode
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000477
+
+[Term]
+id: MAT:0000410
+name: flower development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0007615
+alt_id: GRO:0007020
+alt_id: GRO:0007153
+alt_id: GRO:0007151
+synonym: "flowering stage" []
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000337
+name: pars intercerebralis
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005802
+relationship: broader MAT:0000098
+
+[Term]
+id: MAT:0000233
+name: inflorescence
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009049
+alt_id: ZEA:0015085
+alt_id: ZEA:0015084
+synonym: "tassel" []
+synonym: "ear" []
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000501
+name: carotid artery
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:3939
+alt_id: EHDAA:6373
+alt_id: EMAPA:18609
+alt_id: ZFA:0000097
+alt_id: EV:0100379
+alt_id: MA:0001925
+alt_id: XAO:0000345
+alt_id: TAO:0000097
+synonym: "common carotid artery" []
+synonym: "external carotid artery" []
+relationship: broader MAT:0000034
+
+[Term]
+id: MAT:0000110
+name: cerebellum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100293
+alt_id: FMAID:67944
+alt_id: MA:0000196
+alt_id: MFO:0002340
+alt_id: MP:0000849
+alt_id: SAEL:18
+alt_id: ZFA:0000100
+alt_id: TAO:0000100
+alt_id: EMAPA:17787
+relationship: broader MAT:0000107
+
+[Term]
+id: MAT:0000348
+name: apoplasm
+namespace: http\://www.xspan.org/obo.owl#
+def: "The fluid between the cell wall and the plasma membrane" []
+synonym: "apoplast" []
+relationship: broader MAT:0000347
+
+[Term]
+id: MAT:0000452
+name: tegmentum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:62393
+alt_id: EMAPA:18215
+alt_id: MA:0000212
+alt_id: TAO:0001354
+alt_id: ZFA:0001354
+relationship: broader MAT:0000106
+
+[Term]
+id: MAT:0000080
+name: thymus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100138
+alt_id: FMAID:9607
+alt_id: MA:0000142
+alt_id: MFO:0003240
+alt_id: MP:0000703
+alt_id: SAEL:107
+alt_id: ZFA:0001078
+alt_id: XAO:0000163
+alt_id: TAO:0001078
+alt_id: EHDAA:9119
+alt_id: EMAPA:18768
+relationship: broader MAT:0000021
+relationship: broader MAT:0000022
+
+[Term]
+id: MAT:0000024
+name: liver and biliary system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100088
+alt_id: MA:0000324
+alt_id: MP:0002138
+alt_id: ZFA:0000036
+alt_id: XAO:0000132
+alt_id: TAO:0000036
+alt_id: EHDAA:2189
+alt_id: EMAPA:16840
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000279
+name: placenta
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100119
+alt_id: FMAID:63934
+alt_id: MA:0000386
+alt_id: SAEL:84
+alt_id: EVM:2000256
+alt_id: EV:3000466
+relationship: broader MAT:0000061
+
+[Term]
+id: MAT:0000486
+name: distal
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000358
+name: tuber
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0004543
+relationship: broader MAT:0000005
+relationship: broader MAT:0000366
+
+[Term]
+id: MAT:0000440
+name: mouse development (EMAPA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000137
+name: trachea
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100040
+alt_id: FBbt:00005043
+alt_id: FMAID:7394
+alt_id: MA:0000441
+alt_id: MP:0002282
+alt_id: SAEL:111
+alt_id: XAO:0000118
+alt_id: TADS:000315
+alt_id: EHDAA:3078
+alt_id: EMAPA:16853
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000408
+name: seed development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0001170
+alt_id: GRO:0007007
+alt_id: GRO:0007125
+alt_id: GRO:0007058
+synonym: "seedling" []
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000514
+name: reproductive system - plant
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000112
+name: hypothalamus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100225
+alt_id: FMAID:62008
+alt_id: MA:0000173
+alt_id: SAEL:52
+alt_id: ZFA:0000032
+alt_id: TAO:0000032
+alt_id: EHDAA:5446
+alt_id: EMAPA:17536
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000367
+name: bulb
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000366
+
+[Term]
+id: MAT:0000221
+name: root meristem - lateral
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0006308
+alt_id: ZEA:0015158
+related_synonym: "lateral root meristem" []
+relationship: broader MAT:0000006
+relationship: broader MAT:0000005
+
+[Term]
+id: MAT:0000227
+name: endosperm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009089
+relationship: broader MAT:0000008
+
+[Term]
+id: MAT:0000028
+name: reproductive system - female
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100110
+alt_id: FBbt:00004864
+alt_id: FMAID:45663
+alt_id: MA:0000381
+alt_id: MP:0001119
+alt_id: ZFA:0000303
+alt_id: XAO:0000156
+alt_id: TADS:0000352
+alt_id: EHDAA:8116
+alt_id: EMAPA:17959
+related_synonym: "female genital system" []
+related_synonym: "female reproductive system" []
+synonym: "female genitalia" []
+synonym: "female" []
+relationship: broader MAT:0000305
+
+[Term]
+id: MAT:0000182
+name: girdle - pelvic
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:16581
+alt_id: MA:0000293
+alt_id: MP:0004509
+alt_id: EHDAA:7149
+alt_id: EMAPA:18028
+related_synonym: "pelvic girdle" []
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000135
+name: lung
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100042
+alt_id: FMAID:7195
+alt_id: MA:0000415
+alt_id: MP:0001175
+alt_id: SAEL:62
+alt_id: XAO:0000119
+alt_id: EHDAA:2205
+alt_id: EMAPA:16728
+alt_id: AAO:0000275
+synonym: "lungs" []
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000094
+name: tail
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000008
+alt_id: MFO:0081020
+alt_id: MP:0002111
+alt_id: SAEL:103
+alt_id: ZFA:0001117
+alt_id: WBbt:0005741
+alt_id: XAO:0003026
+alt_id: EMAPA:16748
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000106
+name: midbrain
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100242
+alt_id: FMAID:61993
+alt_id: MA:0000207
+alt_id: MFO:0002420
+alt_id: MP:0000897
+alt_id: SAEL:68
+alt_id: ZFA:0000128
+alt_id: XAO:0000014
+alt_id: TAO:0000128
+alt_id: EHDAA:3694
+alt_id: EMAPA:16974
+synonym: "mesencephalon" []
+relationship: broader MAT:0000098
+
+[Term]
+id: MAT:0000256
+name: limb bud - hindlimb
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:2358
+alt_id: EMAPA:16779
+related_synonym: "lower limb bud" []
+relationship: broader MAT:0000019
+
+[Term]
+id: GO:0000000
+name: <new term>
+namespace: http\://www.xspan.org/obo.owl#
+is_obsolete: true
+
+[Term]
+id: MAT:0000020
+name: fluid - animal
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000047
+name: small intestine
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100072
+alt_id: FMAID:14544
+alt_id: MA:0000337
+alt_id: MP:0000496
+alt_id: SAEL:96
+alt_id: ZFA:0001323
+alt_id: TGMA:0001024
+alt_id: XAO:0000130
+related_synonym: "mid intestine" []
+synonym: "anterior intestine" []
+relationship: broader MAT:0000043
+
+[Term]
+id: MAT:0000329
+name: tipped mound
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000006
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000086
+name: antenna
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004511
+alt_id: TGMA:0000007
+relationship: broader MAT:0000023
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000039
+name: soft palate
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:55021
+alt_id: MA:0002412
+alt_id: MP:0003154
+alt_id: SAEL:98
+alt_id: EMAPA:18949
+relationship: broader MAT:0000038
+
+[Term]
+id: MAT:0000108
+name: cerebral cortex
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100166
+alt_id: FBbt:00003625
+alt_id: FMAID:61830
+alt_id: MA:0000185
+alt_id: MP:0000788
+alt_id: SAEL:20
+alt_id: EHDAA:5464
+alt_id: EMAPA:17544
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000480
+name: biopsy
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000477
+
+[Term]
+id: MAT:0000327
+name: mound
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000005
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000049
+name: pharynx
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100065
+alt_id: FBbt:00005380
+alt_id: FMAID:46688
+alt_id: MA:0000432
+alt_id: MFO:0003080
+alt_id: MP:0002234
+alt_id: SAEL:82
+alt_id: WBbt:0003681
+alt_id: TGMA:0000132
+alt_id: TADS:0000042
+alt_id: TAO:0000056
+alt_id: EHDAA:2947
+alt_id: EMAPA:16706
+relationship: broader MAT:0000018
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000002
+name: fungal component
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000000
+
+[Term]
+id: MAT:0000377
+name: mouse adult (MA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000016
+name: cardiovascular system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100017
+alt_id: FBbt:00005057
+alt_id: FMAID:7161
+alt_id: MA:0000010
+alt_id: MP:0002127
+alt_id: SAEL:16
+alt_id: ZFA:0000010
+alt_id: XAO:0000100
+alt_id: TADS:0000146
+alt_id: TAO:0000010
+alt_id: MFO:000290
+alt_id: EHDAA:394
+alt_id: EMAPA:16104
+related_synonym: "circulatory system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000308
+name: gram-positive eubacterium
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000191
+
+[Term]
+id: MAT:0000325
+name: migratory slug
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000008
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000448
+name: pineal gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100131
+alt_id: FMAID:62033
+alt_id: MFO:0079940
+alt_id: XAO:0000160
+alt_id: MA:0000175
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000369
+name: cranial placode
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:0000305
+alt_id: TAO:0001309
+synonym: "neurogenic placode" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000014
+name: unicellular fungus
+namespace: http\://www.xspan.org/obo.owl#
+related_synonym: "yeast" []
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000058
+name: urine
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:12274
+alt_id: MA:0002545
+alt_id: SAEL:117
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000375
+name: human - early development (EHDAA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000424
+name: maize (ZEA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000384
+
+[Term]
+id: MAT:0000350
+name: sap
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000347
+
+[Term]
+id: MAT:0000129
+name: ductus deferens
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100105
+alt_id: FBbt:00004968
+alt_id: FMAID:19234
+alt_id: MA:0000413
+alt_id: MP:0002769
+alt_id: SAEL:120
+alt_id: WBbt:0005337
+alt_id: TADS:0000486
+alt_id: EMAPA:18681
+related_synonym: "deferent duct" []
+related_synonym: "vas deferens" []
+synonym: "vasa deferentia" []
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000022
+name: haemopoietic system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0002434
+alt_id: SAEL:48
+alt_id: XAO:0000122
+related_synonym: "hematolymphoid system" []
+synonym: "hematological system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000168
+name: spermathecum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004921
+alt_id: TGMA:0000560
+alt_id: WBbt:0005319
+alt_id: TADS:0000434
+synonym: "spermatheca" []
+synonym: "seminal receptacle" []
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000426
+name: eVOC CV (EV)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000229
+name: bud
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0000055
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000488
+name: lateral
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000084
+name: bone marrow
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100046
+alt_id: FMAID:9608
+alt_id: MA:0000134
+alt_id: MP:0002398
+alt_id: SAEL:11
+alt_id: XAO:0000123
+alt_id: TAO:0000669
+alt_id: ZFA:0000669
+broad_synonym: "head kidney" []
+relationship: broader MAT:0000022
+
+[Term]
+id: MAT:0000444
+name: saliva
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100515
+alt_id: FMAID:59862
+alt_id: MA:0002507
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000090
+name: limb sensu vertebrata
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100483
+alt_id: FMAID:7182
+alt_id: MA:0000007
+alt_id: MP:0002109
+alt_id: XAO:0003027
+alt_id: EHDAA:1697
+alt_id: EMAPA:16405
+related_synonym: "limb" []
+relationship: broader MAT:0000023
+
+[Term]
+id: MAT:0000431
+name: Drosophila development
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000482
+name: primordium
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000477
+
+[Term]
+id: MAT:0000305
+name: reproductive system - animals
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100100
+alt_id: FMAID:7160
+alt_id: SAEL:89
+alt_id: FBbt:00004857
+alt_id: XAO:0000142
+alt_id: TAO:0000632
+alt_id: EHDAA:5923
+alt_id: EMAPA:17381
+related_synonym: "genital system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000354
+name: petal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009032
+relationship: broader MAT:0000231
+
+[Term]
+id: MAT:0000494
+name: adrenal cortex
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: EMAPA:18427
+alt_id: EV:0100136
+alt_id: FMAID:15632
+alt_id: MA:0000118
+alt_id: XAO:0000165
+relationship: narrower MAT:0000071
+
+[Term]
+id: MAT:0000321
+name: stalk
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000093
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000280
+name: umbilical cord
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:158
+alt_id: EV:0100127
+alt_id: FMAID:85541
+alt_id: SAEL:113
+alt_id: EVM:2000364
+alt_id: EV:3000467
+related_synonym: "connecting stalk" []
+relationship: broader MAT:0000061
+
+[Term]
+id: MAT:0000394
+name: forelimb
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100014
+alt_id: FMAID:7183
+alt_id: MA:0000025
+alt_id: SAEL:42
+alt_id: XAO:0003030
+alt_id: EHDAA:6208
+alt_id: EMAPA:17412
+synonym: "upper limb" []
+relationship: broader MAT:0000090
+
+[Term]
+id: MAT:0000102
+name: PNS - enteric
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:66070
+alt_id: MA:0000222
+alt_id: MP:0001044
+alt_id: ZFA:0001155
+alt_id: TAO:0001155
+related_synonym: "enteric nervous system" []
+relationship: broader MAT:0000338
+
+[Term]
+id: MAT:0000442
+name: lymph node
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100050
+alt_id: FMAID:5034
+alt_id: MA:00000139
+relationship: broader MAT:0000197
+
+[Term]
+id: MAT:0000396
+name: blastula stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:1000003
+alt_id: FBdv:00005304
+alt_id: WBIs:0000005
+alt_id: EVM:2990005
+synonym: "blastoderm stage" []
+synonym: "blastula embryo" []
+synonym: "blastocyst" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000213
+name: egg
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020094
+related_synonym: "ovum" []
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000189
+name: cartilage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100141
+alt_id: MA:0000104
+alt_id: MP:0000163
+alt_id: SAEL:17
+alt_id: XAO:0000170
+alt_id: TAO:0001501
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000050
+name: rectum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100081
+alt_id: FBbt:00005756
+alt_id: FMAID:14544
+alt_id: MA:0000336
+alt_id: SAEL:88
+alt_id: WBbt:0005773
+alt_id: TGMA:0001028
+alt_id: XAO:0000238
+alt_id: TADS:0000166
+alt_id: EHDAA:EHDAA\:5836
+alt_id: EMAPA:17896
+synonym: "rectal sac" []
+relationship: broader MAT:0000046
+
+[Term]
+id: MAT:0000341
+name: pharyngeal nervous system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: WBbt:0005440
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000194
+name: virus
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000234
+name: leaf
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009025
+alt_id: ZEA:0015031
+relationship: broader MAT:0000003
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000301
+name: connective tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100150
+alt_id: FMAID:9640
+alt_id: SAEL:23
+alt_id: XAO:0000173
+alt_id: TAO:0009189
+related_synonym: "fascia" []
+related_synonym: "tendon" []
+broad_synonym: "tendon cell" []
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000033
+name: integumental system
+namespace: http\://www.xspan.org/obo.owl#
+def: "The taxon-independent term for the outer covering of an organism" []
+alt_id: EV:0100151
+alt_id: FBbt:00004856
+alt_id: FMAID:72979
+alt_id: MA:0000014
+alt_id: MP:0005393
+alt_id: WBbt:0005730
+alt_id: XAO:0000176
+alt_id: TADS:0000108
+alt_id: EHDAA:6520
+alt_id: EMAPA:17524
+alt_id: AAO:0000239
+related_synonym: "dermal system" []
+related_synonym: "epithelial system - sensu  C elegans" []
+related_synonym: "integumentary system" []
+synonym: "integument" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000187
+name: larynx
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100039
+alt_id: FMAID:55097
+alt_id: MA:0000414
+alt_id: MP:0002249
+alt_id: SAEL:59
+alt_id: EMAPA:18333
+alt_id: AAO:0000268
+relationship: broader MAT:0000018
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000215
+name: microspore
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020048
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000179
+name: gastrula
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MFO:0001940
+alt_id: ZFA:00000i9
+related_synonym: "gastrulation" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000196
+name: RNA virus
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000194
+
+[Term]
+id: MAT:0000496
+name: atrium
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:85574
+alt_id: EMAPA:16688
+alt_id: EHDAA:1265
+alt_id: EV:0100018
+alt_id: ZFA0000471
+alt_id: MA:0000073
+alt_id: MFO:0080900
+alt_id: TAO:0000471
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000303
+name: smooth muscle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100378
+alt_id: FBbt:00003525
+alt_id: SAEL:97
+alt_id: XAO:0000175
+related_synonym: "adult visceral muscle" []
+relationship: broader MAT:0000025
+
+[Term]
+id: MAT:0000250
+name: inner cell mass
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:40
+alt_id: EMAPA:16041
+alt_id: EVM:2000322
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000149
+name: craniofacial skeleton bone
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:46565
+alt_id: FMAID:87596
+alt_id: MA:0000316
+alt_id: MP:0002116
+alt_id: ZFA:0000737
+alt_id: TAO:0001424
+alt_id: EHDAA:6029
+alt_id: EMAPA:17680
+alt_id: AAO:0000109
+related_synonym: "cranial skeleton" []
+related_synonym: "skeletal system of head" []
+related_synonym: "skull bone" []
+synonym: "chondrocranium" []
+synonym: "cranium" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000360
+name: bark
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0004518
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000392
+name: blastula
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000524
+name: stigma
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: PO:0009073
+relationship: broader MAT:0000514
+
+[Term]
+id: MAT:0000371
+name: taxon ontology
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000441
+
+[Term]
+id: MAT:0000209
+name: chordotonal organ
+namespace: http\://www.xspan.org/obo.owl#
+def: "An auditory and vibration detector in insects" []
+alt_id: FBbt:00005215
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000001
+name: animal component
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000000
+
+[Term]
+id: MAT:0000429
+name: C elegans development (WBIs)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000508
+name: temporal lobe
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61825
+alt_id: EV:0100169
+alt_id: EMAPA:18797
+relationship: broader MAT:0000421
+
+[Term]
+id: MAT:0000307
+name: spore - asexual
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000414
+alt_id: FAO:0000023
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000113
+name: meninges
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100312
+alt_id: FMAID:76821
+alt_id: MA:0000113
+alt_id: MP:0005623
+alt_id: SAEL:66
+alt_id: EHDAA:3688
+alt_id: EMAPA:17764
+relationship: broader MAT:0000098
+relationship: broader MAT:0000457
+
+[Term]
+id: MAT:0000359
+name: cotyledon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020030
+relationship: broader MAT:0000008
+
+[Term]
+id: MAT:0000492
+name: right
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000422
+name: epithalamus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000172
+alt_id: FMAID:62009
+alt_id: TAO:0000509
+alt_id: ZFA:0000509
+alt_id: MFO:0079980
+alt_id: EHDAA:5433
+alt_id: EMAPA:17532
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000203
+name: haltere
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004783
+related_synonym: "balancer organ" []
+relationship: broader MAT:0000023
+
+[Term]
+id: MAT:0000169
+name: vulva
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100118
+alt_id: FBbt:00004926
+alt_id: FMAID:225311
+alt_id: MA:0000395
+alt_id: MP:0003126
+alt_id: WBbt:0006748
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000066
+name: neural crest - early
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:308
+alt_id: EMAPA:16147
+alt_id: EMAPA:16163
+alt_id: MP:0002949
+alt_id: ZFA:0000045
+alt_id: EVM:2000191
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000419
+name: blastoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TAO:0001176
+alt_id: AAO:0000042
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000181
+name: girdle - pectoral
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:23217
+alt_id: MA:0000292
+alt_id: MP:0004508
+alt_id: EHDAA:6039
+alt_id: EMAPA:18025
+related_synonym: "pectoral girdle" []
+related_synonym: "shoulder bones" []
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000364
+name: phloem
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0005417
+relationship: broader MAT:0000009
+relationship: broader MAT:0000362
+
+[Term]
+id: MAT:0000490
+name: medial
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000403
+name: adult stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0300070
+alt_id: XAO:1000009
+alt_id: FBdv:00005369
+alt_id: WBIs:0000041
+alt_id: EVM:2990028
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000158
+name: nail
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100159
+alt_id: FMAID:54326
+alt_id: MA:0002703
+alt_id: MP:0000579
+alt_id: EMAPA:18734
+synonym: "claw" []
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000171
+name: seminal vesicle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100106
+alt_id: FBbt:00004958
+alt_id: FMAID:19386
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000120
+name: ureter
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100097
+alt_id: FMAID:9704
+alt_id: MA:0000378
+alt_id: MP:0000534
+alt_id: WBbt:0005777
+alt_id: WBbt:0004540
+alt_id: XAO:0000144
+alt_id: EHDAA:7009
+alt_id: EMAPA:17950
+broad_synonym: "excretory duct" []
+synonym: "excretory duct cell" []
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000243
+name: mesectoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000136
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000373
+name: vertebrate
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000506
+name: parietal lobe
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61826
+alt_id: EV:0100166
+relationship: broader MAT:0000421
+
+[Term]
+id: MAT:0000122
+name: bladder
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100098
+alt_id: FMAID:15900
+alt_id: MA:0000380
+alt_id: MP:0000538
+alt_id: SAEL:115
+alt_id: XAO:0000154
+alt_id: EHDAA:9328
+alt_id: EMAPA:18321
+alt_id: AAO:0000623
+related_synonym: "urinary bladder" []
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000026
+name: nervous system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100162
+alt_id: FBbt:00005093
+alt_id: FMAID:7157
+alt_id: MA:0000016
+alt_id: MP:0003631
+alt_id: SAEL:71
+alt_id: WBbt:0005735
+alt_id: ZFA:0000396
+alt_id: XAO:0000177
+alt_id: TAO:0000396
+alt_id: EHDAA:826
+alt_id: EMAPA:16469
+alt_id: AAO:0000324
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000031
+name: sensory system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005155
+alt_id: MA:0002442
+alt_id: MFO:0003460
+alt_id: WBbt:0005832
+alt_id: ZFA:0000282
+alt_id: TAO:0000182
+alt_id: AAO:0000555
+related_synonym: "sense organ" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000185
+name: stem cell
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100395
+alt_id: MP:0002400
+alt_id: TAO:0009307
+alt_id: TAO:0009020
+related_synonym: "blastocyst inner cell mass" []
+synonym: "somatic stem cell" []
+synonym: "multi fate stem cell" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000420
+name: diencephalon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:62001
+alt_id: ZFA:0000101
+alt_id: TAO:0000101
+alt_id: MFO:0002280
+alt_id: MA:0000171
+alt_id: XAO:0000013
+alt_id: EHDAA:3472
+alt_id: EMAPA:16896
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000528
+name: fetilized egg
+namespace: http\://www.xspan.org/obo.owl#
+synonym: "zygote" []
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000115
+name: pons
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100253
+alt_id: FMAID:67943
+alt_id: MA:0000204
+alt_id: MP:0000848
+alt_id: SAEL:85
+alt_id: EMAPA:17563
+relationship: broader MAT:0000107
+
+[Term]
+id: MAT:0000133
+name: bronchus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100041
+alt_id: FMAID:7409
+alt_id: MA:0000436
+alt_id: SAEL:14
+alt_id: XAO:0000121
+alt_id: EHDAA:3072
+alt_id: EMAPA:16849
+synonym: "main bronchus" []
+relationship: broader MAT:0000030
+
+[Term]
+id: MAT:0000081
+name: thyroid
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100133
+alt_id: FMAID:9603
+alt_id: MA:0000129
+alt_id: MP:0000681
+alt_id: SAEL:108
+alt_id: ZFA:0001072
+alt_id: XAO:0000162
+alt_id: TAO:0001081
+alt_id: EHDAA:2975
+alt_id: EMAPA:18827
+broad_synonym: "thyroid primordium" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000398
+name: embryo mid-stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0300001
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000389
+name: time stages
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000441
+
+[Term]
+id: MAT:0000198
+name: brown fat
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000057
+relationship: broader MAT:0000015
+
+[Term]
+id: MAT:0000018
+name: digestive system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100056
+alt_id: FBbt:00005055
+alt_id: FMAID:7152
+alt_id: MA:0000323
+alt_id: MFO:0002980
+alt_id: MP:0000462
+alt_id: SAEL:28
+alt_id: WBbt:0005748
+alt_id: ZFA:0000339
+alt_id: XAO:0000125
+alt_id: TADS:0000170
+alt_id: TAO:0000339
+alt_id: EHDAA:514
+alt_id: EMAPA:16246
+alt_id: AAO:0000129
+related_synonym: "alimentary system" []
+related_synonym: "gastrointestinal system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000271
+name: segment - adult
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000003
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000119
+name: kidney
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100096
+alt_id: FMAID:7203
+alt_id: MA:0000368
+alt_id: MP:0002135
+alt_id: SAEL:57
+alt_id: WBbt:0005775
+alt_id: EHDAA:5911
+alt_id: EMAPA:17373
+alt_id: AAO:0000250
+related_synonym: "metanephros" []
+broad_synonym: "excretory canal" []
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000075
+name: pancreas
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100092
+alt_id: FMAID:7198
+alt_id: MA:0001582
+alt_id: MA:0002415
+alt_id: MP:0001944
+alt_id: SAEL:80
+alt_id: ZFA:0000140
+alt_id: XAO:0000136
+alt_id: TAO:0000140
+alt_id: EHDAA:6893
+alt_id: EMAPA:18816
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000052
+name: blood plasma
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100488
+alt_id: MA:0002501
+alt_id: SAEL:8
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000139
+name: nose
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100037
+alt_id: FMAID:46472
+alt_id: MA:0000281
+alt_id: MFO:0003640
+alt_id: MP:0002233
+alt_id: SAEL:72
+alt_id: ZFA:0001149
+alt_id: FBbt:00005157
+alt_id: XAO:0003033
+alt_id: XAO:0000201
+alt_id: TAO:0001149
+alt_id: EHDAA:1502
+alt_id: EMAPA:16542
+alt_id: AAO:0000334
+related_synonym: "olfactory pits" []
+related_synonym: "olfactory system" []
+synonym: "chemosensory sensory organ" []
+broad_synonym: "nostril" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000030
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000273
+name: mesonephros
+namespace: http\://www.xspan.org/obo.owl#
+def: "A vertebrate tissue that is transitional in reptiles birds and mammals and gives rise on\n its lateral side to the gonad. The adult mesonephros is the functioning kidney of fish\nand amphibia (see mesonephros - adult)" []
+alt_id: EHDAA:5903
+alt_id: EMAPA:16744
+alt_id: EVM:2000298
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000347
+name: fluid - plant
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000150
+name: exoskeleton
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004970
+related_synonym: "cuticle" []
+relationship: broader MAT:0000033
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000296
+name: trunk
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:7181
+alt_id: MFO:0001720
+alt_id: SAEL:112
+alt_id: XAO:0003025
+alt_id: TAO:0001115
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000498
+name: atrioventricular node
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:9478
+alt_id: ZFA:0000044
+alt_id: MA:0000095
+alt_id: TAO:0005070
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000161
+name: hard palate
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100409
+alt_id: FMAID:54549
+alt_id: MA:0002477
+alt_id: MP:0003756
+alt_id: EMAPA:18952
+related_synonym: "palate - human" []
+relationship: broader MAT:0000038
+
+[Term]
+id: MAT:0000205
+name: thoracic sensillum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004245
+relationship: broader MAT:0000163
+
+[Term]
+id: MAT:0000284
+name: skin
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100152
+alt_id: FMAID:7163
+alt_id: MFO:0003200
+alt_id: SAEL:95
+alt_id: XAO:0000023
+alt_id: EHDAA:6530
+alt_id: EMAPA:17525
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000275
+name: taste system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:7194
+alt_id: ZFA:0001101
+alt_id: FBbt:00005159
+alt_id: TAO:0001101
+synonym: "gustatory sensory organ" []
+synonym: "gustatory system" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000232
+name: fruit
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009001
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000414
+name: whole (mature) plant growth stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0007033
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000294
+name: head
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100475
+alt_id: FBbt:00000004
+alt_id: FMAID:7154
+alt_id: MFO:0001660
+alt_id: SAEL:46
+alt_id: TGMA:0000002
+alt_id: WBbt:0005739
+alt_id: XAO:0003024
+alt_id: TAO:0001114
+related_synonym: "adult head" []
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000345
+name: leaf vscular tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0000036
+relationship: broader MAT:0000234
+relationship: broader MAT:0000362
+
+[Term]
+id: MAT:0000515
+name: stamen
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: PO:0009029
+alt_id: ZEA:0015134
+relationship: broader MAT:0000514
+
+[Term]
+id: MAT:0000152
+name: sensory bristle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005177
+related_synonym: "chaeta" []
+relationship: broader MAT:0000033
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000095
+name: limb sensu invertebrata
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004640
+alt_id: TGMA:0000164
+alt_id: TADS:0000002
+relationship: broader MAT:0000023
+
+[Term]
+id: MAT:0000282
+name: ileum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100075
+alt_id: FMAID:7208
+alt_id: MA:0000339
+alt_id: SAEL:53
+alt_id: XAO:0000237
+relationship: broader MAT:0000047
+
+[Term]
+id: MAT:0000207
+name: invertebrate ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005137
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000355
+name: sepal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009031
+relationship: broader MAT:0000231
+
+[Term]
+id: MAT:0000478
+name: anlage
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000477
+
+[Term]
+id: MAT:0000416
+name: unicellular eukaryotes - non-fungal
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000230
+name: cotyledon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020030
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000401
+name: new-born stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0300039
+alt_id: EVM:2990000
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000054
+name: hemolymph
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005061
+alt_id: TGMA:0000000
+synonym: "haemolymph" []
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000483
+name: geometric modifier
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000476
+
+[Term]
+id: MAT:0000010
+name: hypha
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0001001
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000476
+name: anatomical modifier
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000441
+
+[Term]
+id: MAT:0000156
+name: feather
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000068
+name: somite
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:366
+alt_id: EMAPA:16184
+alt_id: MFO:0002160
+alt_id: MP:0001688
+alt_id: SAEL:99
+alt_id: ZFA:0000155
+alt_id: XAO:0000058
+alt_id: TAO:0000155
+related_synonym: "somites" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000131
+name: spermatazoon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:67338
+alt_id: MA:0002765
+alt_id: MP:0001156
+alt_id: SAEL:93
+alt_id: WBbt:0005321
+alt_id: ZFA:0009006
+alt_id: FBbt:00004954
+related_synonym: "male gamete" []
+related_synonym: "mature sperm cell" []
+related_synonym: "sperm" []
+broad_synonym: "semen" []
+relationship: broader MAT:0000029
+
+[Term]
+id: MAT:0000219
+name: rhizome
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0004542
+relationship: broader MAT:0000005
+relationship: broader MAT:0000366
+
+[Term]
+id: MAT:0000062
+name: fin bud
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZFA:0001383
+alt_id: TAO:0001383
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000175
+name: endoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:94
+alt_id: EMAPA:16062
+alt_id: FBbt:00000125
+alt_id: SAEL:34
+alt_id: ZFA:0000017
+alt_id: XAO:0000090
+alt_id: EVM:2000307
+alt_id: EV:3000142
+alt_id: AAO:0000139
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000035
+name: aorta
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100027
+alt_id: FBbt:00003153
+alt_id: FMAID:3734
+alt_id: MA:0000476
+alt_id: MP:0000272
+alt_id: SAEL:6
+alt_id: ZFA:0000014
+alt_id: XAO:0003010
+alt_id: TADS:0000154
+alt_id: TAO:0000014
+related_synonym: "dorsal aorta" []
+relationship: broader MAT:0000034
+
+[Term]
+id: MAT:0000405
+name: gametophyte stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: GRO:0007017
+synonym: "gametophyte development" []
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000173
+name: ectoderm
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:132
+alt_id: EMAPA:16069
+alt_id: FBbt:00000111
+alt_id: SAEL:32
+alt_id: ZFA:0000016
+alt_id: XAO:0000001
+alt_id: EVM:2000306
+alt_id: EV:3000140
+alt_id: AAO:0000137
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000192
+name: cyanobacterium
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000191
+
+[Term]
+id: MAT:0000383
+name: tick (TADS)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000045
+name: jejunum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100074
+alt_id: FMAID:7207
+alt_id: MA:0000340
+alt_id: MP:0004002
+alt_id: SAEL:56
+relationship: broader MAT:0000047
+
+[Term]
+id: MAT:0000117
+name: pronephros
+namespace: http\://www.xspan.org/obo.owl#
+def: "The first kidney is all vertebrates - it is transitional and disappears soon after it has formed." []
+alt_id: EHDAA:1017
+alt_id: EMAPA:16579
+alt_id: MFO:0003340
+alt_id: ZFA:0000151
+alt_id: XAO:0002000
+alt_id: EV:3000635
+alt_id: TAO:0000151
+relationship: broader MAT:0000019
+relationship: broader MAT:0000027
+
+[Term]
+id: MAT:0000154
+name: epidermis
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100153
+alt_id: FBbt:00005401
+alt_id: FMAID:70596
+alt_id: MA:0000153
+alt_id: MP:0001216
+alt_id: SAEL:35
+alt_id: ZFA:0000105
+alt_id: WBbt:0005733
+alt_id: TADS:0000109
+alt_id: EMAPA:17528
+alt_id: AAO:0000143
+related_synonym: "hypodermis" []
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000292
+name: cervix
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100114
+alt_id: FMAID:17740
+alt_id: FMAID:67343
+alt_id: SAEL:118
+related_synonym: "uterine cervix" []
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000277
+name: median fin skeleton
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZFA:0001123
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000177
+name: pole cell
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00000092
+relationship: broader MAT:0000304
+
+[Term]
+id: MAT:0000343
+name: ganglion
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: WBbt:0005189
+alt_id: XAO:0000209
+alt_id: TAO:0000190
+alt_id: EHDAA:918
+alt_id: EMAPA:16658
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000217
+name: pollen tube
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0006345
+relationship: broader MAT:0000004
+
+[Term]
+id: MAT:0000238
+name: sepal
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009031
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000147
+name: outer ear
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100354
+alt_id: FMAID:52781
+alt_id: MA:0000258
+alt_id: MP:0002177
+alt_id: SAEL:38
+alt_id: XAO:0000190
+alt_id: EHDAA:3786
+alt_id: EMAPA:16991
+related_synonym: "external ear" []
+relationship: broader MAT:0000138
+
+[Term]
+id: MAT:0000040
+name: tongue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100058
+alt_id: FMAID:54640
+alt_id: MA:0000347
+alt_id: MP:0000762
+alt_id: SAEL:109
+alt_id: XAO:0000446
+alt_id: EHDAA:9144
+alt_id: EMAPA:18870
+relationship: broader MAT:0000038
+
+[Term]
+id: MAT:0000298
+name: abdomen
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100011
+alt_id: FBbt:00000020
+alt_id: FMAID:9577
+alt_id: SAEL:1
+alt_id: TGMA:0000524
+related_synonym: "adult abdomen" []
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000163
+name: sensillum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TGMA:0000540
+alt_id: WBbt:0006929
+alt_id: TADS:0000301
+alt_id: TADS:0000089
+synonym: "seta" []
+relationship: broader MAT:0000033
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000099
+name: PNS - somatic
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:9903
+alt_id: MA:0000230
+alt_id: MP:0002752
+alt_id: SAEL:81
+alt_id: WBbt:0005760
+alt_id: ZFA:0000070
+broad_synonym: "peripheral nerve" []
+broad_synonym: "peripheral nervous system - human" []
+relationship: broader MAT:0000338
+
+[Term]
+id: MAT:0000211
+name: corpus cardiacum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005799
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000286
+name: corpus callosum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100305
+alt_id: FMAID:86464
+alt_id: MA:0000188
+alt_id: SAEL:24
+relationship: broader MAT:0000107
+
+[Term]
+id: MAT:0000319
+name: endometrium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100115
+alt_id: FMAID:17742
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000311
+name: ascending colon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100450
+alt_id: FMAID:14545
+relationship: broader MAT:0000526
+
+[Term]
+id: MAT:0000009
+name: shoot
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZEA:0015180
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000043
+name: intestine
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100071
+alt_id: FMAID:7199
+alt_id: MA:0000328
+alt_id: MFO:0003040
+alt_id: MP:0000477
+alt_id: SAEL:55
+alt_id: WBbt:0005772
+alt_id: ZFA:0001338
+alt_id: TGMA:0001819
+alt_id: XAO:0000129
+alt_id: TADS:0000165
+alt_id: TAO:0001338
+alt_id: EHDAA:518
+alt_id: AAO:0000246
+synonym: "adult alimentary canal" []
+synonym: "gut" []
+synonym: "intestines" []
+relationship: broader MAT:0000018
+
+[Term]
+id: MAT:0000434
+name: Zebrafish anatomy and development (ZFA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000382
+name: C elegans (WBbt)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000504
+name: substantia nigra
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:67947
+alt_id: EV:0100247
+alt_id: MA:0000210
+relationship: broader MAT:0000106
+
+[Term]
+id: MAT:0000101
+name: PNS - parasympathetic
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:9907
+alt_id: MA:0000223
+alt_id: MP:0001033
+alt_id: ZFA:0000142
+alt_id: TAO:0001575
+alt_id: EHDAA:4655
+alt_id: EMAPA:17270
+synonym: "parasympathetic nervous system" []
+relationship: broader MAT:0000338
+
+[Term]
+id: MAT:0000126
+name: oviduct
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100112
+alt_id: FBbt:00004911
+alt_id: FMAID:18245
+alt_id: MA:0000385
+alt_id: MP:0003574
+alt_id: ZFA:0000560
+alt_id: TADS:0000415
+alt_id: TAO:0000560
+alt_id: EMAPA:18984
+related_synonym: "fallopian tube" []
+related_synonym: "uterine tube" []
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000087
+name: fin
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MFO:0079180
+alt_id: ZFA:0000108
+alt_id: XAO:0000002
+alt_id: TAO:0000108
+related_synonym: "fins" []
+relationship: broader MAT:0000023
+
+[Term]
+id: MAT:0000436
+name: eVOC mouse development stage (EVM)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000003
+name: plant component
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000000
+
+[Term]
+id: MAT:0000313
+name: descending colon
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:14547
+relationship: broader MAT:0000526
+
+[Term]
+id: MAT:0000318
+name: amniotic fluid
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100123
+relationship: broader MAT:0000019
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000078
+name: prostate
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100104
+alt_id: FMAID:9600
+alt_id: MA:0000404
+alt_id: MP:0001158
+alt_id: SAEL:87
+alt_id: EMAPA:19287
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000517
+name: ovary - plant
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: PO:0009072
+relationship: broader MAT:0000514
+
+[Term]
+id: MAT:0000384
+name: plant (PO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000005
+name: root
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009005
+alt_id: ZEA:0015034
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000438
+name: human adult  (FMA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000353
+name: root nodule
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0003023
+relationship: broader MAT:0000005
+
+[Term]
+id: MAT:0000315
+name: blood
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100047
+alt_id: FMAID:9670
+alt_id: MA:0000059
+alt_id: MFO:0002920
+alt_id: XAO:0000124
+alt_id: EHDAA:418
+alt_id: EMAPA:16332
+alt_id: AAO:0000046
+related_synonym: "portion of blood" []
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000381
+name: mosquito (TGMA)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000374
+
+[Term]
+id: MAT:0000455
+name: endocardium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100021
+alt_id: FMAID:7280
+alt_id: EMAPA:17868
+alt_id: MA:0000076
+alt_id: TAO:0001320
+alt_id: ZFA:0001320
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000064
+name: imaginal disc
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00001761
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000220
+name: root meristem - apical
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020147
+alt_id: ZEA:0015150
+relationship: broader MAT:0000006
+relationship: broader MAT:0000005
+
+[Term]
+id: MAT:0000290
+name: decidua
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0001722
+alt_id: SAEL:25
+related_synonym: "endometrium" []
+relationship: broader MAT:0000061
+
+[Term]
+id: MAT:0000511
+name: trigeminal ganglion
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: EV:0100491
+alt_id: FMAID:52618
+alt_id: MA:0001080
+alt_id: XAO:0000428
+alt_id: TAO:0000295
+relationship: broader MAT:0000200
+
+[Term]
+id: MAT:0000226
+name: embryo
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009009
+alt_id: ZEA:0015179
+relationship: broader MAT:0000008
+
+[Term]
+id: MAT:0000432
+name: Plant growth and development (GRO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000384
+
+[Term]
+id: MAT:0000334
+name: primordial germ cells
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00004860
+alt_id: MFO:0003320
+alt_id: XAO:0000111
+alt_id: TAO:0009288
+related_synonym: "germ cell" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000038
+name: mouth
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100057
+alt_id: FBbt:00003126
+alt_id: FMAID:49184
+alt_id: MA:0000341
+alt_id: MP:0000452
+alt_id: WBbt:0005255
+alt_id: ZFA:0000547
+alt_id: TGMA:0000131
+alt_id: XAO:0003029
+alt_id: XAO:0000126
+alt_id: TADS:0000040
+alt_id: TAO:0000547
+alt_id: EMAPA:16262
+alt_id: AAO:0000053
+related_synonym: "buccal cavity" []
+related_synonym: "oral region" []
+synonym: "oral cavity" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000018
+
+[Term]
+id: MAT:0000142
+name: retina
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100348
+alt_id: FMAID:58301
+alt_id: MA:0000276
+alt_id: MFO:0003600
+alt_id: MP:0001325
+alt_id: SAEL:91
+alt_id: ZFA:0000152
+alt_id: FBbt:00004200
+alt_id: XAO:0000009
+alt_id: TADS:0000551
+alt_id: TAO:0000152
+alt_id: EHDAA:4757
+alt_id: EMAPA:17168
+relationship: broader MAT:0000140
+
+[Term]
+id: MAT:0000449
+name: ovarian follicle
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100416
+alt_id: FMAID:18640
+alt_id: EMAPA:19284
+alt_id: MA:0001707
+alt_id: TAO:0001110
+alt_id: ZFA:0001110
+synonym: "primary follicle" []
+synonym: "ovary follicle" []
+relationship: broader MAT:0000125
+
+[Term]
+id: MAT:0000326
+name: loose aggregate
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000004
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000453
+name: myocardium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100022
+alt_id: FMAID:9462
+alt_id: XAO:0000065
+alt_id: EMAPA:16208
+alt_id: MA:0000080
+alt_id: TAO:0001319
+alt_id: ZFA:0001319
+synonym: "cardiac muscle" []
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000413
+name: root development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0007520
+alt_id: GRO:0007005
+alt_id: GRO:0007055
+alt_id: GRO:0007236
+alt_id: GRO:0007234
+synonym: "radicle" []
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000338
+name: peripheral nervous system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005098
+alt_id: XAO:0000178
+alt_id: TADS:0000221
+alt_id: EHDAA:2893
+alt_id: EMAPA:16665
+alt_id: AAO:0000429
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000190
+name: prokaryote
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000222
+name: taproot
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZEA:0015061
+related_synonym: "primary root" []
+relationship: broader MAT:0000005
+relationship: broader MAT:0000366
+
+[Term]
+id: MAT:0000411
+name: fruit development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0001002
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000069
+name: neural tube
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:908
+alt_id: EMAPA:16164
+alt_id: EMAPA:16530
+alt_id: FBbt:00005554
+alt_id: MP:0002151
+alt_id: ZFA:0001135
+alt_id: EVM:2000183
+related_synonym: "ventral nerve cord primordium" []
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000025
+name: muscle system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100146
+alt_id: FBbt:00005069
+alt_id: MA:0000015
+alt_id: MFO:0002100
+alt_id: MP:0002108
+alt_id: WBbt:0005737
+alt_id: ZFA:0000548
+alt_id: TADS:0000324
+alt_id: TAO:0000548
+alt_id: AAO:0000307
+related_synonym: "motor system" []
+related_synonym: "muscle" []
+related_synonym: "musculature" []
+related_synonym: "musculature system" []
+synonym: "muscular system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000097
+name: liver
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100089
+alt_id: FMAID:7197
+alt_id: MA:0000358
+alt_id: MFO:0003060
+alt_id: MP:0000598
+alt_id: ZFA:0000123
+alt_id: XAO:0000133
+alt_id: TAO:0000123
+alt_id: EHDAA:2197
+alt_id: EMAPA:16846
+relationship: broader MAT:0000024
+
+[Term]
+id: MAT:0000390
+name: plant stage
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000389
+
+[Term]
+id: MAT:0000407
+name: embryo development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0007631
+alt_id: GRO:0007137
+alt_id: GRO:0007141
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000140
+name: eye
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100336
+alt_id: FBbt:00004508
+alt_id: FMAID:54448
+alt_id: MA:0000261
+alt_id: MFO:0003480
+alt_id: MP:0002092
+alt_id: ZFA:0000107
+alt_id: TGMA:0000024
+alt_id: XAO:0000179
+alt_id: TADS:0000061
+alt_id: TAO:0001127
+alt_id: TAO:0000107
+alt_id: EHDAA:936
+alt_id: EMAPA:16198
+alt_id: AAO:0000632
+related_synonym: "eyes" []
+related_synonym: "visual apparatus" []
+synonym: "adult compound eye" []
+synonym: "visual_system" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000500
+name: pleural fluid
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:12273
+alt_id: MA:0002532
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000349
+name: nectar
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000347
+
+[Term]
+id: MAT:0000457
+name: central nervous system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100163
+alt_id: ZFA:0000012
+alt_id: TAO:0000012
+alt_id: EMAPA:16470
+alt_id: EHDAA:828
+alt_id: MA:0000167
+alt_id: FMAID:55675
+synonym: "neuraxis" []
+relationship: broader MAT:0000026
+
+[Term]
+id: MAT:0000071
+name: adrenal gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100135
+alt_id: FMAID:9604
+alt_id: MA:0000116
+alt_id: MP:0000639
+alt_id: SAEL:3
+alt_id: XAO:0000164
+alt_id: TAO:0009167
+alt_id: EMAPA:18426
+synonym: "adrenal medulla cell" []
+relationship: broader MAT:0000021
+
+[Term]
+id: MAT:0000362
+name: vascular tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009015
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000197
+name: lymphatic system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100050
+alt_id: FMAID:5034
+alt_id: MA:0000139
+alt_id: SAEL:63
+alt_id: XAO:0000375
+alt_id: TAO:0005105
+alt_id: EHDAA:8677
+alt_id: EMAPA:18248
+broad_synonym: "lymph vessel" []
+synonym: "lymph node" []
+relationship: broader MAT:0000022
+
+[Term]
+id: MAT:0000399
+name: embryo late (growth) stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0300011
+alt_id: FBdv:0005333
+alt_id: EVM:2990031
+synonym: "fetus" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000485
+name: basal
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000074
+name: fertilized egg stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EHDAA:27
+alt_id: EMAPA:16033
+alt_id: FBdv:00005288
+alt_id: MFO:0005280
+alt_id: ZFA:0000001
+alt_id: XAO:0000035
+alt_id: EVM:2990001
+related_synonym: "one-cell stage" []
+synonym: "zygote" []
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000351
+name: gall tissue
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000055
+name: lymph
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100049
+alt_id: FMAID:9671
+alt_id: MA:0002520
+relationship: broader MAT:0000020
+relationship: broader MAT:0000197
+
+[Term]
+id: MAT:0000257
+name: scale
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: ZFA:0000277
+relationship: broader MAT:0000033
+
+[Term]
+id: MAT:0000374
+name: invertebrate
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000371
+
+[Term]
+id: MAT:0000513
+name: caudate nucleus
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:61833
+alt_id: EMAPA:18207
+alt_id: EV:0100185
+alt_id: MA:0000893
+relationship: broader MAT:0000450
+
+[Term]
+id: MAT:0000330
+name: late culminant
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000011
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000111
+name: medulla oblonmgata
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100275
+alt_id: FMAID:62004
+alt_id: MA:0000206
+alt_id: MP:0000846
+alt_id: SAEL:13
+alt_id: SAEL:65
+alt_id: ZFA:0000545
+alt_id: TAO:0000545
+alt_id: EHDAA:7588
+alt_id: EMAPA:17550
+related_synonym: "brainstem" []
+relationship: broader MAT:0000107
+
+[Term]
+id: MAT:0000249
+name: lateral line system
+namespace: http\://www.xspan.org/obo.owl#
+def: "a line of neuroblasts along the sides of fish and amphibia that detect vibrations and pressure changes" []
+alt_id: MFO:0003620
+alt_id: ZFA:0000034
+alt_id: XAO:0000095
+alt_id: TAO:0000282
+alt_id: AAO:0000269
+synonym: "lateral_line_system" []
+relationship: broader MAT:0000033
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000021
+name: gland
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00003214
+alt_id: MA:0002563
+alt_id: MA:0002564
+alt_id: MP:0002163
+alt_id: SAEL:33
+alt_id: SAEL:37
+alt_id: XAO:0000158
+alt_id: TAO:0001158
+broad_synonym: "endocrine system" []
+broad_synonym: "exocrine system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000183
+name: spinal cord
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100316
+alt_id: FMAID:7647
+alt_id: MA:0000216
+alt_id: MFO:0002860
+alt_id: MP:0000955
+alt_id: SAEL:100
+alt_id: ZFA:0000075
+alt_id: XAO:0000020
+alt_id: TAO:0000075
+alt_id: EHDAA:2863
+alt_id: EMAPA:17577
+relationship: broader MAT:0000457
+
+[Term]
+id: MAT:0000357
+name: root cap
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020123
+relationship: broader MAT:0000005
+
+[Term]
+id: MAT:0000328
+name: standing slug
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000007
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000023
+name: appendage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MP:0000545
+relationship: broader MAT:0000001
+relationship: broader MAT:0000293
+
+[Term]
+id: MAT:0000128
+name: vagina
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100117
+alt_id: FBbt:00004925
+alt_id: FMAID:19949
+alt_id: MA:0000394
+alt_id: MP:0001139
+alt_id: TGMA:0000607
+alt_id: TADS:0000441
+alt_id: EMAPA:18986
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000481
+name: precursor
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000477
+
+[Term]
+id: MAT:0000423
+name: pupal stage
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBdv:00005349
+relationship: broader MAT:0000391
+
+[Term]
+id: MAT:0000499
+name: cerebrospinal fluid
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: EV:0100164
+alt_id: FMAID:20935
+alt_id: MA:0002503
+relationship: broader MAT:0000020
+
+[Term]
+id: MAT:0000138
+name: ear
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100353
+alt_id: FMAID:52780
+alt_id: MA:0000236
+alt_id: MFO:0003660
+alt_id: MP:0002102
+alt_id: ZFA:0001138
+alt_id: XAO:0000189
+alt_id: TAO:0001138
+alt_id: EHDAA:502
+alt_id: EMAPA:16193
+alt_id: AAO:0000631
+related_synonym: "auditory system" []
+related_synonym: "otic vesicle" []
+related_synonym: "vestibuloauditpry system" []
+synonym: "auditory apparatus" []
+relationship: broader MAT:0000017
+relationship: broader MAT:0000031
+
+[Term]
+id: MAT:0000048
+name: oesophagus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100069
+alt_id: FBbt:00005381
+alt_id: FMAID:7131
+alt_id: MFO:0003000
+alt_id: MP:0000467
+alt_id: SAEL:74
+alt_id: ZFA:0000204
+alt_id: TGMA:0000134
+alt_id: XAO:0000127
+alt_id: TADS:0000057
+alt_id: TAO:0000204
+alt_id: EHDAA:2937
+alt_id: EMAPA:16833
+alt_id: AAO:0000145
+related_synonym: "esophagus" []
+relationship: broader MAT:0000018
+
+[Term]
+id: MAT:0000378
+name: medaka (MFO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000105
+name: forebrain
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:61992
+alt_id: MA:0000170
+alt_id: MFO:0002260
+alt_id: MP:0000783
+alt_id: SAEL:43
+alt_id: ZFA:0000109
+alt_id: XAO:0000011
+alt_id: TAO:0000109
+alt_id: EHDAA:3470
+alt_id: EMAPA:16895
+synonym: "prosencephalon" []
+relationship: broader MAT:0000098
+
+[Term]
+id: MAT:0000017
+name: craniofacial tissue
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00003007
+alt_id: MA:0000316
+alt_id: MP:0000428
+alt_id: ZFA:0001114
+alt_id: TGMA:0000720
+related_synonym: "head tissue" []
+synonym: "epicranial plate" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000495
+name: adrenal medulla
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:15633
+alt_id: EV:0100135
+alt_id: EMAPA:18428
+alt_id: MA:0000119
+alt_id: XAO:0000166
+relationship: narrower MAT:0000071
+
+[Term]
+id: MAT:0000027
+name: renal system
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100095
+alt_id: FBbt:00005056
+alt_id: FMAID:7159
+alt_id: MP:0000516
+alt_id: SAEL:116
+alt_id: WBbt:0005736
+alt_id: ZFA:0000163
+alt_id: XAO:0000143
+alt_id: TADS:0000162
+alt_id: TAO:0000163
+alt_id: EHDAA:5901
+alt_id: EMAPA:17366
+related_synonym: "excretory system" []
+related_synonym: "urinary system" []
+synonym: "renal/urinary system" []
+relationship: broader MAT:0000001
+
+[Term]
+id: MAT:0000391
+name: animal stage
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000389
+
+[Term]
+id: MAT:0000409
+name: leaf development stages
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0001050
+alt_id: GRO:0007138
+relationship: broader MAT:0000390
+
+[Term]
+id: MAT:0000124
+name: egg - unfertilized
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00015288
+alt_id: MA:0000388
+alt_id: MP:0006361
+alt_id: SAEL:114
+alt_id: ZFA:0009008
+alt_id: TGMA:0000124
+related_synonym: "female gamete" []
+related_synonym: "unfertiized egg" []
+relationship: broader MAT:0000028
+
+[Term]
+id: MAT:0000497
+name: ventricle
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+alt_id: FMAID:82553
+alt_id: EHDAA:1900
+alt_id: EMAPA:17331
+alt_id: ZFA:0000009
+alt_id: EV:0100020
+alt_id: MA:0000091
+alt_id: MFO:0080920
+alt_id: TAO:0000009
+synonym: "cardiac ventricle" []
+synonym: "heart ventricle" []
+relationship: broader MAT:0000036
+
+[Term]
+id: MAT:0000304
+name: early tissues
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000224
+name: shoot meristem - apical
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0020148
+alt_id: ZEA:0015151
+relationship: broader MAT:0000006
+relationship: broader MAT:0000009
+
+[Term]
+id: MAT:0000320
+name: fruiting body
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANA:0000012
+alt_id: FAO:0000007
+related_synonym: "sporocarp" []
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000336
+name: mushroom body
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FBbt:00005801
+relationship: broader MAT:0000098
+
+[Term]
+id: MAT:0000091
+name: autopod
+namespace: http\://www.xspan.org/obo.owl#
+def: "The generic name for hand\, paw\, foot etc" []
+alt_id: EV:0100452
+alt_id: MA:0002714
+alt_id: MP:0004271
+alt_id: SAEL:41
+alt_id: SAEL:45
+related_synonym: "foot" []
+related_synonym: "hand" []
+related_synonym: "paw" []
+relationship: broader MAT:0000090
+
+[Term]
+id: MAT:0000036
+name: heart
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100018
+alt_id: FBbt:00003154
+alt_id: FMAID:7088
+alt_id: MFO:0080860
+alt_id: MP:0000266
+alt_id: SAEL:47
+alt_id: ZFA:0000114
+alt_id: XAO:0000064
+alt_id: TADS:0000147
+alt_id: TAO:0000114
+alt_id: EHDAA:420
+alt_id: EMAPA:16105
+alt_id: MA:0000072
+relationship: broader MAT:0000016
+
+[Term]
+id: MAT:0000487
+name: dorsal
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000144
+name: cochlea
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100363
+alt_id: FMAID:60201
+alt_id: MA:0000240
+alt_id: MP:0000031
+alt_id: SAEL:21
+alt_id: XAO:0000197
+alt_id: EHDAA:4716
+alt_id: EMAPA:17597
+relationship: broader MAT:0000138
+
+[Term]
+id: MAT:0000109
+name: thalamus
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100195
+alt_id: FMAID:62007
+alt_id: MA:0000179
+alt_id: MP:0000832
+alt_id: SAEL:105
+alt_id: ZFA:0001215
+alt_id: TAO:0001215
+alt_id: EHDAA:3482
+alt_id: EMAPA:17540
+broad_synonym: "future thalamus" []
+relationship: broader MAT:0000105
+
+[Term]
+id: MAT:0000443
+name: lymph vessel
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:30315
+alt_id: XAO:0000375
+alt_id: MA:0000138
+alt_id: TAO:0005105
+synonym: "lymphatic vessel" []
+relationship: broader MAT:0000197
+
+[Term]
+id: MAT:0000451
+name: tectum
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:83902
+alt_id: MFO:0080060
+alt_id: EMAPA:19051
+alt_id: MA:0000211
+alt_id: ZFA:0001353
+alt_id: TAO:0001353
+relationship: broader MAT:0000106
+
+[Term]
+id: MAT:0000029
+name: reproductive system - male
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100101
+alt_id: FBbt:00004927
+alt_id: FMAID:45664
+alt_id: MA:0000396
+alt_id: MP:0001145
+alt_id: WBbt:0005574
+alt_id: ZFA:0000242
+alt_id: XAO:0000155
+alt_id: TADS:0000460
+alt_id: EHDAA:8136
+alt_id: EMAPA:17968
+related_synonym: "male genital system" []
+related_synonym: "male reproductive system" []
+synonym: "male genitalia" []
+synonym: "male" []
+relationship: broader MAT:0000305
+
+[Term]
+id: MAT:0000425
+name: SAEL CV (SAEL)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000491
+name: proximal
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000489
+name: left
+namespace: http\://www.ebi.ac.uk/microarray-srv/mat/
+relationship: broader MAT:0000483
+
+[Term]
+id: MAT:0000107
+name: hindbrain
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:67687
+alt_id: MA:0000195
+alt_id: MFO:0002340
+alt_id: MP:0000841
+alt_id: SAEL:50
+alt_id: ZFA:0000029
+alt_id: XAO:0000015
+alt_id: TAO:0000029
+alt_id: EHDAA:3514
+alt_id: EMAPA:16916
+synonym: "rhombencephalon" []
+relationship: broader MAT:0000098
+
+[Term]
+id: MAT:0000366
+name: storage organ
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000003
+
+[Term]
+id: MAT:0000395
+name: hindlimb
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100015
+alt_id: FMAID:7184
+alt_id: MA:0000026
+alt_id: SAEL:49
+alt_id: XAO:0003031
+alt_id: EHDAA:6094
+alt_id: EMAPA:17458
+synonym: "lower limb" []
+relationship: broader MAT:0000090
+
+[Term]
+id: MAT:0000322
+name: aggregation territory
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000003
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000445
+name: olfactory epithelium
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:59746
+alt_id: XAO:0000041
+alt_id: EMAPA:17606
+alt_id: MA:0001325
+alt_id: EHDAA:6805
+alt_id: TAO:0000554
+alt_id: ZFA:0000554
+synonym: "" []
+relationship: broader MAT:0000139
+
+[Term]
+id: MAT:0000370
+name: tadpole
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: XAO:1000008
+relationship: broader MAT:0000019
+
+[Term]
+id: MAT:0000083
+name: blood cells
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: MA:0000059
+alt_id: MP:0002429
+alt_id: SAEL:8
+alt_id: ZFA:0009043
+alt_id: TAO:0009044
+related_synonym: "circulating cell" []
+broad_synonym: "blood" []
+relationship: broader MAT:0000022
+
+[Term]
+id: MAT:0000278
+name: paired fin skeleton
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: TAO:0000027
+alt_id: ZFA:0000027
+relationship: broader MAT:0000032
+
+[Term]
+id: MAT:0000332
+name: mating cell
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FAO:0001022
+relationship: broader MAT:0000014
+
+[Term]
+id: MAT:0000228
+name: seed coat
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: PO:0009088
+relationship: broader MAT:0000008
+
+[Term]
+id: MAT:0000324
+name: mid culminant
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: DDANAT:0000010
+relationship: broader MAT:0000002
+
+[Term]
+id: MAT:0000368
+name: corm
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000366
+
+[Term]
+id: MAT:0000447
+name: nasopharynx
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: FMAID:54878
+alt_id: EHDAA:7086
+alt_id: MA:0000351
+relationship: broader MAT:0000049
+
+[Term]
+id: MAT:0000441
+name: Minimal Anatomical Terminology
+namespace: http\://www.xspan.org/obo.owl#
+
+[Term]
+id: MAT:0000372
+name: xenopus (XAO)
+namespace: http\://www.xspan.org/obo.owl#
+relationship: broader MAT:0000373
+
+[Term]
+id: MAT:0000085
+name: spleen
+namespace: http\://www.xspan.org/obo.owl#
+alt_id: EV:0100055
+alt_id: FMAID:7196
+alt_id: MA:0000141
+alt_id: MFO:0003100
+alt_id: MP:0000689
+alt_id: SAEL:101
+alt_id: ZFA:0000436
+alt_id: XAO:0000328
+alt_id: TAO:0000436
+alt_id: EMAPA:18767
+relationship: broader MAT:0000022
+
+[Term]
+id: MAT:0000093
+name: stylopod
+namespace: http\://www.xspan.org/obo.owl#
+def: "The proximal part of the limb (e.g. between shoulder and elbow)" []
+alt_id: MA:0002717
+broad_synonym: "proximal part of limb" []
+relationship: broader MAT:0000090
+
+[Typedef]
+id: isReferenceForMapping
+name: isReferenceForMapping
+
+[Typedef]
+id: time_component_of
+name: time_component_of
+
+[Typedef]
+id: type
+name: type
+
+[Typedef]
+id: descends
+name: descends
+
+[Typedef]
+id: present_in
+name: present_in
+
+[Typedef]
+id: hasMapping
+name: hasMapping
+
+[Typedef]
+id: startStage
+name: startStage
+
+[Typedef]
+id: subEventOf
+name: subEventOf
+
+[Typedef]
+id: DESCINHERM
+name: DESCINHERM
+
+[Typedef]
+id: broader
+name: broader
+
+[Typedef]
+id: ends_at
+name: ends_at
+
+[Typedef]
+id: located_in
+name: located_in
+
+[Typedef]
+id: narrower
+name: narrower
+
+[Typedef]
+id: part_of
+name: part_of
+
+[Typedef]
+id: starts_at
+name: starts_at
+
+[Typedef]
+id: DESCENDENTOF
+name: DESCENDENTOF
+
+[Typedef]
+id: endStage
+name: endStage
+
+[Typedef]
+id: DESCINMALE
+name: DESCINMALE
+
+[Typedef]
+id: develops_from
+name: develops_from
+

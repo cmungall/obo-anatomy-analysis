@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1331653698394" name="FBbt-aux" uri="2011-09-06/fbbt_aux.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1331653698394" name="http://purl.obolibrary.org/obo/FBbt.owl" uri="2011-09-06/fbbt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1331653698394" name="http://purl.obolibrary.org/obo/FBbt_RO.owl" uri="FBbt_helper_relations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1331653698394" name="http://purl.obolibrary.org/obo/fbbt.owl" uri="fly_anatomy_XP.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1331653698394" name="shadowed:http://purl.obolibrary.org/obo/FBbt_RO.owl" uri="2011-09-06/FBbt_helper_relations.owl"/>
+    </group>
+</catalog>
