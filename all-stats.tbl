@@ -27,3 +27,7 @@ num_classes	2013	aao	700
 num_classes	2013	fbbt	7580
 num_classes	2013	ma	2982
 num_classes	2013	xao	1256
+num_classes	2013_06	aao	700
+num_classes	2013_06	fbbt	7744
+num_classes	2013_06	ma	3020
+num_classes	2013_06	xao	1256

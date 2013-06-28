@@ -1,3 +1,5 @@
+all <-- 'all-stats.tbl'.
+
 
 loc('FBbt','fly/fly_anatomy.obo').
 loc('ZFA','fish/zebrafish.obo').
@@ -19,12 +21,12 @@ ontpath(Year,Ont,Path,S) :-
   {findall(t(['stats-',Year,'-',Ont,'.tbl']),
            yr_ont(Year,Ont),
            Deps)},
-  'cat stats-*-*.tbl > $@'.
+  'sort stats-*-*.tbl > $@'.
 
 
 'stats-$Year-$Ont.tbl' <-- [],
   {ontpath(Year,Ont,Path,IDSpace), exists_file(Path)},
-  'blip-findall -i $Path "aggregate(count,C,(class(C),id_idspace(C,\'$IDSpace\')),Num)" -select "num_classes($Year,$Ont,Num)" > $@'.
+  'blip-findall -i $Path "aggregate(count,C,(class(C),id_idspace(C,\'$IDSpace\')),Num)" -select "num_classes(\'$Year\',$Ont,Num)" > $@'.
 
 'stats-$Year-$Ont.tbl' <-- [],
   {ontpath(Year,Ont,Path,IDSpace), \+ exists_file(Path)},
@@ -39,7 +41,7 @@ yr('2010').
 yr('2011').
 yr('2012').
 yr('2013').
-yr('2013-06').
+yr('2013_06').
 
 
 
