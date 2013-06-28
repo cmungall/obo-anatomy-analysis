@@ -6,23 +6,13 @@ loc('MA','mouse/adult_mouse_anatomy.obo').
 loc('XAO','frog/xenopus_anatomy.obo').
 loc('UBERON','multispecies/uberon.obo').
 
-yr(2005).
-yr(2006).
-yr(2007).
-yr(2008).
-yr(2009).
-yr(2010).
-yr(2011).
-yr(2012).
-yr(2013).
 
 yr_ont(Year,Ont) :-
         ontpath(Year,Ont,_,_).
 ontpath(Year,Ont,Path,S) :-
         loc(S,Loc),
         downcase_atom(S,Ont),
-        yr(YearNum),
-        concat_atom([YearNum],Year),
+        yr(Year),
         concat_atom(['anatomy-',Year,'/',Loc],Path).
 
 'all-stats.tbl' <-- Deps,
@@ -39,6 +29,17 @@ ontpath(Year,Ont,Path,S) :-
 'stats-$Year-$Ont.tbl' <-- [],
   {ontpath(Year,Ont,Path,IDSpace), \+ exists_file(Path)},
   'touch $@'.
+
+yr('2005').
+yr('2006').
+yr('2007').
+yr('2008').
+yr('2009').
+yr('2010').
+yr('2011').
+yr('2012').
+yr('2013').
+yr('2013-06').
 
 
 
