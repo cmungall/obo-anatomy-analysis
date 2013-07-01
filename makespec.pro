@@ -1,11 +1,12 @@
 all <-- 'all-stats.tbl'.
 
 loc('FBbt','fly/fly_anatomy.obo').
-loc('ZFA','fish/zebrafish.obo').
+loc('ZFA','fish/zebrafish_anatomy.obo').
 loc('AAO','amphibian/amphibian_anatomy.obo').
 loc('TAO','fish/teleost_anatomy.obo').
 loc('MA','mouse/adult_mouse_anatomy.obo').
 loc('XAO','frog/xenopus_anatomy.obo').
+%loc('VHOG','multispecies/vhog.obo').
 loc('VSAO','multispecies/vsao.obo').
 loc('UBERON','multispecies/uberon.obo').
 
